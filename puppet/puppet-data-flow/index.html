@@ -186,6 +186,11 @@
 <ul>
 <li><p>节点信息存储在外部节点分类器或LDAP等，从Dashboard中可以获取节点信息</p></li>
 <li><p>Master在执行manifeasts前会同步插件（这里的插件包括facts ,types, provides 如果你写过这些自定义插件那么执行前会显式出来 ）以及 Fact Code</p></li>
+</ul>
+
+<p><img src="/assets/media/puppet/plugins.png" alt="puppet数据流"></p>
+
+<ul>
 <li><p>客户端会在本地计算这些Facts 值 ，然后将这些信息发送给Master并要求Catalog</p></li>
 <li><p>Master根据facts和Manifests生成符合特定节点的配置，这个配置是一种中间编译结果成为Catalog，然后Master将CataLog发送给客户端</p></li>
 <li><p>客户端根据CataLog定义的状态，对比自身状态，对于不同的部分作出改变。在应用配置期间，可能会需要请求文件等操作，这些还需要同Master进行交互，等到配置应用完毕，将执行结果以报告形式发送给Master。</p></li>
