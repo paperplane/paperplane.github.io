@@ -67,7 +67,7 @@
     <div class="container-narrow">
 
       <div class="content">
-
+        
 <div class="page-header">
   <h1>Fabric Env </h1>
 </div>
@@ -83,7 +83,7 @@
         <a href="/categories#Fabric-ref">Fabric <span>12</span></a>
       </li>
       <li>
-        <a href="/categories#DevOps-ref">DevOps <span>39</span></a>
+        <a href="/categories#DevOps-ref">DevOps <span>40</span></a>
       </li>
     </ul>
     <ul class="tag_box inline">
@@ -110,7 +110,7 @@
 <h4 id="toc_2">作用域</h4>
 
 <p>这种设置既包括全局也包括局部的，很多时候我们只想暂时给某一个局部块改变其 ENV 变量值。这个时候就可以通过上下文管理器(Context Manager)中的settings，这个只会在它所包括的块中改变 ENV 变量的值。全局使用很简单，直接在定义函数之前设置或者通过 Fab 命令行初始化全局 ENV 变量值。比如在所有 函 数 定 义 之 前 指 定 ： 
-    env.hosts = [‘<a href="mailto:root@ns1.buaa.edu.cn">root@ns1.buaa.edu.cn</a>’,‘<a href="mailto:root@ns2.buaa.edu.cn">root@ns2.buaa.edu.cn</a>’]。
+    env.hosts = [‘<a href="mailto:root@ns1.buaa.edu.cn%E2">root@ns1.buaa.edu.cn�</a>��,‘<a href="mailto:root@ns2.buaa.edu.cn%E2">root@ns2.buaa.edu.cn�</a>��]。
 局部作用域例子：
     from fabric.api import settings, run</p>
 
@@ -200,8 +200,9 @@ print(&quot;Executing on %(host)s as %(user)s&quot; % env)
     <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-44115336-1']);
+  _gaq.push(['_setAccount', 'UA-123-12']);
   _gaq.push(['_trackPageview']);
+  
 
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
@@ -214,15 +215,5 @@ print(&quot;Executing on %(host)s as %(user)s&quot; % env)
 
 <script src='/assets/javascripts/jquery-b11ced65f32fedbe9bf81ef9db0f3c94.js'></script>
 <script src='/assets/javascripts/bootstrap.min-2b5027918a32f806ce202a2ad6ce707f.js'></script>
-<script src='/assets/javascripts/application-af42fe98add4a8da12087f4f3501fba9.js'></script>    <script>
-      (function(i,s,o,g,r,a,m){
-        i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })
-      (window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-44115336-1', 'junqili.com');
-      ga('send', 'pageview');
-    </script>
-  </body>
+<script src='/assets/javascripts/application-af42fe98add4a8da12087f4f3501fba9.js'></script>  </body>
 </html>

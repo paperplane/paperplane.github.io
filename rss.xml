@@ -2,12 +2,12 @@
 <rss version="2.0">
   <channel>
     <title>&#x7D19;&#x98DB;&#x6A5F;</title>
+    <description>&#x7D19;&#x98DB;&#x6A5F;</description>
     <link>http://junqili.com</link>
-    <pubDate>2013-09-18 13:54:19 +0800</pubDate>
+    <pubDate>2013-11-01</pubDate>
     <item>
       <title>About Me</title>
       <link>http://junqili.com/about</link>
-      <pubDate/>
       <description>&lt;p&gt;&#x51FA;&#x751F;&#x4E8E;&#x5C71;&#x9AD8;&#x7687;&#x5E1D;&#x8FDC;&#x7684;&#x897F;&#x5317;&#x519C;&#x6751;&lt;/p&gt;
 
 &lt;p&gt;&#x5B66;&#x4E60;&#x4E8E;&#x795E;&#x79D8;&#x5E1D;&#x90FD;&#x4EF0;&#x671B;&#x661F;&#x7A7A;&#x5927;&#x5B66;&lt;/p&gt;
@@ -30,11 +30,14 @@
     <item>
       <title>Archive</title>
       <link>http://junqili.com/archive</link>
-      <pubDate/>
       <description>  &lt;h2&gt;2013&lt;/h2&gt;
     &lt;h3&gt;September&lt;/h3&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;span&gt;2013-09-17&lt;/span&gt; &amp;raquo; &lt;a href="/puppet/puppet-data-flow"&gt;Puppet Data Flow&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;h3&gt;July&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span&gt;2013-07-01&lt;/span&gt; &amp;raquo; &lt;a href="/zabbix/zabbix-performance-tunning"&gt;Zabbix Performance Tunning&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;h3&gt;June&lt;/h3&gt;
     &lt;ul&gt;
@@ -51,65 +54,65 @@
     &lt;/ul&gt;
     &lt;h3&gt;March&lt;/h3&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-24&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/deploy-mcollective-in-production-environment"&gt;Deploy MCollective in Production Environment&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-24&lt;/span&gt; &amp;raquo; &lt;a href="/puppet/puppet-ca"&gt;Puppet CA&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-24&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/deploy-mcollective-in-production-environment"&gt;Deploy MCollective in Production Environment&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-17&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/remote-interaction"&gt;Remote Interaction&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/execution-mode"&gt;Execution Mode&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/fabfile-and-fabricrc"&gt;Fabfile and Fabricrc&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/ssh-behavior"&gt;SSH behavior&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/common-plugin"&gt;Common Plugin&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/activemq-middleware"&gt;ActiveMQ Middleware&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-fabric-exec-commands"&gt;MCollective/Fabric Exec Commands&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/fab-cli"&gt;Fab CLI&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/introduction-to-simplerpc"&gt;Introduction To SimpleRPC&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-with-puppet"&gt;MCollective With Puppet&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/execution-mode"&gt;Execution Mode&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/fab-cli"&gt;Fab CLI&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/manage-output"&gt;Manage Output&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/common-plugin"&gt;Common Plugin&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/introduction-to-simplerpc"&gt;Introduction To SimpleRPC&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/task-list"&gt;Task List&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/ssh-behavior"&gt;SSH behavior&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/activemq-middleware"&gt;ActiveMQ Middleware&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/fabric-api"&gt;Fabric API&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/fabfile-and-fabricrc"&gt;Fabfile and Fabricrc&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-fabric-exec-commands"&gt;MCollective/Fabric Exec Commands&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/use-fabric-library"&gt;Use Fabric Library&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/simplerpc-audit"&gt;SimpleRPC Audit&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/node-report"&gt;Node Report&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/control-daemon"&gt;Control Daemon&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/use-mcollective-cli"&gt;Use MCollective CLI&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/write-simplerpc-agent"&gt;Write SimpleRPC Agent&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/simplerpc-authorization"&gt;SimpleRPC Authorization&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/use-filter"&gt;Use Filter&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/use-mcollective-cli"&gt;Use MCollective CLI&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/write-simplerpc-agent"&gt;Write SimpleRPC Agent&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/write-simplerpc-client"&gt;Write SimpleRPC Client&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/ddl"&gt;DDL&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/control-daemon"&gt;Control Daemon&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/node-report"&gt;Node Report&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-11&lt;/span&gt; &amp;raquo; &lt;a href="/devops/infrastructure-as-code"&gt;Infrastructure As Code&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-10&lt;/span&gt; &amp;raquo; &lt;a href="/notes/web-server"&gt;Web Server&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;h3&gt;February&lt;/h3&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E9%9A%A7%E9%81%93"&gt;&#x96A7;&#x9053;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/https"&gt;Https&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E4%BB%A3%E7%90%86"&gt;&#x4EE3;&#x7406;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E7%BC%93%E5%AD%98"&gt;&#x7F13;&#x5B58;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E5%86%85%E5%AE%B9%E5%8D%8F%E5%95%86%E4%B8%8E%E8%BD%AC%E7%A0%81"&gt;&#x5185;&#x5BB9;&#x534F;&#x5546;&#x4E0E;&#x8F6C;&#x7801;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AF%86%E5%88%AB"&gt;&#x7528;&#x6237;&#x8BC6;&#x522B;&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E4%B8%BB%E6%9C%BA%E6%89%98%E7%AE%A1"&gt;&#x4E3B;&#x673A;&#x6258;&#x7BA1;&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/http-ng"&gt;Http Ng&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81"&gt;&#x7528;&#x6237;&#x8BA4;&#x8BC1;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E5%AE%9E%E4%BD%93%E4%B8%8E%E7%BC%96%E7%A0%81"&gt;&#x5B9E;&#x4F53;&#x4E0E;&#x7F16;&#x7801;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E9%9A%A7%E9%81%93"&gt;&#x96A7;&#x9053;&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/web-robots"&gt;Web Robots&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E5%86%85%E5%AE%B9%E5%8D%8F%E5%95%86%E4%B8%8E%E8%BD%AC%E7%A0%81"&gt;&#x5185;&#x5BB9;&#x534F;&#x5546;&#x4E0E;&#x8F6C;&#x7801;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/https"&gt;Https&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E7%BC%93%E5%AD%98"&gt;&#x7F13;&#x5B58;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E5%AE%9E%E4%BD%93%E4%B8%8E%E7%BC%96%E7%A0%81"&gt;&#x5B9E;&#x4F53;&#x4E0E;&#x7F16;&#x7801;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81"&gt;&#x7528;&#x6237;&#x8BA4;&#x8BC1;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AF%86%E5%88%AB"&gt;&#x7528;&#x6237;&#x8BC6;&#x522B;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E4%BB%A3%E7%90%86"&gt;&#x4EE3;&#x7406;&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;h3&gt;January&lt;/h3&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;span&gt;2013-01-19&lt;/span&gt; &amp;raquo; &lt;a href="/zabbix/introduction-to-zabbix-api"&gt;Introduction To Zabbix Api&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/introduction-to-mcollective-doc"&gt;Introduction To MCollective Doc&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/use-subcollective"&gt;Use SubCollective&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-solve-problem"&gt;Mcollective Solve Problem&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/introduction-to-mcollective-security"&gt;Introduction To MCollective Security&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-terminology"&gt;MCollective Terminology&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-message"&gt;Mcollective Message&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/introduction-to-mcollective-doc"&gt;Introduction To MCollective Doc&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/introduction-to-mcollective-security"&gt;Introduction To MCollective Security&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/use-subcollective"&gt;Use SubCollective&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/publish-subscribe-middleware"&gt;Publish Subscribe Middleware&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-solve-problem"&gt;Mcollective Solve Problem&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-message"&gt;Mcollective Message&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-01-03&lt;/span&gt; &amp;raquo; &lt;a href="/notes/introduction-to-http-connection"&gt;Introduction To HTTP Connection&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;h2&gt;2012&lt;/h2&gt;
     &lt;h3&gt;December&lt;/h3&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;span&gt;2012-12-16&lt;/span&gt; &amp;raquo; &lt;a href="/notes/http-packets-and-packet-analysis"&gt;HTTP Packets And Packet Analysis&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2012-12-16&lt;/span&gt; &amp;raquo; &lt;a href="/linux/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3linux%E5%86%85%E6%A0%B8%E4%B8%AD%E6%96%AD%E5%8F%8A%E5%85%B6%E7%89%B9%E6%80%A7-%E6%9B%B4%E6%96%B0"&gt;&#x6DF1;&#x5165;&#x7406;&#x89E3;Linux&#x5185;&#x6838;&#x4E2D;&#x65AD;&#x53CA;&#x5176;&#x7279;&#x6027;(&#x66F4;&#x65B0;)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2012-12-16&lt;/span&gt; &amp;raquo; &lt;a href="/notes/http-packets-and-packet-analysis"&gt;HTTP Packets And Packet Analysis&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2012-12-09&lt;/span&gt; &amp;raquo; &lt;a href="/notes/theory-and-design-of-url"&gt;Theory And Design Of URL&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;h3&gt;November&lt;/h3&gt;
@@ -134,192 +137,190 @@
     <item>
       <title>Categories</title>
       <link>http://junqili.com/categories</link>
-      <pubDate/>
       <description>&lt;ul class="tag_box inline"&gt;
   &lt;li&gt;
     &lt;a href="/categories#MCollective-ref"&gt;MCollective &lt;span&gt;27&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a href="/categories#DevOps-ref"&gt;DevOps &lt;span&gt;39&lt;/span&gt;&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href="/categories#Zabbix-ref"&gt;Zabbix &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href="/categories#Notes-ref"&gt;Notes &lt;span&gt;17&lt;/span&gt;&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href="/categories#Fabric-ref"&gt;Fabric &lt;span&gt;12&lt;/span&gt;&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href="/categories#Puppet-ref"&gt;Puppet &lt;span&gt;4&lt;/span&gt;&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href="/categories#Linux-ref"&gt;Linux &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+    &lt;a href="/categories#DevOps-ref"&gt;DevOps &lt;span&gt;40&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;a href="/categories#Daemon-ref"&gt;Daemon &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a href="/categories#lectures-ref"&gt;lectures &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+    &lt;a href="/categories#Python-ref"&gt;Python &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a href="/categories#Python-ref"&gt;Python &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+    &lt;a href="/categories#Fabric-ref"&gt;Fabric &lt;span&gt;12&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/categories#Notes-ref"&gt;Notes &lt;span&gt;17&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/categories#Puppet-ref"&gt;Puppet &lt;span&gt;4&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/categories#Zabbix-ref"&gt;Zabbix &lt;span&gt;2&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/categories#Linux-ref"&gt;Linux &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/categories#lectures-ref"&gt;lectures &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
   &lt;h3&gt;MCollective (27)&lt;/h3&gt;
   &lt;ul&gt;
-      &lt;li&gt;&lt;a href="/mcollective/ddl"&gt;DDL&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/use-mcollective-cli"&gt;Use MCollective CLI&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/simplerpc-authorization"&gt;SimpleRPC Authorization&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective-doc"&gt;Introduction To MCollective Doc&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/activemq-config-for-mcollective"&gt;ActiveMQ Config For MCollective&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/use-filter"&gt;Use Filter&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/mcollective-fabric-exec-commands"&gt;MCollective/Fabric Exec Commands&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/mcollective-with-puppet"&gt;MCollective With Puppet&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective"&gt;Introduction To MCollective&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/simplerpc-audit"&gt;SimpleRPC Audit&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective-security"&gt;Introduction To MCollective Security&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/puppet-commander"&gt;Puppet Commander&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/introduction-to-simplerpc"&gt;Introduction To SimpleRPC&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/activemq-middleware"&gt;ActiveMQ Middleware&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/common-plugin"&gt;Common Plugin&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/deploy-mcollective-in-production-environment"&gt;Deploy MCollective in Production Environment&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/mcollective-solve-problem"&gt;Mcollective Solve Problem&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/control-daemon"&gt;Control Daemon&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/node-report"&gt;Node Report&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/use-subcollective"&gt;Use SubCollective&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-agent"&gt;Write SimpleRPC Agent&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/mcollective-terminology"&gt;MCollective Terminology&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/mcollective-message"&gt;Mcollective Message&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/mcollective-server-config"&gt;MCollective Server Config&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-client"&gt;Write SimpleRPC Client&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/mcollective-security-config"&gt;MCollective Security Config&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/publish-subscribe-middleware"&gt;Publish Subscribe Middleware&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;h3&gt;DevOps (39)&lt;/h3&gt;
-  &lt;ul&gt;
       &lt;li&gt;&lt;a href="/mcollective/ddl"&gt;DDL&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/zabbix/introduction-to-zabbix-api"&gt;Introduction To Zabbix Api&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/host-list"&gt;Host List&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/use-mcollective-cli"&gt;Use MCollective CLI&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/simplerpc-authorization"&gt;SimpleRPC Authorization&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/deploy-mcollective-in-production-environment"&gt;Deploy MCollective in Production Environment&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective-doc"&gt;Introduction To MCollective Doc&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/activemq-config-for-mcollective"&gt;ActiveMQ Config For MCollective&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/execution-mode"&gt;Execution Mode&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/use-filter"&gt;Use Filter&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/mcollective-fabric-exec-commands"&gt;MCollective/Fabric Exec Commands&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/fab-cli"&gt;Fab CLI&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/mcollective-with-puppet"&gt;MCollective With Puppet&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/manage-output"&gt;Manage Output&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective"&gt;Introduction To MCollective&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/simplerpc-audit"&gt;SimpleRPC Audit&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective-security"&gt;Introduction To MCollective Security&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/puppet-commander"&gt;Puppet Commander&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective"&gt;Introduction To MCollective&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/introduction-to-simplerpc"&gt;Introduction To SimpleRPC&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/activemq-middleware"&gt;ActiveMQ Middleware&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/fabric-env"&gt;Fabric Env&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/common-plugin"&gt;Common Plugin&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/mcollective-fabric-exec-commands"&gt;MCollective/Fabric Exec Commands&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/mcollective-server-config"&gt;MCollective Server Config&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/mcollective-message"&gt;Mcollective Message&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/mcollective-security-config"&gt;MCollective Security Config&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/mcollective-solve-problem"&gt;Mcollective Solve Problem&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/devops/infrastructure-as-code"&gt;Infrastructure As Code&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/task-list"&gt;Task List&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/mcollective-terminology"&gt;MCollective Terminology&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/mcollective-with-puppet"&gt;MCollective With Puppet&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/node-report"&gt;Node Report&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/publish-subscribe-middleware"&gt;Publish Subscribe Middleware&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/puppet-commander"&gt;Puppet Commander&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/simplerpc-audit"&gt;SimpleRPC Audit&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/simplerpc-authorization"&gt;SimpleRPC Authorization&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/use-filter"&gt;Use Filter&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/use-mcollective-cli"&gt;Use MCollective CLI&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/use-subcollective"&gt;Use SubCollective&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-agent"&gt;Write SimpleRPC Agent&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/fabric-api"&gt;Fabric API&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/remote-interaction"&gt;Remote Interaction&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/fabfile-and-fabricrc"&gt;Fabfile and Fabricrc&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/introduction-to-fabric"&gt;Introduction To Fabric&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/mcollective-terminology"&gt;MCollective Terminology&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/mcollective-message"&gt;Mcollective Message&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/use-fabric-library"&gt;Use Fabric Library&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/ssh-behavior"&gt;SSH behavior&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/mcollective-server-config"&gt;MCollective Server Config&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-client"&gt;Write SimpleRPC Client&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/mcollective-security-config"&gt;MCollective Security Config&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/mcollective/publish-subscribe-middleware"&gt;Publish Subscribe Middleware&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
-  &lt;h3&gt;Zabbix (1)&lt;/h3&gt;
+  &lt;h3&gt;DevOps (40)&lt;/h3&gt;
   &lt;ul&gt;
-      &lt;li&gt;&lt;a href="/zabbix/introduction-to-zabbix-api"&gt;Introduction To Zabbix Api&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;h3&gt;Notes (17)&lt;/h3&gt;
-  &lt;ul&gt;
-      &lt;li&gt;&lt;a href="/notes/http-ng"&gt;Http Ng&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/%E9%9A%A7%E9%81%93"&gt;&#x96A7;&#x9053;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/%E4%BB%A3%E7%90%86"&gt;&#x4EE3;&#x7406;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/%E7%BD%91%E5%85%B3"&gt;&#x7F51;&#x5173;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/%E4%B8%BB%E6%9C%BA%E6%89%98%E7%AE%A1"&gt;&#x4E3B;&#x673A;&#x6258;&#x7BA1;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/web-server"&gt;Web Server&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AF%86%E5%88%AB"&gt;&#x7528;&#x6237;&#x8BC6;&#x522B;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/theory-and-design-of-url"&gt;Theory And Design Of URL&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/%E5%86%85%E5%AE%B9%E5%8D%8F%E5%95%86%E4%B8%8E%E8%BD%AC%E7%A0%81"&gt;&#x5185;&#x5BB9;&#x534F;&#x5546;&#x4E0E;&#x8F6C;&#x7801;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/https"&gt;Https&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/%E5%AE%9E%E4%BD%93%E4%B8%8E%E7%BC%96%E7%A0%81"&gt;&#x5B9E;&#x4F53;&#x4E0E;&#x7F16;&#x7801;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/http-packets-and-packet-analysis"&gt;HTTP Packets And Packet Analysis&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/%E7%BC%93%E5%AD%98"&gt;&#x7F13;&#x5B58;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/web-robots"&gt;Web Robots&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81"&gt;&#x7528;&#x6237;&#x8BA4;&#x8BC1;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/introduction-to-http"&gt;Introduction To HTTP&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/notes/introduction-to-http-connection"&gt;Introduction To HTTP Connection&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;h3&gt;Fabric (12)&lt;/h3&gt;
-  &lt;ul&gt;
-      &lt;li&gt;&lt;a href="/fabric/host-list"&gt;Host List&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/activemq-config-for-mcollective"&gt;ActiveMQ Config For MCollective&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/activemq-middleware"&gt;ActiveMQ Middleware&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/common-plugin"&gt;Common Plugin&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/ddl"&gt;DDL&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/fabric/execution-mode"&gt;Execution Mode&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/fabric/fab-cli"&gt;Fab CLI&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/manage-output"&gt;Manage Output&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/fabric-env"&gt;Fabric Env&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/task-list"&gt;Task List&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/fabric-api"&gt;Fabric API&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/remote-interaction"&gt;Remote Interaction&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/fabric/fabfile-and-fabricrc"&gt;Fabfile and Fabricrc&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/fabric-api"&gt;Fabric API&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/fabric-env"&gt;Fabric Env&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/host-list"&gt;Host List&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/devops/infrastructure-as-code"&gt;Infrastructure As Code&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/fabric/introduction-to-fabric"&gt;Introduction To Fabric&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/fabric/use-fabric-library"&gt;Use Fabric Library&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective-doc"&gt;Introduction To MCollective Doc&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective-security"&gt;Introduction To MCollective Security&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective"&gt;Introduction To MCollective&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/introduction-to-simplerpc"&gt;Introduction To SimpleRPC&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/zabbix/introduction-to-zabbix-api"&gt;Introduction To Zabbix Api&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/manage-output"&gt;Manage Output&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/mcollective-fabric-exec-commands"&gt;MCollective/Fabric Exec Commands&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/mcollective-server-config"&gt;MCollective Server Config&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/mcollective-message"&gt;Mcollective Message&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/mcollective-security-config"&gt;MCollective Security Config&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/mcollective-solve-problem"&gt;Mcollective Solve Problem&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/mcollective-terminology"&gt;MCollective Terminology&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/mcollective-with-puppet"&gt;MCollective With Puppet&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/node-report"&gt;Node Report&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/publish-subscribe-middleware"&gt;Publish Subscribe Middleware&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/puppet-commander"&gt;Puppet Commander&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/remote-interaction"&gt;Remote Interaction&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/simplerpc-audit"&gt;SimpleRPC Audit&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/simplerpc-authorization"&gt;SimpleRPC Authorization&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/fabric/ssh-behavior"&gt;SSH behavior&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;h3&gt;Puppet (4)&lt;/h3&gt;
-  &lt;ul&gt;
-      &lt;li&gt;&lt;a href="/puppet/puppet-ca"&gt;Puppet CA&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/puppet/puppet-data-flow"&gt;Puppet Data Flow&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/puppet/puppet-internals"&gt;Puppet Internals&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;a href="/puppet/introduction-to-puppet"&gt;Introduction To Puppet&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
-  &lt;h3&gt;Linux (1)&lt;/h3&gt;
-  &lt;ul&gt;
-      &lt;li&gt;&lt;a href="/linux/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3linux%E5%86%85%E6%A0%B8%E4%B8%AD%E6%96%AD%E5%8F%8A%E5%85%B6%E7%89%B9%E6%80%A7-%E6%9B%B4%E6%96%B0"&gt;&#x6DF1;&#x5165;&#x7406;&#x89E3;Linux&#x5185;&#x6838;&#x4E2D;&#x65AD;&#x53CA;&#x5176;&#x7279;&#x6027;(&#x66F4;&#x65B0;)&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/task-list"&gt;Task List&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/use-fabric-library"&gt;Use Fabric Library&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/use-filter"&gt;Use Filter&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/use-mcollective-cli"&gt;Use MCollective CLI&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/use-subcollective"&gt;Use SubCollective&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-agent"&gt;Write SimpleRPC Agent&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-client"&gt;Write SimpleRPC Client&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/zabbix/zabbix-performance-tunning"&gt;Zabbix Performance Tunning&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
   &lt;h3&gt;Daemon (1)&lt;/h3&gt;
   &lt;ul&gt;
       &lt;li&gt;&lt;a href="/mcollective/control-daemon"&gt;Control Daemon&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
-  &lt;h3&gt;lectures (1)&lt;/h3&gt;
-  &lt;ul&gt;
-      &lt;li&gt;&lt;a href="/lectures/mysql-backup-and-restore"&gt;MySQL Backup and Restore&lt;/a&gt;&lt;/li&gt;
-  &lt;/ul&gt;
   &lt;h3&gt;Python (1)&lt;/h3&gt;
   &lt;ul&gt;
       &lt;li&gt;&lt;a href="/python/decorators-and-functional-python"&gt;Decorators And Functional Python&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h3&gt;Fabric (12)&lt;/h3&gt;
+  &lt;ul&gt;
+      &lt;li&gt;&lt;a href="/fabric/execution-mode"&gt;Execution Mode&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/fab-cli"&gt;Fab CLI&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/fabfile-and-fabricrc"&gt;Fabfile and Fabricrc&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/fabric-api"&gt;Fabric API&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/fabric-env"&gt;Fabric Env&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/host-list"&gt;Host List&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/introduction-to-fabric"&gt;Introduction To Fabric&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/manage-output"&gt;Manage Output&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/remote-interaction"&gt;Remote Interaction&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/ssh-behavior"&gt;SSH behavior&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/task-list"&gt;Task List&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/fabric/use-fabric-library"&gt;Use Fabric Library&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h3&gt;Notes (17)&lt;/h3&gt;
+  &lt;ul&gt;
+      &lt;li&gt;&lt;a href="/notes/http-ng"&gt;Http Ng&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/http-packets-and-packet-analysis"&gt;HTTP Packets And Packet Analysis&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/https"&gt;Https&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/introduction-to-http-connection"&gt;Introduction To HTTP Connection&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/introduction-to-http"&gt;Introduction To HTTP&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/theory-and-design-of-url"&gt;Theory And Design Of URL&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/web-robots"&gt;Web Robots&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/web-server"&gt;Web Server&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/%E4%B8%BB%E6%9C%BA%E6%89%98%E7%AE%A1"&gt;&#x4E3B;&#x673A;&#x6258;&#x7BA1;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/%E4%BB%A3%E7%90%86"&gt;&#x4EE3;&#x7406;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/%E5%86%85%E5%AE%B9%E5%8D%8F%E5%95%86%E4%B8%8E%E8%BD%AC%E7%A0%81"&gt;&#x5185;&#x5BB9;&#x534F;&#x5546;&#x4E0E;&#x8F6C;&#x7801;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/%E5%AE%9E%E4%BD%93%E4%B8%8E%E7%BC%96%E7%A0%81"&gt;&#x5B9E;&#x4F53;&#x4E0E;&#x7F16;&#x7801;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81"&gt;&#x7528;&#x6237;&#x8BA4;&#x8BC1;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AF%86%E5%88%AB"&gt;&#x7528;&#x6237;&#x8BC6;&#x522B;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/%E7%BC%93%E5%AD%98"&gt;&#x7F13;&#x5B58;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/%E7%BD%91%E5%85%B3"&gt;&#x7F51;&#x5173;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/notes/%E9%9A%A7%E9%81%93"&gt;&#x96A7;&#x9053;&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h3&gt;Puppet (4)&lt;/h3&gt;
+  &lt;ul&gt;
+      &lt;li&gt;&lt;a href="/puppet/introduction-to-puppet"&gt;Introduction To Puppet&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/puppet/puppet-ca"&gt;Puppet CA&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/puppet/puppet-data-flow"&gt;Puppet Data Flow&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/puppet/puppet-internals"&gt;Puppet Internals&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h3&gt;Zabbix (2)&lt;/h3&gt;
+  &lt;ul&gt;
+      &lt;li&gt;&lt;a href="/zabbix/introduction-to-zabbix-api"&gt;Introduction To Zabbix Api&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/zabbix/zabbix-performance-tunning"&gt;Zabbix Performance Tunning&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h3&gt;Linux (1)&lt;/h3&gt;
+  &lt;ul&gt;
+      &lt;li&gt;&lt;a href="/linux/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3linux%E5%86%85%E6%A0%B8%E4%B8%AD%E6%96%AD%E5%8F%8A%E5%85%B6%E7%89%B9%E6%80%A7-%E6%9B%B4%E6%96%B0"&gt;&#x6DF1;&#x5165;&#x7406;&#x89E3;Linux&#x5185;&#x6838;&#x4E2D;&#x65AD;&#x53CA;&#x5176;&#x7279;&#x6027;(&#x66F4;&#x65B0;)&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+  &lt;h3&gt;lectures (1)&lt;/h3&gt;
+  &lt;ul&gt;
+      &lt;li&gt;&lt;a href="/lectures/mysql-backup-and-restore"&gt;MySQL Backup and Restore&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
 </description>
     </item>
     <item>
       <title>Git</title>
       <link>http://junqili.com/git</link>
-      <pubDate/>
       <description/>
     </item>
     <item>
       <title>Linux</title>
       <link>http://junqili.com/linux</link>
-      <pubDate/>
       <description/>
     </item>
     <item>
       <title>Notes</title>
       <link>http://junqili.com/notes</link>
-      <pubDate/>
       <description>&lt;div&gt;
     &lt;ul class="nav nav-tabs nav-tabs-google"&gt;
         &lt;li class="active"&gt;&lt;a href="#HTTP" data-toggle="tab"&gt;HTTP&lt;/a&gt;&lt;/li&gt;
@@ -392,7 +393,6 @@
     <item>
       <title>Pages</title>
       <link>http://junqili.com/pages</link>
-      <pubDate/>
       <description>&lt;ul&gt;
   
     &lt;li&gt;&lt;a href="/about"&gt;About Me&lt;/a&gt;&lt;/li&gt;
@@ -432,19 +432,29 @@
     <item>
       <title>Python</title>
       <link>http://junqili.com/python</link>
-      <pubDate/>
       <description/>
     </item>
     <item>
       <title>Tags</title>
       <link>http://junqili.com/tags</link>
-      <pubDate/>
       <description>&lt;ul class="tag_box inline"&gt;
   &lt;li&gt;
     &lt;a href="/tags#MCollective-ref"&gt;MCollective &lt;span&gt;26&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a href="/tags#Zabbix-ref"&gt;Zabbix &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+    &lt;a href="/tags#ActiveMQ-ref"&gt;ActiveMQ &lt;span&gt;4&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/tags#Plugin-ref"&gt;Plugin &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/tags#Python-ref"&gt;Python &lt;span&gt;3&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/tags#decorator-ref"&gt;decorator &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/tags#Fabric-ref"&gt;Fabric &lt;span&gt;13&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;a href="/tags#HTTP-ref"&gt;HTTP &lt;span&gt;17&lt;/span&gt;&lt;/a&gt;
@@ -453,145 +463,56 @@
     &lt;a href="/tags#Note-ref"&gt;Note &lt;span&gt;17&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a href="/tags#Fabric-ref"&gt;Fabric &lt;span&gt;13&lt;/span&gt;&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
     &lt;a href="/tags#Puppet-ref"&gt;Puppet &lt;span&gt;6&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;a href="/tags#DevOps-ref"&gt;DevOps &lt;span&gt;5&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a href="/tags#Python-ref"&gt;Python &lt;span&gt;3&lt;/span&gt;&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href="/tags#Authorization-ref"&gt;Authorization &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
     &lt;a href="/tags#SimpleRPC-ref"&gt;SimpleRPC &lt;span&gt;5&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a href="/tags#ActiveMQ-ref"&gt;ActiveMQ &lt;span&gt;4&lt;/span&gt;&lt;/a&gt;
+    &lt;a href="/tags#Zabbix-ref"&gt;Zabbix &lt;span&gt;2&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;a href="/tags#linux&#x5185;&#x6838;-ref"&gt;linux&#x5185;&#x6838; &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a href="/tags#Plugin-ref"&gt;Plugin &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+    &lt;a href="/tags#MySQL-ref"&gt;MySQL &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;a href="/tags#Report-ref"&gt;Report &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a href="/tags#MySQL-ref"&gt;MySQL &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;a href="/tags#decorator-ref"&gt;decorator &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+    &lt;a href="/tags#Authorization-ref"&gt;Authorization &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
 &lt;/ul&gt;
 
   &lt;h3 id="MCollective-ref"&gt;MCollective&lt;/h3&gt;
-    &lt;li&gt;&lt;a href="/mcollective/ddl"&gt;DDL&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/use-mcollective-cli"&gt;Use MCollective CLI&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/simplerpc-authorization"&gt;SimpleRPC Authorization&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective-doc"&gt;Introduction To MCollective Doc&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="/mcollective/activemq-config-for-mcollective"&gt;ActiveMQ Config For MCollective&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/use-filter"&gt;Use Filter&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/mcollective-fabric-exec-commands"&gt;MCollective/Fabric Exec Commands&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/mcollective-with-puppet"&gt;MCollective With Puppet&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective"&gt;Introduction To MCollective&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/simplerpc-audit"&gt;SimpleRPC Audit&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective-security"&gt;Introduction To MCollective Security&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/puppet-commander"&gt;Puppet Commander&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/introduction-to-simplerpc"&gt;Introduction To SimpleRPC&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="/mcollective/activemq-middleware"&gt;ActiveMQ Middleware&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="/mcollective/common-plugin"&gt;Common Plugin&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/ddl"&gt;DDL&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="/mcollective/deploy-mcollective-in-production-environment"&gt;Deploy MCollective in Production Environment&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/mcollective-solve-problem"&gt;Mcollective Solve Problem&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/node-report"&gt;Node Report&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/use-subcollective"&gt;Use SubCollective&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-agent"&gt;Write SimpleRPC Agent&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/mcollective-terminology"&gt;MCollective Terminology&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/mcollective-message"&gt;Mcollective Message&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/mcollective-server-config"&gt;MCollective Server Config&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-client"&gt;Write SimpleRPC Client&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/mcollective-security-config"&gt;MCollective Security Config&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/publish-subscribe-middleware"&gt;Publish Subscribe Middleware&lt;/a&gt;&lt;/li&gt;
-  &lt;h3 id="Zabbix-ref"&gt;Zabbix&lt;/h3&gt;
-    &lt;li&gt;&lt;a href="/zabbix/introduction-to-zabbix-api"&gt;Introduction To Zabbix Api&lt;/a&gt;&lt;/li&gt;
-  &lt;h3 id="HTTP-ref"&gt;HTTP&lt;/h3&gt;
-    &lt;li&gt;&lt;a href="/notes/http-ng"&gt;Http Ng&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E9%9A%A7%E9%81%93"&gt;&#x96A7;&#x9053;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E4%BB%A3%E7%90%86"&gt;&#x4EE3;&#x7406;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E7%BD%91%E5%85%B3"&gt;&#x7F51;&#x5173;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E4%B8%BB%E6%9C%BA%E6%89%98%E7%AE%A1"&gt;&#x4E3B;&#x673A;&#x6258;&#x7BA1;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/web-server"&gt;Web Server&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AF%86%E5%88%AB"&gt;&#x7528;&#x6237;&#x8BC6;&#x522B;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/theory-and-design-of-url"&gt;Theory And Design Of URL&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E5%86%85%E5%AE%B9%E5%8D%8F%E5%95%86%E4%B8%8E%E8%BD%AC%E7%A0%81"&gt;&#x5185;&#x5BB9;&#x534F;&#x5546;&#x4E0E;&#x8F6C;&#x7801;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/https"&gt;Https&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E5%AE%9E%E4%BD%93%E4%B8%8E%E7%BC%96%E7%A0%81"&gt;&#x5B9E;&#x4F53;&#x4E0E;&#x7F16;&#x7801;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/http-packets-and-packet-analysis"&gt;HTTP Packets And Packet Analysis&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E7%BC%93%E5%AD%98"&gt;&#x7F13;&#x5B58;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/web-robots"&gt;Web Robots&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81"&gt;&#x7528;&#x6237;&#x8BA4;&#x8BC1;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/introduction-to-http"&gt;Introduction To HTTP&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/introduction-to-http-connection"&gt;Introduction To HTTP Connection&lt;/a&gt;&lt;/li&gt;
-  &lt;h3 id="Note-ref"&gt;Note&lt;/h3&gt;
-    &lt;li&gt;&lt;a href="/notes/http-ng"&gt;Http Ng&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E9%9A%A7%E9%81%93"&gt;&#x96A7;&#x9053;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E4%BB%A3%E7%90%86"&gt;&#x4EE3;&#x7406;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E7%BD%91%E5%85%B3"&gt;&#x7F51;&#x5173;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E4%B8%BB%E6%9C%BA%E6%89%98%E7%AE%A1"&gt;&#x4E3B;&#x673A;&#x6258;&#x7BA1;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/web-server"&gt;Web Server&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AF%86%E5%88%AB"&gt;&#x7528;&#x6237;&#x8BC6;&#x522B;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/theory-and-design-of-url"&gt;Theory And Design Of URL&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E5%86%85%E5%AE%B9%E5%8D%8F%E5%95%86%E4%B8%8E%E8%BD%AC%E7%A0%81"&gt;&#x5185;&#x5BB9;&#x534F;&#x5546;&#x4E0E;&#x8F6C;&#x7801;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/https"&gt;Https&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E5%AE%9E%E4%BD%93%E4%B8%8E%E7%BC%96%E7%A0%81"&gt;&#x5B9E;&#x4F53;&#x4E0E;&#x7F16;&#x7801;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/http-packets-and-packet-analysis"&gt;HTTP Packets And Packet Analysis&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E7%BC%93%E5%AD%98"&gt;&#x7F13;&#x5B58;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/web-robots"&gt;Web Robots&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81"&gt;&#x7528;&#x6237;&#x8BA4;&#x8BC1;&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/introduction-to-http"&gt;Introduction To HTTP&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/introduction-to-http-connection"&gt;Introduction To HTTP Connection&lt;/a&gt;&lt;/li&gt;
-  &lt;h3 id="Fabric-ref"&gt;Fabric&lt;/h3&gt;
-    &lt;li&gt;&lt;a href="/fabric/host-list"&gt;Host List&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/fabric/execution-mode"&gt;Execution Mode&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/mcollective-fabric-exec-commands"&gt;MCollective/Fabric Exec Commands&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/fabric/fab-cli"&gt;Fab CLI&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/fabric/manage-output"&gt;Manage Output&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/fabric/fabric-env"&gt;Fabric Env&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/fabric/task-list"&gt;Task List&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/fabric/fabric-api"&gt;Fabric API&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/fabric/remote-interaction"&gt;Remote Interaction&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/fabric/fabfile-and-fabricrc"&gt;Fabfile and Fabricrc&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/fabric/introduction-to-fabric"&gt;Introduction To Fabric&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/fabric/use-fabric-library"&gt;Use Fabric Library&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/fabric/ssh-behavior"&gt;SSH behavior&lt;/a&gt;&lt;/li&gt;
-  &lt;h3 id="Puppet-ref"&gt;Puppet&lt;/h3&gt;
-    &lt;li&gt;&lt;a href="/puppet/puppet-ca"&gt;Puppet CA&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/puppet/puppet-data-flow"&gt;Puppet Data Flow&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/mcollective-with-puppet"&gt;MCollective With Puppet&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/puppet/puppet-internals"&gt;Puppet Internals&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/devops/infrastructure-as-code"&gt;Infrastructure As Code&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/puppet/introduction-to-puppet"&gt;Introduction To Puppet&lt;/a&gt;&lt;/li&gt;
-  &lt;h3 id="DevOps-ref"&gt;DevOps&lt;/h3&gt;
-    &lt;li&gt;&lt;a href="/puppet/puppet-ca"&gt;Puppet CA&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/puppet/puppet-data-flow"&gt;Puppet Data Flow&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/puppet/puppet-internals"&gt;Puppet Internals&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/devops/infrastructure-as-code"&gt;Infrastructure As Code&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/puppet/introduction-to-puppet"&gt;Introduction To Puppet&lt;/a&gt;&lt;/li&gt;
-  &lt;h3 id="Python-ref"&gt;Python&lt;/h3&gt;
-    &lt;li&gt;&lt;a href="/puppet/puppet-ca"&gt;Puppet CA&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/notes/introduction-to-http-connection"&gt;Introduction To HTTP Connection&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/python/decorators-and-functional-python"&gt;Decorators And Functional Python&lt;/a&gt;&lt;/li&gt;
-  &lt;h3 id="Authorization-ref"&gt;Authorization&lt;/h3&gt;
-    &lt;li&gt;&lt;a href="/mcollective/simplerpc-authorization"&gt;SimpleRPC Authorization&lt;/a&gt;&lt;/li&gt;
-  &lt;h3 id="SimpleRPC-ref"&gt;SimpleRPC&lt;/h3&gt;
-    &lt;li&gt;&lt;a href="/mcollective/simplerpc-authorization"&gt;SimpleRPC Authorization&lt;/a&gt;&lt;/li&gt;
-    &lt;li&gt;&lt;a href="/mcollective/simplerpc-audit"&gt;SimpleRPC Audit&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective-doc"&gt;Introduction To MCollective Doc&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective-security"&gt;Introduction To MCollective Security&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/introduction-to-mcollective"&gt;Introduction To MCollective&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="/mcollective/introduction-to-simplerpc"&gt;Introduction To SimpleRPC&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/mcollective-fabric-exec-commands"&gt;MCollective/Fabric Exec Commands&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/mcollective-server-config"&gt;MCollective Server Config&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/mcollective-message"&gt;Mcollective Message&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/mcollective-security-config"&gt;MCollective Security Config&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/mcollective-solve-problem"&gt;Mcollective Solve Problem&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/mcollective-terminology"&gt;MCollective Terminology&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/mcollective-with-puppet"&gt;MCollective With Puppet&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/node-report"&gt;Node Report&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/publish-subscribe-middleware"&gt;Publish Subscribe Middleware&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/puppet-commander"&gt;Puppet Commander&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/simplerpc-audit"&gt;SimpleRPC Audit&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/simplerpc-authorization"&gt;SimpleRPC Authorization&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/use-filter"&gt;Use Filter&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/use-mcollective-cli"&gt;Use MCollective CLI&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/use-subcollective"&gt;Use SubCollective&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-agent"&gt;Write SimpleRPC Agent&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-client"&gt;Write SimpleRPC Client&lt;/a&gt;&lt;/li&gt;
   &lt;h3 id="ActiveMQ-ref"&gt;ActiveMQ&lt;/h3&gt;
@@ -599,23 +520,100 @@
     &lt;li&gt;&lt;a href="/mcollective/activemq-middleware"&gt;ActiveMQ Middleware&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="/mcollective/mcollective-server-config"&gt;MCollective Server Config&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="/mcollective/mcollective-security-config"&gt;MCollective Security Config&lt;/a&gt;&lt;/li&gt;
-  &lt;h3 id="linux&#x5185;&#x6838;-ref"&gt;linux&#x5185;&#x6838;&lt;/h3&gt;
-    &lt;li&gt;&lt;a href="/linux/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3linux%E5%86%85%E6%A0%B8%E4%B8%AD%E6%96%AD%E5%8F%8A%E5%85%B6%E7%89%B9%E6%80%A7-%E6%9B%B4%E6%96%B0"&gt;&#x6DF1;&#x5165;&#x7406;&#x89E3;Linux&#x5185;&#x6838;&#x4E2D;&#x65AD;&#x53CA;&#x5176;&#x7279;&#x6027;(&#x66F4;&#x65B0;)&lt;/a&gt;&lt;/li&gt;
   &lt;h3 id="Plugin-ref"&gt;Plugin&lt;/h3&gt;
     &lt;li&gt;&lt;a href="/mcollective/common-plugin"&gt;Common Plugin&lt;/a&gt;&lt;/li&gt;
-  &lt;h3 id="Report-ref"&gt;Report&lt;/h3&gt;
-    &lt;li&gt;&lt;a href="/mcollective/node-report"&gt;Node Report&lt;/a&gt;&lt;/li&gt;
-  &lt;h3 id="MySQL-ref"&gt;MySQL&lt;/h3&gt;
-    &lt;li&gt;&lt;a href="/lectures/mysql-backup-and-restore"&gt;MySQL Backup and Restore&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="Python-ref"&gt;Python&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/python/decorators-and-functional-python"&gt;Decorators And Functional Python&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/introduction-to-http-connection"&gt;Introduction To HTTP Connection&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/puppet/puppet-ca"&gt;Puppet CA&lt;/a&gt;&lt;/li&gt;
   &lt;h3 id="decorator-ref"&gt;decorator&lt;/h3&gt;
     &lt;li&gt;&lt;a href="/python/decorators-and-functional-python"&gt;Decorators And Functional Python&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="Fabric-ref"&gt;Fabric&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/fabric/execution-mode"&gt;Execution Mode&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/fabric/fab-cli"&gt;Fab CLI&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/fabric/fabfile-and-fabricrc"&gt;Fabfile and Fabricrc&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/fabric/fabric-api"&gt;Fabric API&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/fabric/fabric-env"&gt;Fabric Env&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/fabric/host-list"&gt;Host List&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/fabric/introduction-to-fabric"&gt;Introduction To Fabric&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/fabric/manage-output"&gt;Manage Output&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/mcollective-fabric-exec-commands"&gt;MCollective/Fabric Exec Commands&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/fabric/remote-interaction"&gt;Remote Interaction&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/fabric/ssh-behavior"&gt;SSH behavior&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/fabric/task-list"&gt;Task List&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/fabric/use-fabric-library"&gt;Use Fabric Library&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="HTTP-ref"&gt;HTTP&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/notes/http-ng"&gt;Http Ng&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/http-packets-and-packet-analysis"&gt;HTTP Packets And Packet Analysis&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/https"&gt;Https&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/introduction-to-http-connection"&gt;Introduction To HTTP Connection&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/introduction-to-http"&gt;Introduction To HTTP&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/theory-and-design-of-url"&gt;Theory And Design Of URL&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/web-robots"&gt;Web Robots&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/web-server"&gt;Web Server&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E4%B8%BB%E6%9C%BA%E6%89%98%E7%AE%A1"&gt;&#x4E3B;&#x673A;&#x6258;&#x7BA1;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E4%BB%A3%E7%90%86"&gt;&#x4EE3;&#x7406;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E5%86%85%E5%AE%B9%E5%8D%8F%E5%95%86%E4%B8%8E%E8%BD%AC%E7%A0%81"&gt;&#x5185;&#x5BB9;&#x534F;&#x5546;&#x4E0E;&#x8F6C;&#x7801;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E5%AE%9E%E4%BD%93%E4%B8%8E%E7%BC%96%E7%A0%81"&gt;&#x5B9E;&#x4F53;&#x4E0E;&#x7F16;&#x7801;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81"&gt;&#x7528;&#x6237;&#x8BA4;&#x8BC1;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AF%86%E5%88%AB"&gt;&#x7528;&#x6237;&#x8BC6;&#x522B;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E7%BC%93%E5%AD%98"&gt;&#x7F13;&#x5B58;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E7%BD%91%E5%85%B3"&gt;&#x7F51;&#x5173;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E9%9A%A7%E9%81%93"&gt;&#x96A7;&#x9053;&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="Note-ref"&gt;Note&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/notes/http-ng"&gt;Http Ng&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/http-packets-and-packet-analysis"&gt;HTTP Packets And Packet Analysis&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/https"&gt;Https&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/introduction-to-http-connection"&gt;Introduction To HTTP Connection&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/introduction-to-http"&gt;Introduction To HTTP&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/theory-and-design-of-url"&gt;Theory And Design Of URL&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/web-robots"&gt;Web Robots&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/web-server"&gt;Web Server&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E4%B8%BB%E6%9C%BA%E6%89%98%E7%AE%A1"&gt;&#x4E3B;&#x673A;&#x6258;&#x7BA1;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E4%BB%A3%E7%90%86"&gt;&#x4EE3;&#x7406;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E5%86%85%E5%AE%B9%E5%8D%8F%E5%95%86%E4%B8%8E%E8%BD%AC%E7%A0%81"&gt;&#x5185;&#x5BB9;&#x534F;&#x5546;&#x4E0E;&#x8F6C;&#x7801;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E5%AE%9E%E4%BD%93%E4%B8%8E%E7%BC%96%E7%A0%81"&gt;&#x5B9E;&#x4F53;&#x4E0E;&#x7F16;&#x7801;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81"&gt;&#x7528;&#x6237;&#x8BA4;&#x8BC1;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AF%86%E5%88%AB"&gt;&#x7528;&#x6237;&#x8BC6;&#x522B;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E7%BC%93%E5%AD%98"&gt;&#x7F13;&#x5B58;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E7%BD%91%E5%85%B3"&gt;&#x7F51;&#x5173;&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/notes/%E9%9A%A7%E9%81%93"&gt;&#x96A7;&#x9053;&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="Puppet-ref"&gt;Puppet&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/devops/infrastructure-as-code"&gt;Infrastructure As Code&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/puppet/introduction-to-puppet"&gt;Introduction To Puppet&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/mcollective-with-puppet"&gt;MCollective With Puppet&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/puppet/puppet-ca"&gt;Puppet CA&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/puppet/puppet-data-flow"&gt;Puppet Data Flow&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/puppet/puppet-internals"&gt;Puppet Internals&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="DevOps-ref"&gt;DevOps&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/devops/infrastructure-as-code"&gt;Infrastructure As Code&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/puppet/introduction-to-puppet"&gt;Introduction To Puppet&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/puppet/puppet-ca"&gt;Puppet CA&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/puppet/puppet-data-flow"&gt;Puppet Data Flow&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/puppet/puppet-internals"&gt;Puppet Internals&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="SimpleRPC-ref"&gt;SimpleRPC&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/mcollective/introduction-to-simplerpc"&gt;Introduction To SimpleRPC&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/simplerpc-audit"&gt;SimpleRPC Audit&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/simplerpc-authorization"&gt;SimpleRPC Authorization&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-agent"&gt;Write SimpleRPC Agent&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-client"&gt;Write SimpleRPC Client&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="Zabbix-ref"&gt;Zabbix&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/zabbix/introduction-to-zabbix-api"&gt;Introduction To Zabbix Api&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="/zabbix/zabbix-performance-tunning"&gt;Zabbix Performance Tunning&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="linux&#x5185;&#x6838;-ref"&gt;linux&#x5185;&#x6838;&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/linux/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3linux%E5%86%85%E6%A0%B8%E4%B8%AD%E6%96%AD%E5%8F%8A%E5%85%B6%E7%89%B9%E6%80%A7-%E6%9B%B4%E6%96%B0"&gt;&#x6DF1;&#x5165;&#x7406;&#x89E3;Linux&#x5185;&#x6838;&#x4E2D;&#x65AD;&#x53CA;&#x5176;&#x7279;&#x6027;(&#x66F4;&#x65B0;)&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="MySQL-ref"&gt;MySQL&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/lectures/mysql-backup-and-restore"&gt;MySQL Backup and Restore&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="Report-ref"&gt;Report&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/mcollective/node-report"&gt;Node Report&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="Authorization-ref"&gt;Authorization&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/mcollective/simplerpc-authorization"&gt;SimpleRPC Authorization&lt;/a&gt;&lt;/li&gt;
  
 </description>
     </item>
     <item>
       <title>Tools</title>
       <link>http://junqili.com/tools</link>
-      <pubDate/>
       <description>&lt;p&gt;&lt;a href="/devops/infrastructure-as-code"&gt;DevOps&#x4E0D;&#x4EC5;&#x4EC5;&#x662F;&#x5DE5;&#x5177;&lt;/a&gt;&#xFF0C;&#x5B83;&#x662F;&#x4E00;&#x7CFB;&#x5217;&#x601D;&#x60F3;&#xFF0C;&#x6982;&#x5FF5;&#x4EE5;&#x53CA;&#x6700;&#x4F73;&#x5B9E;&#x8DF5;&#x7B49;&#x3002;&#x4F46;&#x662F;&#x5B9E;&#x73B0;&#x8FD9;&#x4E9B;&#x7406;&#x5FF5;&#x7684;&#x5374;&#x662F;&#x901A;&#x8FC7;&#x5DE5;&#x5177;&#x6765;&#x5B8C;&#x6210;&#x3002;&lt;/p&gt;
 
 &lt;hr&gt;
@@ -749,7 +747,7 @@
                 &lt;hr&gt;
                 &lt;li&gt;&lt;herf="#"&gt;&#x539F;&#x7406;&#x67B6;&#x6784;&lt;/a&gt;&lt;/li&gt;
                 &lt;li&gt;&lt;herf="#"&gt;&#x9AD8;&#x53EF;&#x7528;&lt;/a&gt;&lt;/li&gt;
-                &lt;li&gt;&lt;herf="#"&gt;&#x9AD8;&#x6027;&#x80FD;&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="/zabbix/zabbix-performance-tunning"&gt;&lt;font color="#33CC00"&gt;&#x9AD8;&#x6027;&#x80FD;&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;
                 &lt;li&gt;&lt;herf="#"&gt;&#x81EA;&#x52A8;&#x5316;&lt;/a&gt;&lt;/li&gt;
                 &lt;li&gt;&lt;a href="/zabbix/introduction-to-zabbix-api"&gt;&lt;font color="#33CC00"&gt;API&#x4F7F;&#x7528;&lt;/font&gt;&lt;/a&gt;&lt;/li&gt;
                 &lt;li&gt;&lt;herf="#"&gt;SDK&#x6784;&#x5EFA;&lt;/a&gt;&lt;/li&gt;
@@ -764,7 +762,6 @@
     <item>
       <title>&#x7D19;&#x98DB;&#x6A5F;&#x7684;&#x535A;&#x5BA2;</title>
       <link>http://junqili.com/</link>
-      <pubDate/>
       <description>&lt;h2&gt;Hello, New World!&lt;/h2&gt;
 &lt;p&gt;&#x5728;&#x8FD9;&#x4E2A;&#x7279;&#x6B8A;&#x7684;&#x65E5;&#x5B50;&#xFF0C;&#x535A;&#x5BA2;&#x4E5F;&#x7EC8;&#x4E8E;&#x8FCE;&#x6765;&#x4E86;&#x65B0;&#x7684;&#x6539;&#x7248;&#xFF0C;&#x91C7;&#x7528;Ruhoh 2.X&#x7248;&#x672C;&#x3002;&#x4F46;&#x5FC5;&#x987B;&#x627F;&#x8BA4;&#x5F88;&#x591A;&#x5185;&#x5BB9;&#x4ECD;&#x5728;&#x915D;&#x917F;&#xFF0C;&#x5F88;&#x591A;&#x5185;&#x5BB9;&#x4ECD;&#x9700;&#x5B8C;&#x5584;&#xFF0C;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x8D77;&#x70B9;&#x3002;(2013/9/16)&lt;/p&gt;
 &lt;p&gt; &#x5185;&#x5BB9;&#x5BFC;&#x822A;&lt;/p&gt;
@@ -810,6 +807,30 @@ Python&#x76F8;&#x5173;
 
   &lt;div class="more"&gt;
     &lt;a href="/puppet/puppet-data-flow" class="btn btn-small"&gt;read more..&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="post"&gt;
+  &lt;h2 class="title"&gt;&lt;a href="/zabbix/zabbix-performance-tunning"&gt;Zabbix Performance Tunning&lt;/a&gt; &lt;span class="date pull-right"&gt;2013-07-01&lt;/span&gt;&lt;/h2&gt;
+
+  &lt;div class="summary ellipsis"&gt;
+&lt;h2 id="toc_0"&gt;Zabbix&amp;#39640;&amp;#24615;&amp;#33021;&lt;/h2&gt;
+
+&lt;p&gt;&amp;#36825;&amp;#31687;&amp;#25991;&amp;#31456;&amp;#20027;&amp;#35201;&amp;#26159;&amp;#30001;&amp;#22810;&amp;#31687;&amp;#25991;&amp;#31456;&amp;#25972;&amp;#29702;&amp;#32780;&amp;#25104;&amp;#12290;&amp;#21253;&amp;#25324;&amp;#36807;&amp;#21435;&amp;#24456;&amp;#22810;&amp;#20154;&amp;#20351;&amp;#29992;&amp;#24635;&amp;#32467;&amp;#20986;&amp;#26469;&amp;#30340;&amp;#32463;&amp;#39564;&amp;#20197;&amp;#21450;&amp;#34917;&amp;#20805;&amp;#19968;&amp;#20123;&amp;#23448;&amp;#26041;&amp;#21338;&amp;#23458;&amp;#20851;&amp;#20110;&amp;#21407;&amp;#29702;&amp;#24615;&amp;#30340;&amp;#20171;&amp;#32461;&amp;#12290;&amp;#21253;&amp;#25324;&amp;#24615;&amp;#33021;&amp;#25351;&amp;#26631;&amp;#65292;&amp;#24615;&amp;#33021;&amp;#20248;&amp;#21270;&amp;#21644;&amp;#20855;&amp;#20307;&amp;#20248;&amp;#21270;&amp;#31574;&amp;#30053;&amp;#31561;&amp;#20869;&amp;#23481;&amp;#12290;&lt;/p&gt;
+
+&lt;hr&gt;
+&lt;h4 id="toc_1"&gt;&amp;#24615;&amp;#33021;&amp;#27010;&amp;#36848;&lt;/h4&gt;
+
+&lt;h5 id="toc_2"&gt;&amp;#24615;&amp;#33021;&amp;#25351;&amp;#26631;&lt;/h5&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;#25351;&amp;#26631;&amp;#19968;:NVPS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;NVPS--&amp;#36890;&amp;#36807;Zabbix&amp;#30340;NVPS(&amp;#27599;&amp;#31186;&amp;#22788;&amp;#29702;&amp;#25968;&amp;#20540;&amp;#25968;)&amp;#26469;&amp;#34913;&amp;#37327;&amp;#20854;&amp;#24615;&amp;#33021;&amp;#12290; &amp;#22312;Zabbix&amp;#30340;dashboard&amp;#19978;&amp;#26377;&amp;#19968;&amp;#20010;&amp;#31895;&amp;#30053;&amp;#30340;&amp;#20272;&amp;#20540;&amp;#12290;&lt;/p&gt;
+
+&lt;/div&gt;
+
+  &lt;div class="more"&gt;
+    &lt;a href="/zabbix/zabbix-performance-tunning" class="btn btn-small"&gt;read more..&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="post"&gt;
@@ -971,27 +992,6 @@ Python&#x76F8;&#x5173;
 
   &lt;div class="more"&gt;
     &lt;a href="/puppet/puppet-internals" class="btn btn-small"&gt;read more..&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="post"&gt;
-  &lt;h2 class="title"&gt;&lt;a href="/mcollective/deploy-mcollective-in-production-environment"&gt;Deploy MCollective in Production Environment&lt;/a&gt; &lt;span class="date pull-right"&gt;2013-03-24&lt;/span&gt;&lt;/h2&gt;
-
-  &lt;div class="summary ellipsis"&gt;
-&lt;h2 id="toc_0"&gt;MCollective&amp;#29983;&amp;#20135;&amp;#29615;&amp;#22659;&amp;#23433;&amp;#35013;&amp;#37096;&amp;#32626;&amp;#24605;&amp;#36335;&lt;/h2&gt;
-
-&lt;p&gt;MCollective(&amp;#21518;&amp;#38754;&amp;#31616;&amp;#31216;mco)&amp;#29983;&amp;#20135;&amp;#29615;&amp;#22659;&amp;#23433;&amp;#35013;&amp;#38656;&amp;#35201;&amp;#32771;&amp;#34385;&amp;#21040;&amp;#21333;&amp;#20010;client/server&amp;#33410;&amp;#28857;&amp;#30340;&amp;#23433;&amp;#35013;&amp;#12289;ActiveMQ&amp;#38598;&amp;#32676;&amp;#12289;Subcollectives&amp;#30340;&amp;#21010;&amp;#20998;&amp;#21644;&amp;#23454;&amp;#38469;&amp;#29615;&amp;#22659;&amp;#31561;&amp;#38382;&amp;#39064;&amp;#65292;&amp;#38656;&amp;#35201;&amp;#20998;&amp;#38454;&amp;#27573;&amp;#20998;&amp;#20869;&amp;#23481;&amp;#23433;&amp;#35013;&amp;#37096;&amp;#32626;&amp;#12290;&amp;#36825;&amp;#37324;&amp;#25105;&amp;#25226;&amp;#38656;&amp;#35201;&amp;#23433;&amp;#35013;&amp;#30340;&amp;#33410;&amp;#28857;&amp;#31616;&amp;#21333;&amp;#20998;&amp;#20026;&amp;#19977;&amp;#31867;&amp;#65292;&amp;#20855;&amp;#20307;&amp;#34920;&amp;#31034;&amp;#35831;&amp;#35265;&amp;#22270;&amp;#12290;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/assets/media/mcollective/mco-deploy.png" alt="&amp;#22270;&amp;#29255;"&gt;&lt;/p&gt;
-
-&lt;p&gt;1.Client&amp;#33410;&amp;#28857;&amp;#65306;&amp;#36816;&amp;#34892;MCollective Client Code&amp;#12290;&amp;#31649;&amp;#29702;&amp;#21592;&amp;#25805;&amp;#20316;&amp;#20013;&amp;#24515;&amp;#65292;&amp;#23427;&amp;#21487;&amp;#20197;&amp;#30452;&amp;#25509;&amp;#23601;&amp;#26159;ActiveMQ&amp;#33410;&amp;#28857;&amp;#12290;&lt;/p&gt;
-
-&lt;p&gt;2.Sub-collectives&amp;#20027;&amp;#33410;&amp;#28857;&amp;#65306;ActiveMQ &amp;#33410;&amp;#28857;(Client&amp;#21487;&amp;#36873;)&amp;#65292;&amp;#27599;&amp;#20010;&amp;#21306;&amp;#22495;&amp;#65288;&amp;#25968;&amp;#25454;&amp;#20013;&amp;#24515;&amp;#65289;&amp;#37117;&amp;#26377;&amp;#19968;&amp;#20010;ActiveMQ&amp;#23454;&amp;#20363;&amp;#12290;&amp;#21306;&amp;#22495;&amp;#33410;&amp;#28857;&amp;#21482;&amp;#33021;&amp;#19982;&amp;#26412;&amp;#22320;&amp;#20854;&amp;#20182;&amp;#33410;&amp;#28857;&amp;#36890;&amp;#36807;&amp;#35813;&amp;#20013;&amp;#38388;&amp;#20214;&amp;#36890;&amp;#20449;&amp;#12290;&amp;#36825;&amp;#37324;&amp;#38656;&amp;#35201;&amp;#27880;&amp;#24847;main-collective&amp;#20063;&amp;#26159;&amp;#19968;&amp;#31181;Sub-collective&amp;#12290;&lt;/p&gt;
-
-&lt;p&gt;3.ActiveMQ&amp;#23454;&amp;#20363;&amp;#38388;&amp;#36890;&amp;#36807;&amp;#20351;&amp;#29992;OpenWire&amp;#21327;&amp;#35758;&amp;#36890;&amp;#20449;&amp;#12290;&amp;#21487;&amp;#36816;&amp;#34892;&amp;#22312;IPSec&amp;#20043;&amp;#19978;&amp;#65292;&amp;#20063;&amp;#25903;&amp;#25345;SSL&amp;#12290;&lt;/p&gt;
-&lt;/div&gt;
-
-  &lt;div class="more"&gt;
-    &lt;a href="/mcollective/deploy-mcollective-in-production-environment" class="btn btn-small"&gt;read more..&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="post"&gt;
