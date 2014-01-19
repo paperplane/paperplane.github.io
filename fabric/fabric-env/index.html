@@ -110,7 +110,7 @@
 <h4 id="toc_2">作用域</h4>
 
 <p>这种设置既包括全局也包括局部的，很多时候我们只想暂时给某一个局部块改变其 ENV 变量值。这个时候就可以通过上下文管理器(Context Manager)中的settings，这个只会在它所包括的块中改变 ENV 变量的值。全局使用很简单，直接在定义函数之前设置或者通过 Fab 命令行初始化全局 ENV 变量值。比如在所有 函 数 定 义 之 前 指 定 ： 
-    env.hosts = [‘<a href="mailto:root@ns1.buaa.edu.cn">root@ns1.buaa.edu.cn</a>’,‘<a href="mailto:root@ns2.buaa.edu.cn">root@ns2.buaa.edu.cn</a>’]。
+    env.hosts = [‘<a href="mailto:root@ns1.buaa.edu.cn%E2">root@ns1.buaa.edu.cn�</a>��,‘<a href="mailto:root@ns2.buaa.edu.cn%E2">root@ns2.buaa.edu.cn�</a>��]。
 局部作用域例子：
     from fabric.api import settings, run</p>
 
@@ -160,7 +160,7 @@ print(&quot;Executing on %(host)s as %(user)s&quot; % env)
     <div id="disqus_thread"></div>
 <script>
     var disqus_developer = 1;
-    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    var disqus_shortname = 'junqili'; // required: replace example with your forum shortname
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
         var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
@@ -200,7 +200,7 @@ print(&quot;Executing on %(host)s as %(user)s&quot; % env)
     <script type="text/javascript">
 
   var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-123-12']);
+  _gaq.push(['_setAccount', 'UA-44115336-1']);
   _gaq.push(['_trackPageview']);
   
 
