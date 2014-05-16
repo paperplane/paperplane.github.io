@@ -73,18 +73,32 @@
         <h3 class="title"><a href="/">紙飛機的博客</a> <span class="date pull-right"></span></h3>
 
         <div class="summary ellipsis">
-<h2 id="toc_0">故障排除的第一个五分钟</h2>
+<p>这是一篇关于Vagrant, CoreOS, Docker三个工具的入门介绍性文章，通过描述"使用Vagrant安装CoreOS", "在CoreOS中使用Docker"来介绍三个工具的入门使用。当然要首先介绍”在Mac OS X上运行Vagrant”。</p>
 
-<p>在处理日常运维、优化和扩展性问题的时候,经常碰到了各种不同规模的性能很差的系 统和基础设施(通常是大规模的,比如 CNN 或者世界银行的系统)。再加上修复时间紧迫、 奇葩的技术平台、缺少信息和文档,基本上这过程都会惨痛到让我们留下深刻的记忆。</p>
-
-<p>造成故障的原因大多数情况是不明显的:这里有一些我们通常开始做的事情。</p>
+<h3 id="toc_0">Part I: Running Vagrant On Mac OS X</h3>
 
 <hr>
-<h4 id="toc_1">获取上下文信息</h4>
+<h4 id="toc_1">Vagrant简介</h4>
 
-<p>不要急于去服务器操作,需要搞清楚对服务器和这个特定故障到底了解多少。你不希望 浪费你的时间在黑暗中排除(故障)。
-一些“必须了解”的问题:</p>
+<p>Vagrant是一个创建和配置轻量级，可复制，可移植开发环境的工具，让配置开发环境更容易。一个简单的使用案例就是通过vagrant封装一个Linux开发环境，分发给团队成员。而每个人都可以在自己喜欢的桌面系统(Mac/Win/Linux)上开发程序，代码却能在封装好的环境里运行。得益于下面几个特点，Vagrant将极大改变我们的工作流程。</p>
 
+<ul>
+<li>
+<p>快速安装</p>
+
+<p>下载和安装Vagrant非常快，无论是在MacOS X， Windows或者其他流行的Linux发行版，仅需数分钟时间。没有复杂的安装过程，仅仅是简单的使用系统标准安装工具。快速而且跨平台。</p>
+</li>
+<li>
+<p>极简配置</p>
+
+<p>Vagrant项目唯一配置文件Vagrantfile描述需要的机器类型，需要安装的软件以及如何访问该机器等。支持Puppet , Chef, Shell等配置管理工具，清单文件可通过同步目录实现。基础设施即代码。</p>
+</li>
+<li>
+<p>工作简单</p>
+
+<p>运行命令”vagrant up"即可启动机器，vagrant会将所有配置组合完成完整开发环境配置。”代码在我机子上运行没有问题”这种说辞将成为历史，因为vagrant为团队中每个人创建了统一开发环境。</p>
+</li>
+</ul>
 </div>
 
         <div class="more">
@@ -106,7 +120,7 @@
 
       <hr>
       <div class="footer">
-        <p>&copy; JunQi Lee 2013
+        <p>&copy; JunQi Lee 2013-2014
           use <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">Ruhoh</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>

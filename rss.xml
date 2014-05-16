@@ -4,21 +4,11 @@
     <title>&#x7D19;&#x98DB;&#x6A5F;</title>
     <description>&#x7D19;&#x98DB;&#x6A5F;</description>
     <link>http://junqili.com</link>
-    <pubDate>2014-01-20</pubDate>
+    <pubDate>2014-05-17</pubDate>
     <item>
       <title>About Me</title>
       <link>http://junqili.com/about</link>
-      <description>&lt;p&gt;&#x51FA;&#x751F;&#x4E8E;&#x5C71;&#x9AD8;&#x7687;&#x5E1D;&#x8FDC;&#x7684;&#x897F;&#x5317;&#x519C;&#x6751;&lt;/p&gt;
-
-&lt;p&gt;&#x5B66;&#x4E60;&#x4E8E;&#x795E;&#x79D8;&#x5E1D;&#x90FD;&#x4EF0;&#x671B;&#x661F;&#x7A7A;&#x5927;&#x5B66;&lt;/p&gt;
-
-&lt;p&gt;&#x5728;&#x795E;&#x5947;&#x7684;&#x5B66;&#x9662;&#x5B66;&#x7740;&#x795E;&#x5947;&#x7684;&#x4E13;&#x4E1A;&lt;/p&gt;
-
-&lt;p&gt;&#x671D;&#x7740;&#x804C;&#x4E1A;IT&#x4EBA;&#x58EB;&#x9053;&#x8DEF;&#x4E0D;&#x65AD;&#x524D;&#x8FDB;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;ul&gt;
+      <description>&lt;ul&gt;
 &lt;li&gt;&#x6211;&#x7684;Weibo: &lt;a href="http://weibo.com/ipaperplane"&gt;@JunQi&#x5728;&#x594B;&#x6597;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&#x6211;&#x7684;LinkedIn: &lt;a href="http://www.linkedin.com/profile/view?id=139738149"&gt;Junqi Lee&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&#x6211;&#x7684;Twitter: &lt;a href="https://twitter.com/#!/ipaperplane"&gt;@ipaperplane&lt;/a&gt;&lt;/li&gt;
@@ -30,7 +20,12 @@
     <item>
       <title>Archive</title>
       <link>http://junqili.com/archive</link>
-      <description>  &lt;h2&gt;2013&lt;/h2&gt;
+      <description>  &lt;h2&gt;2014&lt;/h2&gt;
+    &lt;h3&gt;May&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span&gt;2014-05-17&lt;/span&gt; &amp;raquo; &lt;a href="/devops/getting-started-with-vagrant-coreos-docker"&gt;Getting Started With Vagrant/Coreos/Docker&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;h2&gt;2013&lt;/h2&gt;
     &lt;h3&gt;October&lt;/h3&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;span&gt;2013-10-23&lt;/span&gt; &amp;raquo; &lt;a href="/linux/troubleshooting-5minutes"&gt;Troubleshooting 5minutes&lt;/a&gt;&lt;/li&gt;
@@ -51,15 +46,15 @@
     &lt;/ul&gt;
     &lt;h3&gt;April&lt;/h3&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;span&gt;2013-04-22&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-security-config"&gt;MCollective Security Config&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-04-22&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-server-config"&gt;MCollective Server Config&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-04-22&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/activemq-config-for-mcollective"&gt;ActiveMQ Config For MCollective&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-04-22&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-security-config"&gt;MCollective Security Config&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-04-08&lt;/span&gt; &amp;raquo; &lt;a href="/puppet/puppet-internals"&gt;Puppet Internals&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;h3&gt;March&lt;/h3&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-24&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/deploy-mcollective-in-production-environment"&gt;Deploy MCollective in Production Environment&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-24&lt;/span&gt; &amp;raquo; &lt;a href="/puppet/puppet-ca"&gt;Puppet CA&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-24&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/deploy-mcollective-in-production-environment"&gt;Deploy MCollective in Production Environment&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-17&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/remote-interaction"&gt;Remote Interaction&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/use-fabric-library"&gt;Use Fabric Library&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-with-puppet"&gt;MCollective With Puppet&lt;/a&gt;&lt;/li&gt;
@@ -146,7 +141,7 @@
     &lt;a href="/categories#MCollective-ref"&gt;MCollective &lt;span&gt;27&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a href="/categories#DevOps-ref"&gt;DevOps &lt;span&gt;40&lt;/span&gt;&lt;/a&gt;
+    &lt;a href="/categories#DevOps-ref"&gt;DevOps &lt;span&gt;41&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;a href="/categories#Daemon-ref"&gt;Daemon &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
@@ -204,7 +199,7 @@
       &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-agent"&gt;Write SimpleRPC Agent&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-client"&gt;Write SimpleRPC Client&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
-  &lt;h3&gt;DevOps (40)&lt;/h3&gt;
+  &lt;h3&gt;DevOps (41)&lt;/h3&gt;
   &lt;ul&gt;
       &lt;li&gt;&lt;a href="/mcollective/activemq-config-for-mcollective"&gt;ActiveMQ Config For MCollective&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/activemq-middleware"&gt;ActiveMQ Middleware&lt;/a&gt;&lt;/li&gt;
@@ -215,6 +210,7 @@
       &lt;li&gt;&lt;a href="/fabric/fabfile-and-fabricrc"&gt;Fabfile and Fabricrc&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/fabric/fabric-api"&gt;Fabric API&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/fabric/fabric-env"&gt;Fabric Env&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/devops/getting-started-with-vagrant-coreos-docker"&gt;Getting Started With Vagrant/Coreos/Docker&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/fabric/host-list"&gt;Host List&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/devops/infrastructure-as-code"&gt;Infrastructure As Code&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/fabric/introduction-to-fabric"&gt;Introduction To Fabric&lt;/a&gt;&lt;/li&gt;
@@ -462,6 +458,15 @@
     &lt;a href="/tags#Fabric-ref"&gt;Fabric &lt;span&gt;13&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
+    &lt;a href="/tags#Vagrant-ref"&gt;Vagrant &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/tags#CoreOS-ref"&gt;CoreOS &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/tags#Docker-ref"&gt;Docker &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
     &lt;a href="/tags#HTTP-ref"&gt;HTTP &lt;span&gt;17&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -553,6 +558,12 @@
     &lt;li&gt;&lt;a href="/fabric/ssh-behavior"&gt;SSH behavior&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="/fabric/task-list"&gt;Task List&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="/fabric/use-fabric-library"&gt;Use Fabric Library&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="Vagrant-ref"&gt;Vagrant&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/devops/getting-started-with-vagrant-coreos-docker"&gt;Getting Started With Vagrant/Coreos/Docker&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="CoreOS-ref"&gt;CoreOS&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/devops/getting-started-with-vagrant-coreos-docker"&gt;Getting Started With Vagrant/Coreos/Docker&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="Docker-ref"&gt;Docker&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/devops/getting-started-with-vagrant-coreos-docker"&gt;Getting Started With Vagrant/Coreos/Docker&lt;/a&gt;&lt;/li&gt;
   &lt;h3 id="HTTP-ref"&gt;HTTP&lt;/h3&gt;
     &lt;li&gt;&lt;a href="/notes/http-ng"&gt;Http Ng&lt;/a&gt;&lt;/li&gt;
     &lt;li&gt;&lt;a href="/notes/http-packets-and-packet-analysis"&gt;HTTP Packets And Packet Analysis&lt;/a&gt;&lt;/li&gt;
@@ -800,6 +811,42 @@ Python&#x76F8;&#x5173;
 &lt;h2&gt;Latest Posts&lt;/h2&gt;
 
 &lt;div class="post"&gt;
+  &lt;h2 class="title"&gt;&lt;a href="/devops/getting-started-with-vagrant-coreos-docker"&gt;Getting Started With Vagrant/Coreos/Docker&lt;/a&gt; &lt;span class="date pull-right"&gt;2014-05-17&lt;/span&gt;&lt;/h2&gt;
+
+  &lt;div class="summary ellipsis"&gt;
+&lt;p&gt;&amp;#36825;&amp;#26159;&amp;#19968;&amp;#31687;&amp;#20851;&amp;#20110;Vagrant, CoreOS, Docker&amp;#19977;&amp;#20010;&amp;#24037;&amp;#20855;&amp;#30340;&amp;#20837;&amp;#38376;&amp;#20171;&amp;#32461;&amp;#24615;&amp;#25991;&amp;#31456;&amp;#65292;&amp;#36890;&amp;#36807;&amp;#25551;&amp;#36848;"&amp;#20351;&amp;#29992;Vagrant&amp;#23433;&amp;#35013;CoreOS", "&amp;#22312;CoreOS&amp;#20013;&amp;#20351;&amp;#29992;Docker"&amp;#26469;&amp;#20171;&amp;#32461;&amp;#19977;&amp;#20010;&amp;#24037;&amp;#20855;&amp;#30340;&amp;#20837;&amp;#38376;&amp;#20351;&amp;#29992;&amp;#12290;&amp;#24403;&amp;#28982;&amp;#35201;&amp;#39318;&amp;#20808;&amp;#20171;&amp;#32461;&amp;rdquo;&amp;#22312;Mac OS X&amp;#19978;&amp;#36816;&amp;#34892;Vagrant&amp;rdquo;&amp;#12290;&lt;/p&gt;
+
+&lt;h3 id="toc_0"&gt;Part I: Running Vagrant On Mac OS X&lt;/h3&gt;
+
+&lt;hr&gt;
+&lt;h4 id="toc_1"&gt;Vagrant&amp;#31616;&amp;#20171;&lt;/h4&gt;
+
+&lt;p&gt;Vagrant&amp;#26159;&amp;#19968;&amp;#20010;&amp;#21019;&amp;#24314;&amp;#21644;&amp;#37197;&amp;#32622;&amp;#36731;&amp;#37327;&amp;#32423;&amp;#65292;&amp;#21487;&amp;#22797;&amp;#21046;&amp;#65292;&amp;#21487;&amp;#31227;&amp;#26893;&amp;#24320;&amp;#21457;&amp;#29615;&amp;#22659;&amp;#30340;&amp;#24037;&amp;#20855;&amp;#65292;&amp;#35753;&amp;#37197;&amp;#32622;&amp;#24320;&amp;#21457;&amp;#29615;&amp;#22659;&amp;#26356;&amp;#23481;&amp;#26131;&amp;#12290;&amp;#19968;&amp;#20010;&amp;#31616;&amp;#21333;&amp;#30340;&amp;#20351;&amp;#29992;&amp;#26696;&amp;#20363;&amp;#23601;&amp;#26159;&amp;#36890;&amp;#36807;vagrant&amp;#23553;&amp;#35013;&amp;#19968;&amp;#20010;Linux&amp;#24320;&amp;#21457;&amp;#29615;&amp;#22659;&amp;#65292;&amp;#20998;&amp;#21457;&amp;#32473;&amp;#22242;&amp;#38431;&amp;#25104;&amp;#21592;&amp;#12290;&amp;#32780;&amp;#27599;&amp;#20010;&amp;#20154;&amp;#37117;&amp;#21487;&amp;#20197;&amp;#22312;&amp;#33258;&amp;#24049;&amp;#21916;&amp;#27426;&amp;#30340;&amp;#26700;&amp;#38754;&amp;#31995;&amp;#32479;(Mac/Win/Linux)&amp;#19978;&amp;#24320;&amp;#21457;&amp;#31243;&amp;#24207;&amp;#65292;&amp;#20195;&amp;#30721;&amp;#21364;&amp;#33021;&amp;#22312;&amp;#23553;&amp;#35013;&amp;#22909;&amp;#30340;&amp;#29615;&amp;#22659;&amp;#37324;&amp;#36816;&amp;#34892;&amp;#12290;&amp;#24471;&amp;#30410;&amp;#20110;&amp;#19979;&amp;#38754;&amp;#20960;&amp;#20010;&amp;#29305;&amp;#28857;&amp;#65292;Vagrant&amp;#23558;&amp;#26497;&amp;#22823;&amp;#25913;&amp;#21464;&amp;#25105;&amp;#20204;&amp;#30340;&amp;#24037;&amp;#20316;&amp;#27969;&amp;#31243;&amp;#12290;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;#24555;&amp;#36895;&amp;#23433;&amp;#35013;&lt;/p&gt;
+
+&lt;p&gt;&amp;#19979;&amp;#36733;&amp;#21644;&amp;#23433;&amp;#35013;Vagrant&amp;#38750;&amp;#24120;&amp;#24555;&amp;#65292;&amp;#26080;&amp;#35770;&amp;#26159;&amp;#22312;MacOS X&amp;#65292; Windows&amp;#25110;&amp;#32773;&amp;#20854;&amp;#20182;&amp;#27969;&amp;#34892;&amp;#30340;Linux&amp;#21457;&amp;#34892;&amp;#29256;&amp;#65292;&amp;#20165;&amp;#38656;&amp;#25968;&amp;#20998;&amp;#38047;&amp;#26102;&amp;#38388;&amp;#12290;&amp;#27809;&amp;#26377;&amp;#22797;&amp;#26434;&amp;#30340;&amp;#23433;&amp;#35013;&amp;#36807;&amp;#31243;&amp;#65292;&amp;#20165;&amp;#20165;&amp;#26159;&amp;#31616;&amp;#21333;&amp;#30340;&amp;#20351;&amp;#29992;&amp;#31995;&amp;#32479;&amp;#26631;&amp;#20934;&amp;#23433;&amp;#35013;&amp;#24037;&amp;#20855;&amp;#12290;&amp;#24555;&amp;#36895;&amp;#32780;&amp;#19988;&amp;#36328;&amp;#24179;&amp;#21488;&amp;#12290;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;#26497;&amp;#31616;&amp;#37197;&amp;#32622;&lt;/p&gt;
+
+&lt;p&gt;Vagrant&amp;#39033;&amp;#30446;&amp;#21807;&amp;#19968;&amp;#37197;&amp;#32622;&amp;#25991;&amp;#20214;Vagrantfile&amp;#25551;&amp;#36848;&amp;#38656;&amp;#35201;&amp;#30340;&amp;#26426;&amp;#22120;&amp;#31867;&amp;#22411;&amp;#65292;&amp;#38656;&amp;#35201;&amp;#23433;&amp;#35013;&amp;#30340;&amp;#36719;&amp;#20214;&amp;#20197;&amp;#21450;&amp;#22914;&amp;#20309;&amp;#35775;&amp;#38382;&amp;#35813;&amp;#26426;&amp;#22120;&amp;#31561;&amp;#12290;&amp;#25903;&amp;#25345;Puppet , Chef, Shell&amp;#31561;&amp;#37197;&amp;#32622;&amp;#31649;&amp;#29702;&amp;#24037;&amp;#20855;&amp;#65292;&amp;#28165;&amp;#21333;&amp;#25991;&amp;#20214;&amp;#21487;&amp;#36890;&amp;#36807;&amp;#21516;&amp;#27493;&amp;#30446;&amp;#24405;&amp;#23454;&amp;#29616;&amp;#12290;&amp;#22522;&amp;#30784;&amp;#35774;&amp;#26045;&amp;#21363;&amp;#20195;&amp;#30721;&amp;#12290;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&amp;#24037;&amp;#20316;&amp;#31616;&amp;#21333;&lt;/p&gt;
+
+&lt;p&gt;&amp;#36816;&amp;#34892;&amp;#21629;&amp;#20196;&amp;rdquo;vagrant up"&amp;#21363;&amp;#21487;&amp;#21551;&amp;#21160;&amp;#26426;&amp;#22120;&amp;#65292;vagrant&amp;#20250;&amp;#23558;&amp;#25152;&amp;#26377;&amp;#37197;&amp;#32622;&amp;#32452;&amp;#21512;&amp;#23436;&amp;#25104;&amp;#23436;&amp;#25972;&amp;#24320;&amp;#21457;&amp;#29615;&amp;#22659;&amp;#37197;&amp;#32622;&amp;#12290;&amp;rdquo;&amp;#20195;&amp;#30721;&amp;#22312;&amp;#25105;&amp;#26426;&amp;#23376;&amp;#19978;&amp;#36816;&amp;#34892;&amp;#27809;&amp;#26377;&amp;#38382;&amp;#39064;&amp;rdquo;&amp;#36825;&amp;#31181;&amp;#35828;&amp;#36766;&amp;#23558;&amp;#25104;&amp;#20026;&amp;#21382;&amp;#21490;&amp;#65292;&amp;#22240;&amp;#20026;vagrant&amp;#20026;&amp;#22242;&amp;#38431;&amp;#20013;&amp;#27599;&amp;#20010;&amp;#20154;&amp;#21019;&amp;#24314;&amp;#20102;&amp;#32479;&amp;#19968;&amp;#24320;&amp;#21457;&amp;#29615;&amp;#22659;&amp;#12290;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+
+  &lt;div class="more"&gt;
+    &lt;a href="/devops/getting-started-with-vagrant-coreos-docker" class="btn btn-small"&gt;read more..&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="post"&gt;
   &lt;h2 class="title"&gt;&lt;a href="/linux/troubleshooting-5minutes"&gt;Troubleshooting 5minutes&lt;/a&gt; &lt;span class="date pull-right"&gt;2013-10-23&lt;/span&gt;&lt;/h2&gt;
 
   &lt;div class="summary ellipsis"&gt;
@@ -937,32 +984,6 @@ Python&#x76F8;&#x5173;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="post"&gt;
-  &lt;h2 class="title"&gt;&lt;a href="/mcollective/mcollective-security-config"&gt;MCollective Security Config&lt;/a&gt; &lt;span class="date pull-right"&gt;2013-04-22&lt;/span&gt;&lt;/h2&gt;
-
-  &lt;div class="summary"&gt;
-&lt;h2 id="toc_0"&gt;MCollective&amp;#23433;&amp;#20840;&amp;#37197;&amp;#32622;&lt;/h2&gt;
-
-&lt;hr&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-&lt;p&gt;&amp;#20316;&amp;#20026; MCollective &amp;#37325;&amp;#35201;&amp;#37096;&amp;#20998;&amp;#23601;&amp;#26159;&amp;#32771;&amp;#34385;&amp;#23433;&amp;#20840;&amp;#12290;&amp;#40664;&amp;#35748;&amp;#24773;&amp;#20917;&amp;#19979;&amp;#20801;&amp;#35768;&amp;#25152;&amp;#26377;&amp;#30340;&amp;#20195;&amp;#29702;&amp;#21644;&amp;#25152;&amp;#26377;&amp;#33410;&amp;#28857;&amp;#25152;&amp;#26377;&amp;#20195;&amp;#29702;
-        &amp;#36827;&amp;#34892;&amp;#36890;&amp;#20449;&amp;#12290;&amp;#38382;&amp;#39064;&amp;#26159;&amp;#36890;&amp;#36807;&amp;#36825;&amp;#31181;&amp;#26041;&amp;#27861;&amp;#22914;&amp;#26524;&amp;#22312;&amp;#26576;&amp;#20010;&amp;#33410;&amp;#28857;&amp;#26377;&amp;#19968;&amp;#20010;&amp;#19981;&amp;#21463;&amp;#20449;&amp;#20219;&amp;#30340;&amp;#29992;&amp;#25143;&amp;#20182;&amp;#23601;&amp;#33021;&amp;#22815;&amp;#23433;&amp;#35013;&amp;#19968;&amp;#20010;&amp;#23458;&amp;#25143;
-        &amp;#31471;&amp;#24212;&amp;#29992;&amp;#31243;&amp;#24207;&amp;#26469;&amp;#20174; server &amp;#37197;&amp;#32622;&amp;#25991;&amp;#20214;&amp;#20013;&amp;#35835;&amp;#21462;&amp;#29992;&amp;#25143;&amp;#21517;/&amp;#23494;&amp;#30721;&amp;#20174;&amp;#32780;&amp;#25511;&amp;#21046;&amp;#25972;&amp;#20010;&amp;#20307;&amp;#31995;&amp;#32467;&amp;#26500;&amp;#12290;&amp;#26412;&amp;#37096;&amp;#20998;&amp;#20998;&amp;#26512;&amp;#22312;
-        MCollective &amp;#20351;&amp;#29992;&amp;#36807;&amp;#31243;&amp;#20013;&amp;#30340;&amp;#23433;&amp;#20840;&amp;#38382;&amp;#39064;&amp;#65292;&amp;#24182;&amp;#25552;&amp;#20379;&amp;#20960;&amp;#31181;&amp;#23433;&amp;#20840;&amp;#26041;&amp;#26696;&amp;#12290;&lt;/p&gt;
-    &lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="/assets/media/pdf/mcollective-security.pdf"&gt;&lt;img src="/assets/media/pdf/attach.png"&gt;&amp;#35831;&amp;#28857;&amp;#20987;&amp;#26597;&amp;#30475;&amp;#25991;&amp;#26723;&amp;#35814;&amp;#32454;&amp;#20869;&amp;#23481;
-        &lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-  &lt;div class="more"&gt;
-    &lt;a href="/mcollective/mcollective-security-config" class="btn btn-small"&gt;read more..&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="post"&gt;
   &lt;h2 class="title"&gt;&lt;a href="/mcollective/mcollective-server-config"&gt;MCollective Server Config&lt;/a&gt; &lt;span class="date pull-right"&gt;2013-04-22&lt;/span&gt;&lt;/h2&gt;
 
   &lt;div class="summary"&gt;
@@ -1011,24 +1032,29 @@ Python&#x76F8;&#x5173;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="post"&gt;
-  &lt;h2 class="title"&gt;&lt;a href="/puppet/puppet-internals"&gt;Puppet Internals&lt;/a&gt; &lt;span class="date pull-right"&gt;2013-04-08&lt;/span&gt;&lt;/h2&gt;
+  &lt;h2 class="title"&gt;&lt;a href="/mcollective/mcollective-security-config"&gt;MCollective Security Config&lt;/a&gt; &lt;span class="date pull-right"&gt;2013-04-22&lt;/span&gt;&lt;/h2&gt;
 
-  &lt;div class="summary ellipsis"&gt;
-&lt;h2 id="toc_0"&gt;Puppet&amp;#20869;&amp;#37096;&amp;#21407;&amp;#29702;&lt;/h2&gt;
+  &lt;div class="summary"&gt;
+&lt;h2 id="toc_0"&gt;MCollective&amp;#23433;&amp;#20840;&amp;#37197;&amp;#32622;&lt;/h2&gt;
 
-&lt;p&gt;&amp;#26412;&amp;#25991;&amp;#26723;&amp;#30446;&amp;#26631;&amp;#26159;&amp;#25551;&amp;#36848;Puppet&amp;#30340; manifest&amp;#22312;&amp;#31995;&amp;#32479;&amp;#19978;&amp;#26159;&amp;#22914;&amp;#20309;&amp;#24037;&amp;#20316;&amp;#12290;&amp;#27492;&amp;#36807;&amp;#31243;&amp;#30456;&amp;#24403;&amp;#22797;&amp;#26434;&amp;#65292;&amp;#20294;&amp;#26159;&amp;#19968;&amp;#33324;&amp;#20063;&amp;#19981;&amp;#38656;&amp;#35201;&amp;#20102;&amp;#35299;&amp;#20854;&amp;#20013;&amp;#22826;&amp;#22810;&amp;#30340;&amp;#32454;&amp;#33410;&amp;#12290;&amp;#25972;&amp;#29702;&amp;#27492;&amp;#25991;&amp;#26723;&amp;#20063;&amp;#27491;&amp;#26159;&amp;#20026;&amp;#20102;&amp;#37027;&amp;#20123;&amp;#24819;&amp;#20102;&amp;#35299;&amp;#26356;&amp;#22810;&amp;#20851;&amp;#20110;Puppet&amp;#20869;&amp;#37096;&amp;#26426;&amp;#21046;&amp;#20154;&amp;#26356;&amp;#26041;&amp;#20415;&amp;#26356;&amp;#30452;&amp;#25509;&amp;#29702;&amp;#35299;&amp;#12290;&lt;/p&gt;
-
-&lt;p&gt;&amp;#22312;&amp;#20171;&amp;#32461;&amp;#20043;&amp;#21069;&amp;#65292;&amp;#25105;&amp;#20204;&amp;#20808;&amp;#30475;&amp;#20004;&amp;#20010;&amp;#20851;&amp;#20110;Puppet&amp;#30340;&lt;strong&gt;&amp;#32463;&amp;#20856;&lt;/strong&gt;&amp;#22270;&amp;#12290;&amp;#19968;&amp;#26041;&amp;#38754;&amp;#24076;&amp;#26395;&amp;#36825;&amp;#20004;&amp;#24133;&amp;#22270;&amp;#33021;&amp;#24110;&amp;#21161;&amp;#29702;&amp;#35299;&amp;#65292;&amp;#21478;&amp;#19968;&amp;#26041;&amp;#38754;&amp;#20063;&amp;#24076;&amp;#26395;&amp;#19979;&amp;#38754;&amp;#30340;&amp;#35299;&amp;#37322;&amp;#33021;&amp;#24110;&amp;#21161;&amp;#29702;&amp;#35299;&amp;#36825;&amp;#20004;&amp;#24133;&amp;#22270;&amp;#12290;&lt;/p&gt;
-
-&lt;p&gt;Puppet&amp;#26550;&amp;#26500;&amp;#22270;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/assets/media/puppet/puppet-arch.png" alt="&amp;#22270;&amp;#29255;"&gt;&lt;/p&gt;
-
-&lt;p&gt;Puppet&amp;#24037;&amp;#20316;&amp;#27969;&amp;#31243;&amp;#22270;&lt;/p&gt;
+&lt;hr&gt;
+&lt;div&gt;
+    &lt;ul&gt;
+&lt;p&gt;&amp;#20316;&amp;#20026; MCollective &amp;#37325;&amp;#35201;&amp;#37096;&amp;#20998;&amp;#23601;&amp;#26159;&amp;#32771;&amp;#34385;&amp;#23433;&amp;#20840;&amp;#12290;&amp;#40664;&amp;#35748;&amp;#24773;&amp;#20917;&amp;#19979;&amp;#20801;&amp;#35768;&amp;#25152;&amp;#26377;&amp;#30340;&amp;#20195;&amp;#29702;&amp;#21644;&amp;#25152;&amp;#26377;&amp;#33410;&amp;#28857;&amp;#25152;&amp;#26377;&amp;#20195;&amp;#29702;
+        &amp;#36827;&amp;#34892;&amp;#36890;&amp;#20449;&amp;#12290;&amp;#38382;&amp;#39064;&amp;#26159;&amp;#36890;&amp;#36807;&amp;#36825;&amp;#31181;&amp;#26041;&amp;#27861;&amp;#22914;&amp;#26524;&amp;#22312;&amp;#26576;&amp;#20010;&amp;#33410;&amp;#28857;&amp;#26377;&amp;#19968;&amp;#20010;&amp;#19981;&amp;#21463;&amp;#20449;&amp;#20219;&amp;#30340;&amp;#29992;&amp;#25143;&amp;#20182;&amp;#23601;&amp;#33021;&amp;#22815;&amp;#23433;&amp;#35013;&amp;#19968;&amp;#20010;&amp;#23458;&amp;#25143;
+        &amp;#31471;&amp;#24212;&amp;#29992;&amp;#31243;&amp;#24207;&amp;#26469;&amp;#20174; server &amp;#37197;&amp;#32622;&amp;#25991;&amp;#20214;&amp;#20013;&amp;#35835;&amp;#21462;&amp;#29992;&amp;#25143;&amp;#21517;/&amp;#23494;&amp;#30721;&amp;#20174;&amp;#32780;&amp;#25511;&amp;#21046;&amp;#25972;&amp;#20010;&amp;#20307;&amp;#31995;&amp;#32467;&amp;#26500;&amp;#12290;&amp;#26412;&amp;#37096;&amp;#20998;&amp;#20998;&amp;#26512;&amp;#22312;
+        MCollective &amp;#20351;&amp;#29992;&amp;#36807;&amp;#31243;&amp;#20013;&amp;#30340;&amp;#23433;&amp;#20840;&amp;#38382;&amp;#39064;&amp;#65292;&amp;#24182;&amp;#25552;&amp;#20379;&amp;#20960;&amp;#31181;&amp;#23433;&amp;#20840;&amp;#26041;&amp;#26696;&amp;#12290;&lt;/p&gt;
+    &lt;/ul&gt;
+&lt;hr&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="/assets/media/pdf/mcollective-security.pdf"&gt;&lt;img src="/assets/media/pdf/attach.png"&gt;&amp;#35831;&amp;#28857;&amp;#20987;&amp;#26597;&amp;#30475;&amp;#25991;&amp;#26723;&amp;#35814;&amp;#32454;&amp;#20869;&amp;#23481;
+        &lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
 &lt;/div&gt;
 
   &lt;div class="more"&gt;
-    &lt;a href="/puppet/puppet-internals" class="btn btn-small"&gt;read more..&lt;/a&gt;
+    &lt;a href="/mcollective/mcollective-security-config" class="btn btn-small"&gt;read more..&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 
