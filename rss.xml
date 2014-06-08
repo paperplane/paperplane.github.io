@@ -799,18 +799,22 @@
       <title>&#x7D19;&#x98DB;&#x6A5F;&#x7684;&#x535A;&#x5BA2;</title>
       <link>http://junqili.com/</link>
       <description>&lt;h2&gt;Hello, New World!&lt;/h2&gt;
-&lt;p&gt;&#x5728;&#x8FD9;&#x4E2A;&#x7279;&#x6B8A;&#x7684;&#x65E5;&#x5B50;&#xFF0C;&#x535A;&#x5BA2;&#x4E5F;&#x7EC8;&#x4E8E;&#x8FCE;&#x6765;&#x4E86;&#x65B0;&#x7684;&#x6539;&#x7248;&#xFF0C;&#x91C7;&#x7528;Ruhoh 2.X&#x7248;&#x672C;&#x3002;&#x4F46;&#x5FC5;&#x987B;&#x627F;&#x8BA4;&#x5F88;&#x591A;&#x5185;&#x5BB9;&#x4ECD;&#x5728;&#x915D;&#x917F;&#xFF0C;&#x5F88;&#x591A;&#x5185;&#x5BB9;&#x4ECD;&#x9700;&#x5B8C;&#x5584;&#xFF0C;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x8D77;&#x70B9;&#x3002;(2013/9/16)&lt;/p&gt;
-&lt;p&gt; &#x5185;&#x5BB9;&#x5BFC;&#x822A;&lt;/p&gt;
-&lt;pre&gt;
-Linux&#x5185;&#x6838;
-&#x81EA;&#x52A8;&#x5316;&#x8FD0;&#x7EF4;
-Python&#x76F8;&#x5173;
-&#x6587;&#x6863;&#x6574;&#x7406;
-&#x7F16;&#x7A0B;&#x8BED;&#x8A00;
-&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;
-&#x90A3;&#x4E9B;&#x8BB2;&#x5EA7;
-&#x968F;&#x60F3;&#x7B14;&#x8BB0;
-&lt;/pre&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2012&#x5E74;9&#x6708;&#xFF0C;&#x535A;&#x5BA2;&#x8BDE;&#x751F;&#xFF0C;&#x91C7;&#x7528;Ruhoh 1.0&#x7248;&#x672C;&#x3002;&#x6700;&#x521D;&#x53EA;&#x662F;&#x8BB0;&#x5F55;&#x8BFB;&#x4E66;&#x7B14;&#x8BB0;&#x548C;&#x611F;&#x60F3;&#x3002;&#x6162;&#x6162;&#x53D1;&#x73B0;&#x5199;&#x7684;&#x5185;&#x5BB9;&#x8D8A;&#x6765;&#x8D8A;&#x591A;&#x3002;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2013&#x5E74;9&#x6708;&#xFF0C;&#x535A;&#x5BA2;&#x6539;&#x7248;&#xFF0C;&#x91C7;&#x7528;Ruhoh 2.X&#x7248;&#x672C;&#x3002;&#x5F88;&#x591A;&#x5185;&#x5BB9;&#x4ECD;&#x5728;&#x915D;&#x917F;&#xFF0C;&#x5F88;&#x591A;&#x5185;&#x5BB9;&#x4ECD;&#x9700;&#x5B8C;&#x5584;&#xFF0C;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x8D77;&#x70B9;&#x3002;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;2014&#x5E74;6&#x6708;&#xFF0C;&#x535A;&#x5BA2;&#x6539;&#x7248;&#xFF0C;&#x589E;&#x52A0;&#x4E2A;&#x4EBA;Wiki&#xFF0C;&#x8BB0;&#x5F55;&#x96F6;&#x788E;&#x77E5;&#x8BC6;&#x3002;&#x91C7;&#x7528;Simiki+GitCafe&#x3002;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;button class="btn btn-info" type="button"&gt;&#x5185;&#x5BB9;&#x6807;&#x7B7E;&lt;/button&gt;&lt;/button&gt;   
+    &lt;span class="label label-default"&gt;&lt;font size="3"&gt;&#x81EA;&#x52A8;&#x5316;&#x8FD0;&#x7EF4;&lt;/font&gt;&lt;/span&gt;
+    &lt;span class="label label-default"&gt;&lt;font size="3"&gt;Linux&#x5185;&#x6838;&lt;/font&gt;&lt;/span&gt;  
+    &lt;span class="label label-default"&gt;&lt;font size="3"&gt;Python&#x76F8;&#x5173;&lt;/font&gt;&lt;/span&gt;  
+    &lt;span class="label label-default"&gt;&lt;font size="3"&gt;&#x7F16;&#x7A0B;&#x8BED;&#x8A00;&lt;/font&gt;&lt;/span&gt;  
+    &lt;span class="label label-default"&gt;&lt;font size="3"&gt;&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;&lt;/font&gt;&lt;/span&gt;  
+    &lt;span class="label label-default"&gt;&lt;font size="3"&gt;&#x8BB2;&#x5EA7;&#x7B14;&#x8BB0;&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;
 
 &lt;div class="progress progress-striped"&gt;
       &lt;div class="bar" style="width: 20%;"&gt;&lt;/div&gt;
