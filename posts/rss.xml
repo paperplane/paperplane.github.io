@@ -4,7 +4,7 @@
     <title>&#x7D19;&#x98DB;&#x6A5F;</title>
     <description>&#x7D19;&#x98DB;&#x6A5F;</description>
     <link>http://junqili.com</link>
-    <pubDate>2014-06-08</pubDate>
+    <pubDate>2014-06-09</pubDate>
     <item>
       <title>Getting Started With Vagrant/Coreos/Docker</title>
       <link>http://junqili.com/devops/getting-started-with-vagrant-coreos-docker</link>
@@ -310,6 +310,26 @@ ssh -q \
 &lt;li&gt;&#x7EDF;&#x8BA1;&#x56FE;&#x8868; &#x5404;&#x9636;&#x6BB5;&#x5404;&#x4EFB;&#x52A1;&#x8017;&#x65F6;&#x7EDF;&#x8BA1;&#x8FDB;&#x884C;&#x8FDB;&#x4E00;&#x6B65;&#x4F18;&#x5316;&#xFF0C;&#x6D4B;&#x8BD5;&#x5404;&#x9879;&#x6570;&#x636E;&#x7EDF;&#x8BA1;&#x7B49;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
+</description>
+    </item>
+    <item>
+      <title>Sildes About Puppet And MCollective</title>
+      <link>http://junqili.com/puppet/sildes-about-puppet-and-mcollective</link>
+      <pubDate>2014-03-21</pubDate>
+      <description>&lt;h2 id="toc_0"&gt;&#x5DE5;&#x5177;&#x57FA;&#x672C;&#x4ECB;&#x7ECD;&lt;/h2&gt;
+
+&lt;hr&gt;
+
+&lt;div&gt;
+    &lt;ul&gt;
+        &lt;p&gt;&#x8FD9;&#x4E24;&#x4E2A;Slides&#x4E3B;&#x8981;&#x4ECB;&#x7ECD;&#x4E86;Puppet&#x548C;MCollective&#x7684;&#x6982;&#x8C8C;&#xFF0C;&#x5165;&#x95E8;&#x7EA7;&#x4ECB;&#x7ECD;&#xFF0C;&#x53EF;&#x4EE5;&#x4E86;&#x89E3;&#x8FD9;&#x4E24;&#x4E2A;&#x5DE5;&#x5177;&#x7684;&#x80CC;&#x666F;&#xFF0C;&#x662F;&#x4EC0;&#x4E48;&#x4EE5;&#x53CA;&#x7279;&#x70B9;&#x548C;&#x4F7F;&#x7528;&#x7B49;&#x3002;&lt;/p&gt;
+    &lt;/ul&gt;
+    &lt;hr&gt;
+    &lt;ul&gt;
+        &lt;li&gt;&lt;a href="/assets/media/pdf/introduction-to-puppet.pdf"}}"&gt;&lt;img src="/assets/media/pdf/attach.png"&gt;Puppet&#x7B80;&#x4ECB;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="/assets/media/pdf/introduction-to-mcollective.pdf"}}"&gt;&lt;img src="/assets/media/pdf/attach.png"&gt;MCollective&#x7B80;&#x4ECB;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/div&gt;
 </description>
     </item>
     <item>
@@ -788,347 +808,6 @@ $ for user in $(cat /etc/passwd | cut -f1 -d:); do crontab -l &#x2013;u $user; d
 &lt;li&gt;&lt;p&gt;Master&#x6839;&#x636E;facts&#x548C;Manifests&#x751F;&#x6210;&#x7B26;&#x5408;&#x7279;&#x5B9A;&#x8282;&#x70B9;&#x7684;&#x914D;&#x7F6E;&#xFF0C;&#x8FD9;&#x4E2A;&#x914D;&#x7F6E;&#x662F;&#x4E00;&#x79CD;&#x4E2D;&#x95F4;&#x7F16;&#x8BD1;&#x7ED3;&#x679C;&#x6210;&#x4E3A;Catalog&#xFF0C;&#x7136;&#x540E;Master&#x5C06;CataLog&#x53D1;&#x9001;&#x7ED9;&#x5BA2;&#x6237;&#x7AEF;&lt;/p&gt;&lt;/li&gt;
 &lt;li&gt;&lt;p&gt;&#x5BA2;&#x6237;&#x7AEF;&#x6839;&#x636E;CataLog&#x5B9A;&#x4E49;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x5BF9;&#x6BD4;&#x81EA;&#x8EAB;&#x72B6;&#x6001;&#xFF0C;&#x5BF9;&#x4E8E;&#x4E0D;&#x540C;&#x7684;&#x90E8;&#x5206;&#x4F5C;&#x51FA;&#x6539;&#x53D8;&#x3002;&#x5728;&#x5E94;&#x7528;&#x914D;&#x7F6E;&#x671F;&#x95F4;&#xFF0C;&#x53EF;&#x80FD;&#x4F1A;&#x9700;&#x8981;&#x8BF7;&#x6C42;&#x6587;&#x4EF6;&#x7B49;&#x64CD;&#x4F5C;&#xFF0C;&#x8FD9;&#x4E9B;&#x8FD8;&#x9700;&#x8981;&#x540C;Master&#x8FDB;&#x884C;&#x4EA4;&#x4E92;&#xFF0C;&#x7B49;&#x5230;&#x914D;&#x7F6E;&#x5E94;&#x7528;&#x5B8C;&#x6BD5;&#xFF0C;&#x5C06;&#x6267;&#x884C;&#x7ED3;&#x679C;&#x4EE5;&#x62A5;&#x544A;&#x5F62;&#x5F0F;&#x53D1;&#x9001;&#x7ED9;Master&#x3002;&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    <item>
-      <title>Zabbix Performance Tunning</title>
-      <link>http://junqili.com/zabbix/zabbix-performance-tunning</link>
-      <pubDate>2013-07-01</pubDate>
-      <description>&lt;h2 id="toc_0"&gt;Zabbix&#x9AD8;&#x6027;&#x80FD;&lt;/h2&gt;
-
-&lt;p&gt;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#x4E3B;&#x8981;&#x662F;&#x7531;&#x591A;&#x7BC7;&#x6587;&#x7AE0;&#x6574;&#x7406;&#x800C;&#x6210;&#x3002;&#x5305;&#x62EC;&#x8FC7;&#x53BB;&#x5F88;&#x591A;&#x4EBA;&#x4F7F;&#x7528;&#x603B;&#x7ED3;&#x51FA;&#x6765;&#x7684;&#x7ECF;&#x9A8C;&#x4EE5;&#x53CA;&#x8865;&#x5145;&#x4E00;&#x4E9B;&#x5B98;&#x65B9;&#x535A;&#x5BA2;&#x5173;&#x4E8E;&#x539F;&#x7406;&#x6027;&#x7684;&#x4ECB;&#x7ECD;&#x3002;&#x5305;&#x62EC;&#x6027;&#x80FD;&#x6307;&#x6807;&#xFF0C;&#x6027;&#x80FD;&#x4F18;&#x5316;&#x548C;&#x5177;&#x4F53;&#x4F18;&#x5316;&#x7B56;&#x7565;&#x7B49;&#x5185;&#x5BB9;&#x3002;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h4 id="toc_1"&gt;&#x6027;&#x80FD;&#x6982;&#x8FF0;&lt;/h4&gt;
-
-&lt;h5 id="toc_2"&gt;&#x6027;&#x80FD;&#x6307;&#x6807;&lt;/h5&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&#x6307;&#x6807;&#x4E00;:NVPS&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;NVPS--&#x901A;&#x8FC7;Zabbix&#x7684;NVPS(&#x6BCF;&#x79D2;&#x5904;&#x7406;&#x6570;&#x503C;&#x6570;)&#x6765;&#x8861;&#x91CF;&#x5176;&#x6027;&#x80FD;&#x3002; &#x5728;Zabbix&#x7684;dashboard&#x4E0A;&#x6709;&#x4E00;&#x4E2A;&#x7C97;&#x7565;&#x7684;&#x4F30;&#x503C;&#x3002;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/assets/media/zabbix/zabbix-nvps.png" alt="Zabbix&#x524D;&#x7AEF;NVPS&#x6570;&#x636E;&#x503C;&#x56FE;"&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&#x6307;&#x6807;&#x4E8C;:UP&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;UP--&#x7EDF;&#x8BA1;&#x6700;&#x8FD1;&#x4E00;&#x5C0F;&#x65F6;&#x5185;,&#x6570;&#x636E;&#x66F4;&#x65B0;&#x7684;&#x767E;&#x5206;&#x6BD4;--Update Percent[&#x53C2;&#x8003;PPTV]&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/assets/media/zabbix/zabbix-up.png" alt="&#x6027;&#x80FD;&#x76D1;&#x63A7;&#x6307;&#x6807;UP&#x8BA1;&#x7B97;&#x8FC7;&#x7A0B;&#x56FE;"&gt;&lt;/p&gt;
-
-&lt;h5 id="toc_3"&gt;&#x5F71;&#x54CD;&#x6027;&#x80FD;&#x56E0;&#x7D20;&lt;/h5&gt;
-
-&lt;table class="table table-bordered table-striped table-condensed"&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&#x56E0;&#x7D20;&lt;/td&gt;
-            &lt;td&gt;&#x6162;&lt;/td&gt;
-            &lt;td&gt;&#x5FEB;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&#x6570;&#x636E;&#x5E93;&#x5927;&#x5C0F;&lt;/td&gt;
-            &lt;td&gt;&#x5DE8;&#x5927;&lt;/td&gt;
-            &lt;td&gt;&#x9002;&#x5E94;&#x5185;&#x5B58;&#x5927;&#x5C0F;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&#x89E6;&#x53D1;&#x5668;&#x8868;&#x8FBE;&#x5F0F;&#x7684;&#x590D;&#x6742;&#x5EA6;&lt;/td&gt;
-            &lt;td&gt;min(),max(),avg()&lt;/td&gt;
-            &lt;td&gt;last(),nodata()&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&#x6570;&#x636E;&#x6536;&#x96C6;&#x65B9;&#x6CD5;&lt;/td&gt;
-            &lt;td&gt;Polling(SNMP,No Proxy,&#x88AB;&#x52A8;&#x5F0F;Agent)&lt;/td&gt;
-            &lt;td&gt;Trapping(&#x4E3B;&#x52A8;&#x5F0F;Agent)&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&#x6570;&#x636E;&#x7C7B;&#x578B;&lt;/td&gt;
-            &lt;td&gt;&#x6587;&#x672C;&#xFF0C;&#x5B57;&#x7B26;&#x4E32;&lt;/td&gt;
-            &lt;td&gt;&#x6570;&#x503C;&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;pre&gt;&lt;code&gt;1. &#x76D1;&#x63A7;&#x9879;&#x7C7B;&#x578B;,&#x503C;&#x7C7B;&#x578B;,SNMPv3,&#x89E6;&#x53D1;&#x5668;&#x6570;&#x91CF;&#x548C;&#x89E6;&#x53D1;&#x5668;&#x7C7B;&#x578B;
-2. Housekeeper &#x8BBE;&#x7F6E;
-3. &#x6570;&#x636E;&#x5E93;&#x5927;&#x5C0F;
-4. &#x524D;&#x7AEF;&#x7528;&#x6237;&#x6570;&#x91CF;
-5. &#x89E6;&#x53D1;&#x5668;&#x590D;&#x6742;&#x6027;
-6. &#x76D1;&#x63A7;&#x4E3B;&#x673A;&#x6570;&#x91CF;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr&gt;
-
-&lt;h4 id="toc_4"&gt;&#x6027;&#x80FD;&#x4F18;&#x5316;&lt;/h4&gt;
-
-&lt;h5 id="toc_5"&gt;&#x4F18;&#x5316;&#x539F;&#x5219;&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code&gt;1. &#x76D1;&#x63A7; zabbix &#x5185;&#x90E8;&#x7EC4;&#x4EF6;
-2. &#x5404;&#x89D2;&#x8272;&#x4F7F;&#x7528;&#x72EC;&#x7ACB;&#x670D;&#x52A1;&#x5668;&#x4E14;&#x670D;&#x52A1;&#x5668;&#x786C;&#x4EF6;&#x6027;&#x80FD;&#x8DB3;&#x591F;&#x597D;
-3. &#x4F7F;&#x7528;&#x5206;&#x5E03;&#x5F0F;&#x90E8;&#x7F72;
-4. &#x4F18;&#x5316; zabbix &#x914D;&#x7F6E;
-5. &#x4F18;&#x5316;&#x6570;&#x636E;&#x5E93;&#x6027;&#x80FD;
-6. &#x5173;&#x95ED; Housekeeper,&#x4F7F;&#x7528;&#x5206;&#x533A;&#x8868;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&#x4E0B;&#x9762;&#x5206;&#x522B;&#x5C31;&#x6570;&#x636E;&#x5E93;&#xFF0C;Zabbix&#x81EA;&#x8EAB;&#x4EE5;&#x53CA;&#x524D;&#x7AEF;&#x4E09;&#x65B9;&#x9762;&#x4ECB;&#x7ECD;&#x5E38;&#x89C1;&#x7684;&#x4F18;&#x5316;&#x3002;&lt;/p&gt;
-
-&lt;h5 id="toc_6"&gt;&#x6570;&#x636E;&#x5E93;&#x4F18;&#x5316;&lt;/h5&gt;
-
-&lt;p&gt;&#x8FD9;&#x91CC;&#x5927;&#x591A;&#x6570;&#x5EFA;&#x8BAE;&#x540C;&#x6837;&#x9002;&#x7528;&#x4E8E;&#x5F88;&#x591A;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;,&#x4F46;&#x662F;&#x73B0;&#x5728;&#x5C06;&#x56F4;&#x7ED5; Zabbix &#x6765;&#x8C08;&#x3002; &lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;1.&#x4F7F;&#x7528;&#x4E13;&#x7528;&#x6570;&#x636E;&#x5E93;&#x670D;&#x52A1;&#x5668;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&#x6570;&#x636E;&#x5E93;&#x662F; Zabbix &#x7684;&#x91CD;&#x8981;&#x74F6;&#x9888;&#x3002;&#x5C1D;&#x8BD5;&#x4F7F;&#x7528;&#x4E13;&#x7528;&#x6570;&#x636E;&#x5E93;&#x670D;&#x52A1;&#x5668;&#x5E76;&#x786E;&#x4FDD;&#x5176;&#x62E5;&#x6709;&#x5F88;&#x597D;&#x7684;&#x6027;&#x80FD; (CPU,&#x5185;&#x5B58;&#x548C;&#x5FEB;&#x901F;&#x78C1;&#x76D8;&#x8BFB;&#x5199;)&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;2.&#x5355;&#x4E2A;&#x6587;&#x4EF6;&#x521B;&#x5EFA;&#x5355;&#x4E2A;&#x6570;&#x636E;&#x5E93;&#x8868; &lt;/p&gt;
-
-&lt;p&gt;&#x914D;&#x7F6E;&#x9879;: innodb_file_per_table=1&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;,innodb &#x5C06;&#x5728;&#x4E00;&#x4E2A;&#x6570;&#x636E;&#x6587;&#x4EF6;&#x4E2D;&#x521B;&#x5EFA;&#x6240;&#x6709;&#x7684;&#x6570;&#x636E;&#x5E93;&#x8868;&#x3002;&#x901A;&#x8FC7;&#x8FD9;&#x4E2A;&#x9009;&#x9879;, &#x65B0;&#x7684;&#x6570;&#x636E;&#x5E93;&#x8868;&#x4F1A;&#x6709;&#x81EA;&#x5DF1;&#x7684;&#x6570;&#x636E;&#x6587;&#x4EF6;&#x3002;&#x56E0;&#x6B64;&#x66F4;&#x6539;&#x540E;,&#x4F60;&#x5C06;&#x9700;&#x8981;&#x91CD;&#x65B0;&#x521B;&#x5EFA;&#x6570;&#x636E;&#x5E93;&#x8868;&#x3002;&#x8FD9;&#x4E2A; &#x9009;&#x9879;&#x4E5F;&#x4F7F;&#x6BD4;&#x5982;&#x5C06;&#x4F60;&#x7684;&#x6570;&#x636E;&#x5E93;&#x8868;&#x5B58;&#x50A8;&#x5728;&#x4E0D;&#x540C;&#x7684;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x4E0A;&#x4EE5;&#x53CA;&#x8BA9;&#x5907;&#x4EFD;&#x66F4;&#x5177;&#x4E00;&#x81F4;&#x6027;&#x6210;&#x4E3A;&#x53EF; &#x80FD;&#x3002;&#x5B83;&#x4E5F;&#x53EF;&#x4EE5;&#x6709;&#x6548;&#x89E3;&#x51B3;&#x5355;&#x4E2A;&#x8868;&#x7A7A;&#x95F4;&#x8FC7;&#x5927;&#x548C;&#x8868;&#x7A7A;&#x95F4;&#x5D29;&#x6E83;&#x4E22;&#x5931;&#x6570;&#x636E;&#x95EE;&#x9898;&#x3002;&lt;/p&gt;
-
-&lt;p&gt;&#x5BF9;&#x4E8E;&#x4F7F;&#x7528;&#x8FD9;&#x4E2A;&#x9009;&#x9879;&#x540E;&#x65E7;&#x8868;&#x7684;&#x8F6C;&#x5316;&#x95EE;&#x9898;,&#x4F7F;&#x7528;&#x811A;&#x672C;&#x5982;&#x4E0B;&#x3002;&#x5BF9;&#x4E8E;&#x50CF; history&lt;em&gt;&#x548C; trends&lt;/em&gt; &#x8FD9;&#x6837;&#x7684;&#x5927;&#x8868;&#x9700;&#x8981;&#x65F6;&#x95F4;&#x8F6C;&#x5316;&#x3002;&#x9700;&#x8981;&#x5B9A;&#x671F;&#x7684;&amp;#39;&#x4F18;&#x5316;&amp;#39;&#x624D;&#x80FD;&#x4FDD;&#x8BC1;&#x6BCF;&#x4E2A;&#x6587;&#x4EF6;&#x4E00;&#x4E2A;&#x8868;&#x3002;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;Select concat(&amp;#39;alter table &amp;#39;,TABLE_SCHEMA ,&amp;#39;.&amp;#39;,table_name,&amp;#39; ENGINE=InnoDB;&amp;#39;) FROM INFORMATION_SCHEMA.tables where table_type=&amp;#39;BASE TABLE&amp;#39; and engine = &amp;#39;InnoDB&amp;#39;;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;3.&#x4F7F;&#x7528;&#x5206;&#x533A;&#x8868;&#x5E76;&#x4E14;&#x7981;&#x7528; HouseKeeper&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;HouseKeeper&#x964D;&#x4F4E;&#x4E86;MySQL &#x7684;&#x6027;&#x80FD;,&#x56E0;&#x6B64;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x66FF;&#x4EE3;&#x5C31;&#x662F;&#x4F7F;&#x7528;MySQL &#x5206;&#x533A;&#x672C;&#x5730;&#x8D44;&#x6E90;&#x3002;&lt;/p&gt;
-
-&lt;p&gt;Zabbix &#x7684;&#x6BCF;&#x4E2A;&#x76D1;&#x63A7;&#x9879;&#x90FD;&#x4F1A;&#x62E5;&#x6709;&#x81EA;&#x5DF1;&#x7684;housekeeper &#x503C;,&#x6B63;&#x662F;&#x8FD9;&#x4E2A;&#x7279;&#x70B9;&#x4F7F;&#x5F97;&#x8FDB;&#x7A0B; housekeeping&#x6210;&#x4E3A;&#x6027;&#x80FD;&#x6740;&#x624B;,&#x56E0;&#x4E3A;delete_history()&#x51FD;&#x6570;&#x5728;&#x6BCF;&#x4E2A;&#x76D1;&#x63A7;&#x9879;&#x6BCF;&#x6B21;&#x8FD0;&#x884C;&#x65F6;&#x90FD;&#x4F1A;&#x6267;&#x884C;DELETE&#x3002;&#x5982;&#x679C;&#x4F60;&#x6709;100k&#x7684;&#x76D1;&#x63A7;&#x9879;,&#x5C31;&#x4F1A;&#x6267;&#x884C;100K&#x7684;DELETE &#x67E5;&#x8BE2;&#x3002;&#x5C24;&#x5176;&#x662F;&#x5BF9;&#x4E8E;innode&#x5F15;&#x64CE;,&#x95EE;&#x9898;&#x5C06;&#x4F1A;&#x5F88;&#x4E25;&#x91CD;,&#x56E0;&#x4E3A;&#x5BF9;&#x4E8E;&#x5927;&#x8868;&#x7684;DELELTE &#x975E;&#x5E38;&#x6162;&#x800C;&#x4E14;&#x5220;&#x9664;&#x884C;&#x5E76;&#x4E0D;&#x80FD;&#x91CA;&#x653E;&#x78C1;&#x76D8;&#x7A7A;&#x95F4;&#x3002;&#x6240;&#x4EE5;&#x5EFA;&#x8BAE;&#x7981;&#x7528;housekeeper&#x5E76;&#x5BF9;&#x8868;&#x8FDB;&#x884C;&#x5206;&#x533A;&#x3002;&lt;/p&gt;
-
-&lt;p&gt;&#x5728;&#x8003;&#x5BDF;Zabbix&#x6570;&#x636E;&#x5E93;&#x8868;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x80FD;&#x5F88;&#x660E;&#x663E;&#x7684;&#x770B;&#x5230;history&#x8868;&#x7279;&#x522B;&#x5927;&#xFF0C;&#x8FD9;&#x5F80;&#x5F80;&#x662F;&#x74F6;&#x9888;&#xFF0C;&#x9700;&#x8981;&#x8FDB;&#x884C;&#x5206;&#x533A;&#x3002;&#x6700;&#x540E;&#x9644;&#x4E0A;&#x521B;&#x5EFA;&#x5206;&#x533A;&#x8868;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x57FA;&#x4E8E;&#x65F6;&#x95F4;&#x6233;&#x7684;&#x5206;&#x533A;&#x3002;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;4. &#x4E34;&#x65F6;&#x6587;&#x4EF6;&#x4F7F;&#x7528; tmpfs &#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&#x4F7F;&#x7528;&#x5185;&#x5B58;&#x4EE3;&#x66FF;&#x78C1;&#x76D8;&#x5C06;&#x5141;&#x8BB8; MySQL &#x66F4;&#x5FEB;&#x901F;&#x521B;&#x5EFA;&#x4E34;&#x65F6;&#x8868;&#x3002;&#x9996;&#x5148;,&#x521B;&#x5EFA;&#x6302;&#x8F7D;&#x70B9;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;mkdir /tmp/mysqltmp
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&#x7136;&#x540E;&#x5728;/etc/fstab &#x6587;&#x4EF6;&#x4E2D;&#x52A0;&#x5165;&#x4EE5;&#x4E0B;&#x5185;&#x5BB9;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;tmpfs /tmp/mysqltmp tmpfs rw,uid=mysql,gid=mysql,size=1G,nr_inodes=10k,mode=0700 0 
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&#x5BF9;&#x4E8E;size&#x53C2;&#x6570;,&#x6700;&#x597D;&#x662F;&#x4F7F;&#x7528;&#x7269;&#x7406;&#x5185;&#x5B58;&#x7684; 8%&#x81F3; 10% &#x6700;&#x540E;&#x9700;&#x8981;&#x5728;&#x914D;&#x7F6E;&#x6587;&#x4EF6;/etc/my.cnf &#x4E2D;&#x5B9A;&#x4E49;&#x8DEF;&#x5F84;&#x5E76;&#x91CD;&#x542F; MySQL:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;tmpdir = /tmp/mysqltmp
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;ul&gt;
-&lt;li&gt;5. &#x8BBE;&#x7F6E;&#x5408;&#x7406; buffer/pool&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&#x8FD9;&#x662F;/etc/my.cnf &#x4E2D;&#x6700;&#x91CD;&#x8981;&#x7684;&#x53C2;&#x6570;&#x4E4B;&#x4E00;,&#x5B83;&#x5B9A;&#x4E49;&#x4E86; innodb &#x80FD;&#x591F;&#x4F7F;&#x7528;&#x591A;&#x5C11;&#x5185;&#x5B58;&#x3002;&#x5EFA;&#x8BAE;&#x4F7F;&#x7528;&#x7269;&#x7406;&#x5185;&#x5B58;&#x7684; 70%&#x81F3; 80%&#x3002;&#x540C;&#x65F6;&#x8BBE;&#x7F6E; innodb &#x4F7F;&#x7528; O_DIRECT &#x8FD9;&#x6837;&#x7F13;&#x5B58;&#x5728; innodb buffer pool &#x4E2D;&#x7684;&#x6570;&#x636E;&#x5C31;&#x4E0D;&#x4F1A;&#x590D;&#x5236;&#x5230;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x7684; buffer cache,&#x5E76;&#x4E14;&#x964D;&#x4F4E; swap &#x538B;&#x529B;,&#x4F46; &#x987B;&#x5C0F;&#x5FC3;&#x6CA1;&#x6709;&#x7535;&#x6C60;&#x5907;&#x4EFD; RAID &#x7684;&#x60C5;&#x51B5;&#x3002;&#x5177;&#x4F53;&#x914D;&#x7F6E;&#x5982;&#x4E0B;:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;innodb_buffer_pool_size=14G 
-innodb_flush_method = O_DIRECT
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&#x8FD8;&#x6709;&#x5F88;&#x591A;&#x4F18;&#x5316;&#x7B56;&#x7565;&#x540C;&#x5176;&#x4ED6;&#x6570;&#x636E;&#x5E93;&#x7C7B;&#x4F18;&#x5316;&#x7C7B;&#x4F3C;&#xFF0C;&#x6BD4;&#x5982;&#x5F88;&#x591A;&#x9488;&#x5BF9;Innodb&#x7684;&#x4F18;&#x5316;&#xFF0C;&#x9488;&#x5BF9;&#x4E1A;&#x52A1;&#x573A;&#x666F;&#x7684;&#x4F18;&#x5316;&#x7B49;&#x7B49;&#x3002;&#x5176;&#x4ED6;&#x4F18;&#x5316;&#x5305;&#x62EC;&#x4F46;&#x4E0D;&#x9650;&#x4E8E;&#xFF1A;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&#x5176;&#x4ED6;&#x53C2;&#x6570;&lt;/p&gt;
-
-&lt;p&gt;&#x6253;&#x5F00;&#x6162;&#x67E5;&#x8BE2;&#x65E5;&#x5FD7;&#xFF1A;log&lt;em&gt;slow&lt;/em&gt;queries=/var/log/mysql.slow.log&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&#x5176;&#x4ED6;MySQL&#x53C2;&#x6570;&#x4F18;&#x5316;&#x540C;&#x4E00;&#x822C;&#x6027;&#x4F18;&#x5316;&#x63AA;&#x65BD;&#x3002;&#x5305;&#x62EC;&#x4F46;&#x4E0D;&#x9650;&#x4E8E;&#xFF1A;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;thread_cache_size=4 &#x8FD9;&#x4E2A;&#x503C;&#x4F3C;&#x4E4E;&#x4F1A;&#x5F71;&#x54CD;show global status&#x8F93;&#x51FA;&#x4E2D;Threads_created per Connection&#x7684;hit rate
-query_cache_limit=1M
-query_cache_size=128M
-tmp_table_size=256M
-max_heap_table_size=256M
-table_cache=256
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&#x8FD9;&#x4E9B;&#x540C;&#x6837;&#x6839;&#x636E;&#x5176;&#x4ED6;&#x7684;&#x4F18;&#x5316;&#x6587;&#x6863;&#xFF0C;&#x4F46;&#x662F;&#x57FA;&#x4E8E;zabbix&#x6570;&#x636E;&#x5E93;&#x7684;&#x8868;&#x6570;&#x91CF;&#xFF08;zabbix&#x6570;&#x636E;&#x5E93;&#x5171;&#x6709;73&#x4E2A;&#x8868;&#x52A0;&#x4E0A;&#x4E34;&#x65F6;&#x8868;&#x548C;mysql&#x8868;&#xFF09;&#x8BC1;&#x660E;&#x8FD8;&#x662F;&#x6BD4;&#x8F83;&#x5408;&#x9002;&#x7684;&#x3002;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;innnodb_flush_log_at_trx_commit=2
-&#x5BF9;&#x4E8E;&#x4E0D;&#x662F;&#x5173;&#x5FC3;&#x4E25;&#x683C;&#x7684;ACID&#x65F6;&#xFF0C;&#x8FD9;&#x4E2A;&#x53C2;&#x6570;&#x5BF9;&#x4E8E;&#x5927;&#x91CF;&#x5199;&#x4F1A;&#x6BD4;&#x8F83;&#x597D;
-join_buffer_size=256K
-read_buffer_size=256K
-read_rnd_buffer_size=256K
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id="toc_7"&gt;Zabbix &#x4F18;&#x5316;&lt;/h5&gt;
-
-&lt;p&gt;&#x5173;&#x4E8E;Zabbix&#x7684;&#x4F18;&#x5316;&#x4E3B;&#x8981;&#x6D89;&#x53CA;&#x5982;&#x4F55;&#x8FDB;&#x884C;Zabbix&#x914D;&#x7F6E;&#x8FDB;&#x884C;&#x53C2;&#x6570;&#x8C03;&#x4F18;&#xFF0C;&#x5728;&#x4ECB;&#x7ECD;&#x4F18;&#x5316;&#x4E4B;&#x524D;&#xFF0C;&#x5148;&#x4ECB;&#x7ECD;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x8C03;&#x6574;&#x8FD9;&#x4E9B;&#x53C2;&#x6570;&#xFF0C;&#x8FD9;&#x4E9B;&#x53C2;&#x6570;&#x5728;Zabbix&#x5185;&#x90E8;&#x6709;&#x4EC0;&#x4E48;&#x4F5C;&#x7528;&#x3002;&lt;/p&gt;
-
-&lt;p&gt;&#x80CC;&#x666F;&#x4ECB;&#x7ECD;:&#x5982;&#x4F55;&#x76D1;&#x6D4B;Zabbix&#x662F;&#x5426;&#x7E41;&#x5FD9;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;&#x5728;&#x8FC7;&#x53BB;&#xFF0C;Zabbix&#x7528;&#x6237;&#x7ECF;&#x5E38;&#x4F1A;&#x88AB;&#x4E00;&#x4E9B;&#x670D;&#x52A1;&#x5668;&#x4F18;&#x5316;&#x53C2;&#x6570;&#x6240;&#x8FF7;&#x60D1;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x9700;&#x8981;&#x591A;&#x5C11;Pollers&#x3002;&#x7ECF;&#x5E38;&#x662F;&#x6839;&#x636E;&#x7ECF;&#x9A8C;&#x6765;&#x51B3;&#x5B9A;&#xFF0C;&#x518D;&#x6D4B;&#x8BD5;&#x4E00;&#x7CFB;&#x5217;&#x731C;&#x6D4B;&#x3002;&#x81EA;&#x4ECE;zabbix1.8.5&#x4E4B;&#x540E;&#xFF0C;&#x518D;&#x4E5F;&#x4E0D;&#x7528;&#x8FD9;&#x4E9B;&#x6A21;&#x7CCA;&#x7684;&#x5C1D;&#x8BD5;&#x3002;&#x8FD9;&#x4E2A;&#x7248;&#x672C;&#x589E;&#x52A0;&#x7684;&#x65B0;&#x7279;&#x6027;&#x5C06;&#x8FD9;&#x4E9B;&#x90FD;&#x6280;&#x5DE7;&#x6027;&#x7684;&#x5B8C;&#x7F8E;&#x5C55;&#x73B0;&#x51FA;&#x6765;&#x4E86;&#x3002;
-
-&#x5E94;&#x8BE5;&#x9700;&#x8981;&#x591A;&#x5C11;Pollers?
-
-&#x5E38;&#x89C1;&#x7684;&#x95EE;&#x9898;&#x5C31;&#x662F;&#x5BF9;&#x4E8E;&#x8FD9;&#x4E9B;&#x6570;&#x91CF;&#x53EF;&#x914D;&#x7F6E;&#x7684;&#x591A;&#x79CD;zabbix&#x8FDB;&#x7A0B;&#x5982;&#x4F55;&#x51B3;&#x5B9A;&#x5B83;&#x4EEC;&#x7684;&#x8FDB;&#x7A0B;&#x6570;&#x91CF;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x9ED8;&#x8BA4;&#x60C5;&#x51B5;&#x4E0B;zabbix server&#x5F00;&#x542F;5&#x4E2A;Pollers&#x8FDB;&#x7A0B;&#x3002;&#x8FD9;&#x5BF9;&#x4E8E;&#x5C0F;&#x578B;&#x5B89;&#x88C5;&#x5DF2;&#x7ECF;&#x8DB3;&#x591F;&#x4E86;&#xFF0C;&#x4F46;&#x662F;&#x5F53;&#x76D1;&#x63A7;100&#x4E3B;&#x673A;&#xFF1F;1000&#x4E3B;&#x673A;&#xFF1F;10000&#x4E3B;&#x673A;&#xFF1F;&#x7136;&#x540E;&#x5C31;&#x5FC5;&#x987B;&#x8003;&#x8651;&#x6839;&#x636E;&#x4F7F;&#x7528;&#x7684;&#x76D1;&#x63A7;&#x534F;&#x8BAE;&#xFF0C;&#x76D1;&#x63A7;&#x8BBE;&#x5907;&#x7684;&#x6027;&#x80FD;&#xFF0C;&#x7F51;&#x7EDC;&#x548C;&#x5176;&#x4ED6;&#x5F88;&#x591A;&#x4E1C;&#x897F;&#xFF0C;&#x5BF9;&#x4E8E;&#x8FD9;&#x4E9B;&#x4E0D;&#x540C;&#x73AF;&#x5883;&#x9700;&#x8981;&#x4E0D;&#x540C;&#x7684;&#x8FDB;&#x7A0B;&#x6570;&#x91CF;&#x3002;
-
-&#x5728;&#x5927;&#x591A;&#x6570;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x4E0D;&#x4EC5;&#x4EC5;&#x53EA;&#x6709;&#x8FD9;&#x4E00;&#x4EF6;&#x4E8B;&#x9700;&#x8981;&#x8003;&#x8651;&#xFF0C;&#x5176;&#x4ED6;&#x6240;&#x6709;&#x6570;&#x91CF;&#x53EF;&#x914D;&#x7F6E;&#x7684;&#x8FDB;&#x7A0B;&#x90FD;&#x9700;&#x8981;&#x8003;&#x8651;&#x3002;&#x4F8B;&#x5982;&#xFF0C;Trappers&#x5904;&#x7406;&#x8FDB;&#x6765;&#x7684;&#x8FDE;&#x63A5;&#xFF08;incoming connections&#xFF09;,&#x7279;&#x5B9A;&#x7C7B;&#x578B;&#x7684;Pollers&#xFF0C;&#x50CF;HTTP&#x7C7B;&#x578B;&#xFF0C;&#x5B83;&#x7528;&#x6765;&#x8FD0;&#x884C;WEB&#x76D1;&#x63A7;&#x60C5;&#x666F;&#x7B49;&#x7B49;&#x3002;
-
-&#x5185;&#x90E8;&#x76D1;&#x63A7;&#x9879;
-
-&#x4F34;&#x968F;&#x7740;&#x8FD9;&#x4E48;&#x591A;&#x6570;&#x91CF;&#x4E0D;&#x786E;&#x5B9A;&#xFF0C;&#x65B0;&#x7279;&#x6027;&#x7684;&#x5230;&#x6765;&#x771F;&#x7684;&#x662F;&#x5F88;&#x65B9;&#x4FBF;-&#x65B0;&#x7279;&#x5B9A;&#x5C31;&#x662F;&#x5185;&#x90E8;&#x76D1;&#x63A7;&#x9879;&#x3002;&#x4F5C;&#x4E3A;&#x6240;&#x6709;&#x7684;&#x5185;&#x90E8;&#x76D1;&#x63A7;&#x9879;&#xFF0C;&#x5B83;&#x4EEC;&#x7684;key&#x90FD;&#x662F;zabbix&#x3002;&#x6839;&#x636E;zabbix&#x624B;&#x518C;&#xFF0C;&#x6240;&#x6709;&#x7684;key&#x548C;&#x5B83;&#x7684;&#x8BED;&#x6CD5;&#x5982;&#x4E0B;&#xFF1A;
-
-* zabbix[process,&amp;lt;type&amp;gt;,&amp;lt;mode&amp;gt;,&amp;lt;state&amp;gt;]
-
-&#x6211;&#x4EEC;&#x80FD;&#x770B;&#x5230;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x5C31;&#x662F;&#x5173;&#x952E;&#x5B57;process&#xFF0C;&#x4E0B;&#x9762;&#x6765;&#x770B;&#x770B;&#x5176;&#x4ED6;&#x53C2;&#x6570;&#x3002;
-
-   &#x53EF;&#x7528;&#x7684;&#x72B6;&#x6001;&#xFF08;states&#xFF09;
-   &#x5148;&#x6765;&#x770B;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x53C2;&#x6570;state&#x3002;&#x76EE;&#x524D;&#x53EA;&#x652F;&#x6301;&#x4E24;&#x79CD;&#x72B6;&#x6001;&#xFF1A;
-   &#x7E41;&#x5FD9;--busy
-   &#x7A7A;&#x95F2;--idle
-   &#x5F88;&#x7B80;&#x5355;&#x7684;&#x4E24;&#x79CD;&#x72B6;&#x6001;&#xFF0C;&#x56E0;&#x6B64;&#x6211;&#x4EEC;&#x80FD;&#x591F;&#x76D1;&#x63A7;&#x591A;&#x5C11;&#x65F6;&#x95F4;&#xFF08;&#x767E;&#x5206;&#x6BD4;&#x5F62;&#x5F0F;&#xFF09;&#x67D0;&#x4E2A;&#x4E2A;&#x6D3B;&#x52A8;&#x662F;&#x7E41;&#x5FD9;&#x7684;&#x8FD8;&#x662F;&#x7A7A;&#x95F2;&#x7684;&#xFF0C;&#x8FD9;&#x91CC;&#x7E41;&#x5FD9;&#x610F;&#x5473;&#x7740;&#x505A;&#x4EC0;&#x4E48;&#x4E8B;&#x90FD;&#x9700;&#x8981;&#x7B49;&#x5F85;&#xFF0C;&#x6BD4;&#x5982;&#x901A;&#x8FC7;&#x7F51;&#x7EDC;&#x8FDE;&#x63A5;&#x5230;&#x67D0;&#x8BBE;&#x5907;&#xFF0C;&#x67E5;&#x8BE2;&#x67D0;&#x4E9B;&#x76D1;&#x63A7;&#x9879;&#x6765;&#x8FDB;&#x884C;&#x6838;&#x5BF9;&#x6216;&#x8005;&#x5176;&#x4ED6;&#x3002;&#x73B0;&#x5728;&#x8FD8;&#x6CA1;&#x6709;&#x80FD;&#x5BF9;&#x8FD9;&#x4E9B;&#x6D3B;&#x52A8;&#x8FDB;&#x884C;&#x533A;&#x522B;&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x6216;&#x8BB8;&#x4EE5;&#x540E;&#x4F1A;&#x51FA;&#x73B0;&#x3002;
-
-   &#x53EF;&#x7528;&#x7684;&#x6A21;&#x5F0F;&#xFF08;modes&#xFF09;
-   &#x5BF9;&#x4E8E;&#x76D1;&#x63A7;&#x96C6;&#x4E2D;&#x4E0D;&#x540C;&#x7684;&#x4E8B;&#x4EF6;&#x4E5F;&#x662F;&#x53EF;&#x80FD;&#xFF0C;&#x8FD9;&#x901A;&#x8FC7;mode&#x53C2;&#x6570;&#x63A7;&#x5236;&#x3002;
-
-   &#x76D1;&#x63A7;&#x7279;&#x5B9A;&#x7C7B;&#x578B;&#x7684;&#x6240;&#x6709;&#x8FDB;&#x7A0B;
-   &#x6216;&#x8005;&#x8FD9;&#x662F;&#x6700;&#x5E38;&#x89C1;&#x7684;&#x4F7F;&#x7528;&#x60C5;&#x51B5;&#xFF0C;&#x76D1;&#x63A7;&#x67D0;&#x79CD;&#x7C7B;&#x578B;&#x7684;&#x6240;&#x6709;&#x8FDB;&#x7A0B;&#xFF08;&#x50CF;&#x6240;&#x6709;&#x7684;Pollers&#x6216;Trappers&#xFF09;&#x3002;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;mode&#x53EF;&#x4EE5;&#x662F;&#xFF1A;
-   avg -- &#x7279;&#x5B9A;&#x7C7B;&#x578B;&#x6240;&#x6709;&#x8FDB;&#x7A0B;&#x7684;&#x5E73;&#x5747;&#x503C;&#x3002;&#x8FD9;&#x662F;&#x9ED8;&#x8BA4;&#x503C;
-   max--&#x6240;&#x6709;&#x8FDB;&#x7A0B;&#x7684;&#x6700;&#x5927;&#x503C;
-   min--&#x6240;&#x6709;&#x8FDB;&#x7A0B;&#x7684;&#x6700;&#x5C0F;&#x503C;
-
-   &#x56E0;&#x6B64;&#x5982;&#x679C;&#x6709;5&#x4E2A;Pollers&#x8FDB;&#x7A0B;&#x662F;&#x7E41;&#x5FD9;&#x7684;&#xFF0C;&#x6BCF;&#x4E2A;&#x5206;&#x522B;&#x662F;5%,10%,15%,20%&#x548C;25%&#x7684;&#x65F6;&#x95F4;&#x9700;&#x8981;&#x4F11;&#x606F;&#xFF0C;&#x90A3;&#x4E48;&#x6700;&#x5C0F;&#x503C;&#x6A21;&#x5F0F;&#x7684;&#x503C;&#x662F;5&#xFF0C;&#x6700;&#x5927;&#x503C;&#x6A21;&#x5F0F;&#x7684;&#x503C;&#x662F;25&#xFF0C;&#x5E73;&#x5747;&#x503C;&#x6A21;&#x5F0F;&#x7684;&#x503C;&#x662F;15
-
-   &#x88AB;&#x8BA1;&#x7B97;&#x7684;&#x503C;&#x53EA;&#x80FD;&#x662F;&#x8FC7;&#x53BB;&#x4E00;&#x5206;&#x949F;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x56E0;&#x6B64;&#x8981;&#x62E5;&#x6709;&#x5408;&#x7406;&#x6B63;&#x786E;&#x7684;&#x503C;&#x5C31;&#x9700;&#x8981;&#x5C06;&#x76D1;&#x63A7;&#x9879;&#x7684;&#x66F4;&#x65B0;&#x95F4;&#x9694;&#x8BBE;&#x7F6E;&#x4E3A;60&#x79D2;
-
-&#x76D1;&#x63A7;&#x67D0;&#x4E2A;&#x7279;&#x5B9A;&#x7684;&#x8FDB;&#x7A0B;
-
-    &#x5F53;&#x7136;&#x4E5F;&#x53EF;&#x4EE5;&#x76D1;&#x63A7;&#x67D0;&#x4E2A;&#x5355;&#x72EC;&#x7684;&#x8FDB;&#x7A0B;&#x3002;&#x5728;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;mode&#x5C31;&#x662F;&#x8FD9;&#x4E2A;&#x8FDB;&#x7A0B;&#x7684;&#x8FDB;&#x7A0B;&#x53F7;&#x7801;&#x3002;&#x8FD9;&#x4E2A;&#x53F7;&#x7801;&#x662F;&#x7531;&#x5F00;&#x542F;&#x8FDB;&#x7A0B;&#x7684;&#x4E2A;&#x6570;&#x6309;&#x7167;&#x987A;&#x5E8F;&#x4ECE;1&#x4F9D;&#x6B21;&#x9012;&#x589E;&#x7684;&#x3002;&#x4F9D;&#x6B21;&#x5982;&#x679C;&#x4F60;&#x6709;5&#x4E2A;Pollers&#x8FDB;&#x7A0B;&#xFF0C;&#x8FDB;&#x7A0B;&#x53F7;&#x7801;&#x5C31;&#x4F1A;&#x4ECE;1&#x81F3;5&#x3002;&#x8981;&#x5BF9;&#x8FD9;5&#x4E2A;&#x8FDB;&#x7A0B;&#x8FDB;&#x884C;&#x5355;&#x72EC;&#x76D1;&#x63A7;&#xFF0C;&#x5C31;&#x9700;&#x8981;&#x521B;&#x5EFA;5&#x4E2A;&#x5355;&#x72EC;&#x7684;&#x76D1;&#x63A7;&#x9879;&#x3002;
-
-    &#x8FD9;&#x6837;&#x7684;&#x4F18;&#x70B9;&#x5C31;&#x662F;&#x80FD;&#x591F;&#x67E5;&#x770B;&#x5230;&#x67D0;&#x4E2A;&#x4E8B;&#x4EF6;&#x7684;&#x66F4;&#x8BE6;&#x7EC6;&#x7684;&#x4FE1;&#x606F;&#x3002;&#x4F8B;&#x5982;&#xFF0C;&#x5982;&#x679C;&#x67D0;&#x4E2A;Pollers&#x56E0;&#x4E3A;&#x67D0;&#x79CD;&#x539F;&#x56E0;&#x5904;&#x4E8E;100%&#x7E41;&#x5FD9;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x800C;&#x5176;&#x4ED6;&#x56DB;&#x4E2A;&#x90FD;&#x662F;&#x5F7B;&#x5E95;&#x7684;&#x7A7A;&#x95F2;&#x6001;&#xFF0C;&#x5BF9;&#x6240;&#x6709;&#x7684;&#x5E73;&#x5747;&#x503C;&#x5C31;&#x4F1A;&#x663E;&#x793A;&#x662F;20%&#x7E41;&#x5FD9;&#xFF0C;&#x8FD9;&#x4F1A;&#x88AB;&#x8BA4;&#x4E3A;&#x5F88;&#x6B63;&#x5E38;&#x3002;&#x4F46;&#x662F;&#x5728;&#x53E6;&#x4E00;&#x65B9;&#x9762;&#xFF0C;&#x770B;&#x5230;&#x4E00;&#x4E2A;&#x8FDB;&#x7A0B;&#x5B8C;&#x5168;&#x7E41;&#x5FD9;&#x800C;&#x5176;&#x4F59;&#x4EC0;&#x4E48;&#x90FD;&#x4E0D;&#x505A;&#x5B8C;&#x5168;&#x7A7A;&#x95F2;&#x5C31;&#x4E00;&#x5B9A;&#x4F1A;&#x8BA9;&#x4EBA;&#x8C03;&#x67E5;&#x8FD9;&#x4E2A;&#x60C5;&#x666F;&#x3002;&#x5F53;&#x7136;&#xFF0C;&#x8FD9;&#x660E;&#x663E;&#x610F;&#x5473;&#x7740;&#x591A;&#x4E9B;&#x914D;&#x7F6E;&#x5C11;&#x4E9B;&#x6570;&#x636E;&#x6536;&#x96C6;&#x3002;
-
-&#x76D1;&#x63A7;&#x591A;&#x4E2A;&#x8FDB;&#x7A0B;
-
-    &#x6700;&#x540E;&#x9700;&#x8981;&#x8003;&#x8651;&#x7684;&#x6A21;&#x5F0F;&#x662F;-count&#x3002;&#x8FD9;&#x4EC5;&#x4EC5;&#x662F;&#x63D0;&#x4F9B;&#x7279;&#x5B9A;&#x7C7B;&#x578B;&#x7684;&#x8FDB;&#x7A0B;&#x6570;&#x91CF;&#x3002;&#x5F53;&#x7136;&#xFF0C;&#x8FD9;&#x65F6;&#x6211;&#x4EEC;&#x4E0D;&#x5728;&#x6307;&#x5B9A;&#x4EFB;&#x4F55;&#x72B6;&#x6001;&#xFF0C;&#x5927;&#x91CF;&#x8FDB;&#x7A0B;&#x65E0;&#x6CD5;&#x5224;&#x65AD;&#x662F;&#x7E41;&#x5FD9;&#x8FD8;&#x662F;&#x7A7A;&#x95F2;&#x3002;
-
-    &#x53EF;&#x7528;&#x7684;&#x8FDB;&#x7A0B;&#x7C7B;&#x578B;&#xFF08;types&#xFF09;
-
-    &#x8FD9;&#x4E2A;&#x53C2;&#x6570;&#x6307;&#x5B9A;&#x76D1;&#x63A7;&#x7684;&#x8FDB;&#x7A0B;&#x7C7B;&#x578B;&#x3002;zabbix server&#x62E5;&#x6709;&#x591A;&#x79CD;&#x4E0D;&#x540C;&#x7C7B;&#x578B;&#x7684;&#x8FDB;&#x7A0B;&#x3002;&#x5B9E;&#x9645;&#x4E0A;&#x5728;1.8.5&#x7248;&#x672C;&#x4E2D;&#x5171;&#x6709;17&#x79CD;&#x3002;&#x8FD9;&#x4E9B;&#x8FDB;&#x7A0B;&#x5BF9;&#x4E0D;&#x540C;&#x7684;&#x4E8B;&#x4EF6;&#x8FDB;&#x884C;&#x4E0D;&#x540C;&#x7684;&#x5904;&#x7406;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x5728;zabbix server&#x542F;&#x52A8;&#x540E;&#x67E5;&#x770B;&#x65E5;&#x5FD7;&#x6587;&#x4EF6;&#x5C31;&#x4F1A;&#x770B;&#x5230;&#x7C7B;&#x4F3C;&#x4EE5;&#x4E0B;&#x7684;&#x5185;&#x5BB9;&#xFF1A;
-
-    server #11 started [Trapper]
-    server #12 started [Trapper]
-    server #13 started [ICMP pinger]
-    server #0 started [Watchdog]
-    server #14 started [Alerter]
-    server #15 started [Housekeeper]
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&#x5DE5;&#x4F5C;&#x8FDB;&#x7A0B;&#x6570;&#x91CF;&#x4F18;&#x5316;&#x53C2;&#x8003;zabbix_server.conf:&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;StartPollers=90
-StartPingers=10 
-StartPollersUnreacheable=80 
-StartIPMIPollers=10 
-StartTrappers=20 
-StartDBSyncers=8 
-LogSlowQueries=1000
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id="toc_8"&gt;&#x524D;&#x7AEF;&#x52A0;&#x901F;&lt;/h5&gt;
-
-&lt;p&gt;&#x5E38;&#x89C1;&#x65B9;&#x6CD5;&#x6709;&#x4F7F;&#x7528; GZIP &#x538B;&#x7F29;,&#x5BF9;&#x4E8E; PHP &#x53EF;&#x7528; eAccelerator&#x3002;&#x66F4;&#x591A;&#x524D;&#x7AEF;&#x4F18;&#x5316;&#x53EF;&#x53C2;&#x8003;&#x96C5;&#x864E;&#x524D;&#x7AEF;&#x4F18;&#x5316;&#x6CD5;&#x5219;&#x3002;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h4 id="toc_9"&gt;&#x53C2;&#x8003;&#x8D44;&#x6599;&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://www.slideshare.net/xsbr/alexei-vladishev-zabbixperformancetuning"&gt;http://www.slideshare.net/xsbr/alexei-vladishev-zabbixperformancetuning&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://zabbixzone.com/zabbix/mysql-performance-tips-for-zabbix/"&gt;http://zabbixzone.com/zabbix/mysql-performance-tips-for-zabbix/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://blog.zabbix.com/monitoring-how-busy-zabbix-processes-are/"&gt;http://blog.zabbix.com/monitoring-how-busy-zabbix-processes-are/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://zabbixzone.com/zabbix/partitioning-tables/"&gt;http://zabbixzone.com/zabbix/partitioning-tables/&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://linux-knowledgebase.com/en/Tip_of_the_day/March/Performance_Tuning_for_Zabbix"&gt;http://linux-knowledgebase.com/en/Tip_of_the_day/March/Performance_Tuning_for_Zabbix&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&lt;a href="http://sysadminnotebook.blogspot.jp/2011/08/performance-tuning-mysql-for-zabbix.html"&gt;http://sysadminnotebook.blogspot.jp/2011/08/performance-tuning-mysql-for-zabbix.html&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;h4 id="toc_10"&gt;&#x9644;&#x5F55;&#xFF1A;&#x57FA;&#x4E8E;&#x65F6;&#x95F4;&#x6233;&#x7684;&#x5206;&#x533A;&#x505A;&#x6CD5;&lt;/h4&gt;
-
-&lt;h5 id="toc_11"&gt;step 1.&#x51C6;&#x5907;&#x76F8;&#x5173;&#x8868;&lt;/h5&gt;
-
-&lt;pre&gt;&lt;code&gt;ALTER TABLE `acknowledges` DROP PRIMARY KEY, ADD KEY `acknowledgedid` (`acknowledgeid`);
-ALTER TABLE `alerts` DROP PRIMARY KEY, ADD KEY `alertid` (`alertid`);
-ALTER TABLE `auditlog` DROP PRIMARY KEY, ADD KEY `auditid` (`auditid`);
-ALTER TABLE `events` DROP PRIMARY KEY, ADD KEY `eventid` (`eventid`);
-ALTER TABLE `service_alarms` DROP PRIMARY KEY, ADD KEY `servicealarmid` (`servicealarmid`);
-ALTER TABLE `history_log` DROP PRIMARY KEY, ADD PRIMARY KEY (`itemid`,`id`,`clock`);
-ALTER TABLE `history_log` DROP KEY `history_log_2`;
-ALTER TABLE `history_text` DROP PRIMARY KEY, ADD PRIMARY KEY (`itemid`,`id`,`clock`);
-ALTER TABLE `history_text` DROP KEY `history_text_2`;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id="toc_12"&gt;step2.&#x8BBE;&#x7F6E;&#x6BCF;&#x6708;&#x7684;&#x5206;&#x533A;&lt;/h5&gt;
-
-&lt;p&gt;&#x4EE5;&#x4E0B;&#x6B65;&#x9AA4;&#x8BF7;&#x5728;&#x7B2C;&#x4E00;&#x6B65;&#x7684;&#x6240;&#x6709;&#x8868;&#x4E2D;&#x91CD;&#x590D;&#xFF0C;&#x4E0B;&#x4F8B;&#x662F;&#x4E3A;events&#x8868;&#x521B;&#x5EFA;2011-5&#x5230;2011-12&#x4E4B;&#x95F4;&#x7684;&#x6708;&#x5EA6;&#x5206;&#x533A;&#x3002;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ALTER TABLE `events` PARTITION BY RANGE( clock ) (
-PARTITION p201105 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-06-01 00:00:00&amp;quot;)),
-PARTITION p201106 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-07-01 00:00:00&amp;quot;)),
-PARTITION p201107 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-08-01 00:00:00&amp;quot;)),
-PARTITION p201108 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-09-01 00:00:00&amp;quot;)),
-PARTITION p201109 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-10-01 00:00:00&amp;quot;)),
-PARTITION p201110 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-11-01 00:00:00&amp;quot;)),
-PARTITION p201111 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-12-01 00:00:00&amp;quot;)),
-PARTITION p201112 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2012-01-01 00:00:00&amp;quot;))
-);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id="toc_13"&gt;step3.&#x8BBE;&#x7F6E;&#x6BCF;&#x65E5;&#x7684;&#x5206;&#x533A;&lt;/h5&gt;
-
-&lt;p&gt;&#x4EE5;&#x4E0B;&#x6B65;&#x9AA4;&#x8BF7;&#x5728;&#x7B2C;&#x4E00;&#x6B65;&#x7684;&#x6240;&#x6709;&#x8868;&#x4E2D;&#x91CD;&#x590D;&#xFF0C;&#x4E0B;&#x4F8B;&#x662F;&#x4E3A;history_uint&#x8868;&#x521B;&#x5EFA;5.15&#x5230;5.22&#x4E4B;&#x95F4;&#x7684;&#x6BCF;&#x65E5;&#x5206;&#x533A;&#x3002;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ALTER TABLE `history_uint` PARTITION BY RANGE( clock ) (
-PARTITION p20110515 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-05-16 00:00:00&amp;quot;)),
-PARTITION p20110516 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-05-17 00:00:00&amp;quot;)),
-PARTITION p20110517 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-05-18 00:00:00&amp;quot;)),
-PARTITION p20110518 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-05-19 00:00:00&amp;quot;)),
-PARTITION p20110519 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-05-20 00:00:00&amp;quot;)),
-PARTITION p20110520 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-05-21 00:00:00&amp;quot;)),
-PARTITION p20110521 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-05-22 00:00:00&amp;quot;)),
-PARTITION p20110522 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-05-23 00:00:00&amp;quot;))
-);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&#x624B;&#x52A8;&#x7EF4;&#x62A4;&#x5206;&#x533A;&#xFF1A;&lt;/p&gt;
-
-&lt;p&gt;&#x589E;&#x52A0;&#x65B0;&#x5206;&#x533A;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ALTER TABLE `history_uint` ADD PARTITION (
-PARTITION p20110523 VALUES LESS THAN (UNIX_TIMESTAMP(&amp;quot;2011-05-24 00:00:00&amp;quot;))
-);
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&#x5220;&#x9664;&#x5206;&#x533A;(&#x4F7F;&#x7528;Housekeepeing)&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;ALTER TABLE `history_uint` DROP PARTITION p20110515;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;h5 id="toc_14"&gt;step4.&#x81EA;&#x52A8;&#x6BCF;&#x65E5;&#x5206;&#x533A;&lt;/h5&gt;
-
-&lt;p&gt;&#x786E;&#x8BA4;&#x5DF2;&#x7ECF;&#x5728;step3&#x7684;&#x65F6;&#x5019;&#x4E3A;history&#x8868;&#x6B63;&#x786E;&#x521B;&#x5EFA;&#x4E86;&#x5206;&#x533A;&#x3002;&lt;/p&gt;
-
-&lt;p&gt;&#x4EE5;&#x4E0B;&#x811A;&#x672C;&#x81EA;&#x52A8;drop&#x548C;&#x521B;&#x5EFA;&#x6BCF;&#x65E5;&#x5206;&#x533A;,&#x9ED8;&#x8BA4;&#x53EA;&#x4FDD;&#x7559;&#x6700;&#x8FD1;3&#x5929;,&#x5982;&#x679C;&#x4F60;&#x9700;&#x8981;&#x66F4;&#x591A;&#x5929;&#x7684;&#xFF0C;&#x8BF7;&#x4FEE;&#x6539;@mindays &#x8FD9;&#x4E2A;&#x53D8;&#x91CF;&#x3002;&lt;/p&gt;
-
-&lt;p&gt;&#x4E0D;&#x8981;&#x5FD8;&#x8BB0;&#x5C06;&#x8FD9;&#x6761;&#x547D;&#x4EE4;&#x52A0;&#x5165;&#x5230;&#x4F60;&#x7684;cron&#x4E2D;&#xFF01;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;mysql -B -h localhost -u zabbix -pPASSWORD zabbix -e &amp;quot;CALL create_zabbix_partitions();&amp;quot;
-&lt;/code&gt;&lt;/pre&gt;
 </description>
     </item>
   </channel>
