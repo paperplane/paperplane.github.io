@@ -4,7 +4,7 @@
     <title>&#x7D19;&#x98DB;&#x6A5F;</title>
     <description>&#x7D19;&#x98DB;&#x6A5F;</description>
     <link>http://junqili.com</link>
-    <pubDate>2014-05-17</pubDate>
+    <pubDate>2014-06-08</pubDate>
     <item>
       <title>About Me</title>
       <link>http://junqili.com/about</link>
@@ -24,6 +24,10 @@
     &lt;h3&gt;May&lt;/h3&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;span&gt;2014-05-17&lt;/span&gt; &amp;raquo; &lt;a href="/devops/getting-started-with-vagrant-coreos-docker"&gt;Getting Started With Vagrant/Coreos/Docker&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;h3&gt;April&lt;/h3&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;span&gt;2014-04-01&lt;/span&gt; &amp;raquo; &lt;a href="/devops/the-way-to-deploy"&gt;The Way To Deploy&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;h2&gt;2013&lt;/h2&gt;
     &lt;h3&gt;October&lt;/h3&gt;
@@ -47,84 +51,84 @@
     &lt;h3&gt;April&lt;/h3&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;span&gt;2013-04-22&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-server-config"&gt;MCollective Server Config&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-04-22&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/activemq-config-for-mcollective"&gt;ActiveMQ Config For MCollective&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-04-22&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-security-config"&gt;MCollective Security Config&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-04-22&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/activemq-config-for-mcollective"&gt;ActiveMQ Config For MCollective&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-04-08&lt;/span&gt; &amp;raquo; &lt;a href="/puppet/puppet-internals"&gt;Puppet Internals&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;h3&gt;March&lt;/h3&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-24&lt;/span&gt; &amp;raquo; &lt;a href="/puppet/puppet-ca"&gt;Puppet CA&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-24&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/deploy-mcollective-in-production-environment"&gt;Deploy MCollective in Production Environment&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-24&lt;/span&gt; &amp;raquo; &lt;a href="/puppet/puppet-ca"&gt;Puppet CA&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-17&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/remote-interaction"&gt;Remote Interaction&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/use-fabric-library"&gt;Use Fabric Library&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-with-puppet"&gt;MCollective With Puppet&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/task-list"&gt;Task List&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/activemq-middleware"&gt;ActiveMQ Middleware&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/common-plugin"&gt;Common Plugin&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/execution-mode"&gt;Execution Mode&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-fabric-exec-commands"&gt;MCollective/Fabric Exec Commands&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/task-list"&gt;Task List&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/ssh-behavior"&gt;SSH behavior&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/manage-output"&gt;Manage Output&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/fab-cli"&gt;Fab CLI&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/fabric-api"&gt;Fabric API&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/use-fabric-library"&gt;Use Fabric Library&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/fabfile-and-fabricrc"&gt;Fabfile and Fabricrc&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-with-puppet"&gt;MCollective With Puppet&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/ssh-behavior"&gt;SSH behavior&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/execution-mode"&gt;Execution Mode&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/fab-cli"&gt;Fab CLI&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-fabric-exec-commands"&gt;MCollective/Fabric Exec Commands&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/manage-output"&gt;Manage Output&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/introduction-to-simplerpc"&gt;Introduction To SimpleRPC&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/write-simplerpc-agent"&gt;Write SimpleRPC Agent&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/simplerpc-audit"&gt;SimpleRPC Audit&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/simplerpc-authorization"&gt;SimpleRPC Authorization&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/write-simplerpc-client"&gt;Write SimpleRPC Client&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/write-simplerpc-agent"&gt;Write SimpleRPC Agent&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/ddl"&gt;DDL&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/control-daemon"&gt;Control Daemon&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/node-report"&gt;Node Report&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/use-filter"&gt;Use Filter&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/use-mcollective-cli"&gt;Use MCollective CLI&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/write-simplerpc-client"&gt;Write SimpleRPC Client&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-03-15&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/use-filter"&gt;Use Filter&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-11&lt;/span&gt; &amp;raquo; &lt;a href="/devops/infrastructure-as-code"&gt;Infrastructure As Code&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-03-10&lt;/span&gt; &amp;raquo; &lt;a href="/notes/web-server"&gt;Web Server&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;h3&gt;February&lt;/h3&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/web-robots"&gt;Web Robots&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E5%86%85%E5%AE%B9%E5%8D%8F%E5%95%86%E4%B8%8E%E8%BD%AC%E7%A0%81"&gt;&#x5185;&#x5BB9;&#x534F;&#x5546;&#x4E0E;&#x8F6C;&#x7801;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/http-ng"&gt;Http Ng&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E9%9A%A7%E9%81%93"&gt;&#x96A7;&#x9053;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E4%BB%A3%E7%90%86"&gt;&#x4EE3;&#x7406;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E4%B8%BB%E6%9C%BA%E6%89%98%E7%AE%A1"&gt;&#x4E3B;&#x673A;&#x6258;&#x7BA1;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E7%BC%93%E5%AD%98"&gt;&#x7F13;&#x5B58;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/https"&gt;Https&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E5%AE%9E%E4%BD%93%E4%B8%8E%E7%BC%96%E7%A0%81"&gt;&#x5B9E;&#x4F53;&#x4E0E;&#x7F16;&#x7801;&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AF%86%E5%88%AB"&gt;&#x7528;&#x6237;&#x8BC6;&#x522B;&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E7%94%A8%E6%88%B7%E8%AE%A4%E8%AF%81"&gt;&#x7528;&#x6237;&#x8BA4;&#x8BC1;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E5%AE%9E%E4%BD%93%E4%B8%8E%E7%BC%96%E7%A0%81"&gt;&#x5B9E;&#x4F53;&#x4E0E;&#x7F16;&#x7801;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E7%BC%93%E5%AD%98"&gt;&#x7F13;&#x5B58;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/web-robots"&gt;Web Robots&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E4%BB%A3%E7%90%86"&gt;&#x4EE3;&#x7406;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E4%B8%BB%E6%9C%BA%E6%89%98%E7%AE%A1"&gt;&#x4E3B;&#x673A;&#x6258;&#x7BA1;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/http-ng"&gt;Http Ng&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E9%9A%A7%E9%81%93"&gt;&#x96A7;&#x9053;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-02-28&lt;/span&gt; &amp;raquo; &lt;a href="/notes/https"&gt;Https&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;h3&gt;January&lt;/h3&gt;
     &lt;ul&gt;
       &lt;li&gt;&lt;span&gt;2013-01-19&lt;/span&gt; &amp;raquo; &lt;a href="/zabbix/introduction-to-zabbix-api"&gt;Introduction To Zabbix Api&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/use-subcollective"&gt;Use SubCollective&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/introduction-to-mcollective-security"&gt;Introduction To MCollective Security&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/publish-subscribe-middleware"&gt;Publish Subscribe Middleware&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/introduction-to-mcollective-doc"&gt;Introduction To MCollective Doc&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-terminology"&gt;MCollective Terminology&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-message"&gt;Mcollective Message&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-solve-problem"&gt;Mcollective Solve Problem&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/mcollective-message"&gt;Mcollective Message&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/introduction-to-mcollective-doc"&gt;Introduction To MCollective Doc&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2013-01-16&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/introduction-to-mcollective-security"&gt;Introduction To MCollective Security&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2013-01-03&lt;/span&gt; &amp;raquo; &lt;a href="/notes/introduction-to-http-connection"&gt;Introduction To HTTP Connection&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
   &lt;h2&gt;2012&lt;/h2&gt;
     &lt;h3&gt;December&lt;/h3&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;span&gt;2012-12-16&lt;/span&gt; &amp;raquo; &lt;a href="/linux/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3linux%E5%86%85%E6%A0%B8%E4%B8%AD%E6%96%AD%E5%8F%8A%E5%85%B6%E7%89%B9%E6%80%A7-%E6%9B%B4%E6%96%B0"&gt;&#x6DF1;&#x5165;&#x7406;&#x89E3;Linux&#x5185;&#x6838;&#x4E2D;&#x65AD;&#x53CA;&#x5176;&#x7279;&#x6027;(&#x66F4;&#x65B0;)&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2012-12-16&lt;/span&gt; &amp;raquo; &lt;a href="/notes/http-packets-and-packet-analysis"&gt;HTTP Packets And Packet Analysis&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2012-12-16&lt;/span&gt; &amp;raquo; &lt;a href="/linux/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3linux%E5%86%85%E6%A0%B8%E4%B8%AD%E6%96%AD%E5%8F%8A%E5%85%B6%E7%89%B9%E6%80%A7-%E6%9B%B4%E6%96%B0"&gt;&#x6DF1;&#x5165;&#x7406;&#x89E3;Linux&#x5185;&#x6838;&#x4E2D;&#x65AD;&#x53CA;&#x5176;&#x7279;&#x6027;(&#x66F4;&#x65B0;)&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2012-12-09&lt;/span&gt; &amp;raquo; &lt;a href="/notes/theory-and-design-of-url"&gt;Theory And Design Of URL&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;h3&gt;November&lt;/h3&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;span&gt;2012-11-23&lt;/span&gt; &amp;raquo; &lt;a href="/notes/introduction-to-http"&gt;Introduction To HTTP&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2012-11-23&lt;/span&gt; &amp;raquo; &lt;a href="/notes/%E7%BD%91%E5%85%B3"&gt;&#x7F51;&#x5173;&lt;/a&gt;&lt;/li&gt;
-      &lt;li&gt;&lt;span&gt;2012-11-08&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/host-list"&gt;Host List&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2012-11-23&lt;/span&gt; &amp;raquo; &lt;a href="/notes/introduction-to-http"&gt;Introduction To HTTP&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2012-11-08&lt;/span&gt; &amp;raquo; &lt;a href="/mcollective/introduction-to-mcollective"&gt;Introduction To MCollective&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2012-11-08&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/host-list"&gt;Host List&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;h3&gt;October&lt;/h3&gt;
     &lt;ul&gt;
-      &lt;li&gt;&lt;span&gt;2012-10-08&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/fabric-env"&gt;Fabric Env&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;span&gt;2012-10-08&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/introduction-to-fabric"&gt;Introduction To Fabric&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;span&gt;2012-10-08&lt;/span&gt; &amp;raquo; &lt;a href="/fabric/fabric-env"&gt;Fabric Env&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
     &lt;h3&gt;September&lt;/h3&gt;
     &lt;ul&gt;
@@ -141,7 +145,7 @@
     &lt;a href="/categories#MCollective-ref"&gt;MCollective &lt;span&gt;27&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;a href="/categories#DevOps-ref"&gt;DevOps &lt;span&gt;41&lt;/span&gt;&lt;/a&gt;
+    &lt;a href="/categories#DevOps-ref"&gt;DevOps &lt;span&gt;42&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;a href="/categories#Daemon-ref"&gt;Daemon &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
@@ -199,7 +203,7 @@
       &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-agent"&gt;Write SimpleRPC Agent&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-client"&gt;Write SimpleRPC Client&lt;/a&gt;&lt;/li&gt;
   &lt;/ul&gt;
-  &lt;h3&gt;DevOps (41)&lt;/h3&gt;
+  &lt;h3&gt;DevOps (42)&lt;/h3&gt;
   &lt;ul&gt;
       &lt;li&gt;&lt;a href="/mcollective/activemq-config-for-mcollective"&gt;ActiveMQ Config For MCollective&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/activemq-middleware"&gt;ActiveMQ Middleware&lt;/a&gt;&lt;/li&gt;
@@ -239,6 +243,7 @@
       &lt;li&gt;&lt;a href="/mcollective/use-filter"&gt;Use Filter&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/use-mcollective-cli"&gt;Use MCollective CLI&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/use-subcollective"&gt;Use SubCollective&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href="/devops/the-way-to-deploy"&gt;The Way To Deploy&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-agent"&gt;Write SimpleRPC Agent&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/mcollective/write-simplerpc-client"&gt;Write SimpleRPC Client&lt;/a&gt;&lt;/li&gt;
       &lt;li&gt;&lt;a href="/zabbix/zabbix-performance-tunning"&gt;Zabbix Performance Tunning&lt;/a&gt;&lt;/li&gt;
@@ -502,6 +507,9 @@
   &lt;li&gt;
     &lt;a href="/tags#troubleshooting-ref"&gt;troubleshooting &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
   &lt;/li&gt;
+  &lt;li&gt;
+    &lt;a href="/tags#Deploy-ref"&gt;Deploy &lt;span&gt;1&lt;/span&gt;&lt;/a&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
   &lt;h3 id="MCollective-ref"&gt;MCollective&lt;/h3&gt;
@@ -634,6 +642,8 @@
     &lt;li&gt;&lt;a href="/linux/troubleshooting-5minutes"&gt;Troubleshooting 5minutes&lt;/a&gt;&lt;/li&gt;
   &lt;h3 id="troubleshooting-ref"&gt;troubleshooting&lt;/h3&gt;
     &lt;li&gt;&lt;a href="/linux/troubleshooting-5minutes"&gt;Troubleshooting 5minutes&lt;/a&gt;&lt;/li&gt;
+  &lt;h3 id="Deploy-ref"&gt;Deploy&lt;/h3&gt;
+    &lt;li&gt;&lt;a href="/devops/the-way-to-deploy"&gt;The Way To Deploy&lt;/a&gt;&lt;/li&gt;
  
 </description>
     </item>
@@ -847,6 +857,29 @@ Python&#x76F8;&#x5173;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="post"&gt;
+  &lt;h2 class="title"&gt;&lt;a href="/devops/the-way-to-deploy"&gt;The Way To Deploy&lt;/a&gt; &lt;span class="date pull-right"&gt;2014-04-01&lt;/span&gt;&lt;/h2&gt;
+
+  &lt;div class="summary ellipsis"&gt;
+&lt;p&gt;&amp;#36825;&amp;#37096;&amp;#20998;&amp;#30340;&amp;#25991;&amp;#31456;&amp;#20027;&amp;#35201;&amp;#32842;&amp;#32842;&amp;#37096;&amp;#32626;&amp;#65292;&amp;#20316;&amp;#20026;&amp;#20132;&amp;#20184;&amp;#30340;&amp;#37325;&amp;#35201;&amp;#29615;&amp;#33410;&amp;#65292;&amp;#33258;&amp;#21160;&amp;#21270;&amp;#37096;&amp;#32626;&amp;#19968;&amp;#30452;&amp;#26159;&amp;#25345;&amp;#32493;&amp;#20132;&amp;#20184;&amp;#30340;&amp;#26680;&amp;#24515;&amp;#12290;&lt;/p&gt;
+
+&lt;h2 id="toc_0"&gt;Part I: Brief Introduction To Deploy&lt;/h2&gt;
+
+&lt;h3 id="toc_1"&gt;&amp;#37096;&amp;#32626;&amp;#30340;&amp;#24120;&amp;#35265;&amp;#26041;&amp;#24335;&lt;/h3&gt;
+
+&lt;p&gt;&amp;#33258;&amp;#21160;&amp;#21270;&amp;#37096;&amp;#32626;&amp;#20027;&amp;#35201;&amp;#20998;&amp;#20004;&amp;#20010;&amp;#38454;&amp;#27573;&amp;#65306;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&amp;#20195;&amp;#30721;&amp;#20998;&amp;#21457;&lt;/li&gt;
+&lt;li&gt;&amp;#37197;&amp;#32622;&amp;#31649;&amp;#29702;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&amp;#19979;&amp;#38754;&amp;#26469;&amp;#20855;&amp;#20307;&amp;#30475;&amp;#30475;&amp;#36825;&amp;#20123;&amp;#38454;&amp;#27573;&amp;#20351;&amp;#29992;&amp;#30340;&amp;#24120;&amp;#35265;&amp;#26041;&amp;#24335;&amp;#12290;&lt;/p&gt;
+&lt;/div&gt;
+
+  &lt;div class="more"&gt;
+    &lt;a href="/devops/the-way-to-deploy" class="btn btn-small"&gt;read more..&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="post"&gt;
   &lt;h2 class="title"&gt;&lt;a href="/linux/troubleshooting-5minutes"&gt;Troubleshooting 5minutes&lt;/a&gt; &lt;span class="date pull-right"&gt;2013-10-23&lt;/span&gt;&lt;/h2&gt;
 
   &lt;div class="summary ellipsis"&gt;
@@ -1004,31 +1037,6 @@ Python&#x76F8;&#x5173;
 
   &lt;div class="more"&gt;
     &lt;a href="/mcollective/mcollective-server-config" class="btn btn-small"&gt;read more..&lt;/a&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;div class="post"&gt;
-  &lt;h2 class="title"&gt;&lt;a href="/mcollective/activemq-config-for-mcollective"&gt;ActiveMQ Config For MCollective&lt;/a&gt; &lt;span class="date pull-right"&gt;2013-04-22&lt;/span&gt;&lt;/h2&gt;
-
-  &lt;div class="summary"&gt;
-&lt;h2 id="toc_0"&gt;ActiveMQ &amp;#22522;&amp;#26412;&amp;#37197;&amp;#32622;&lt;/h2&gt;
-
-&lt;hr&gt;
-&lt;div&gt;
-    &lt;ul&gt;
-&lt;p&gt;Apache ActiveMQ &amp;#26159; MCollective &amp;#23448;&amp;#26041;&amp;#25512;&amp;#33616;&amp;#30340;&amp;#20013;&amp;#38388;&amp;#20214;&amp;#20135;&amp;#21697;&amp;#12290;&amp;#36825;&amp;#26159;&amp;#19968;&amp;#20010;&amp;#24456;&amp;#22909;&amp;#30340;&amp;#36719;&amp;#20214;&amp;#65292;&amp;#20294;
-        &amp;#26159;&amp;#23427;&amp;#30340; XML &amp;#37197;&amp;#32622;&amp;#25991;&amp;#20214;&amp;#24222;&amp;#22823;&amp;#19988;&amp;#31528;&amp;#25305;&amp;#65292;&amp;#22312;&amp;#19968;&amp;#20010;&amp;#22797;&amp;#26434;&amp;#30340; MCollective &amp;#37096;&amp;#32626;&amp;#20013;&amp;#21487;&amp;#33021;&amp;#38656;&amp;#35201;&amp;#32534;&amp;#36753;&amp;#24456;
-        &amp;#22810;&amp;#21306;&amp;#27573;&amp;#12290;&amp;#36825;&amp;#37324;&amp;#35797;&amp;#22270;&amp;#25551;&amp;#36848;&amp;#19982; MCollective &amp;#30456;&amp;#20851;&amp;#30340;&amp;#25152;&amp;#26377;&amp;#37325;&amp;#35201; ActiveMQ &amp;#35774;&amp;#32622;&amp;#12290;&lt;/p&gt;
-    &lt;/ul&gt;
-&lt;hr&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="/assets/media/pdf/activemq-config-for-mcollective.pdf"&gt;&lt;img src="/assets/media/pdf/attach.png"&gt;&amp;#35831;&amp;#28857;&amp;#20987;&amp;#26597;&amp;#30475;&amp;#25991;&amp;#26723;&amp;#35814;&amp;#32454;&amp;#20869;&amp;#23481;
-        &lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-  &lt;div class="more"&gt;
-    &lt;a href="/mcollective/activemq-config-for-mcollective" class="btn btn-small"&gt;read more..&lt;/a&gt;
   &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class="post"&gt;
