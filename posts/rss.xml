@@ -4,7 +4,118 @@
     <title>&#x7D19;&#x98DB;&#x6A5F;</title>
     <description>&#x7D19;&#x98DB;&#x6A5F;</description>
     <link>http://junqili.com</link>
-    <pubDate>2014-06-14</pubDate>
+    <pubDate>2014-06-15</pubDate>
+    <item>
+      <title>Getting Started With Load Average</title>
+      <link>http://junqili.com/linux/getting-started-with-load-average</link>
+      <pubDate>2014-06-15</pubDate>
+      <description>&lt;h3 id="toc_0"&gt;what&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&#x4EC0;&#x4E48;&#x662F;Load Average&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://en.wikipedia.org/wiki/Load_(computing)"&gt;Load&#x662F;&#x8BA1;&#x7B97;&#x673A;&#x5DE5;&#x4F5C;&#x91CF;&#x7684;&#x5EA6;&#x91CF;&lt;/a&gt;&#x3002;Load Average&#x5C31;&#x662F;&#x4E00;&#x6BB5;&#x65F6;&#x95F4;&#x5185;(1&#x5206;&#x949F;&#xFF0C;5&#x5206;&#x949F;&#xFF0C;15&#x5206;&#x949F;)&#x7CFB;&#x7EDF;Load&#x7684;&#x5E73;&#x5747;&#x503C;&#x3002;&#x7B80;&#x5355;&#x6765;&#x8BF4;&#xFF0C;&#x5C31;&#x662F;&#x4E00;&#x6BB5;&#x65F6;&#x95F4;&#x5185;(1&#x5206;&#x949F;&#xFF0C;5&#x5206;&#x949F;&#xFF0C;15&#x5206;&#x949F;)&#x8FD0;&#x884C;&#x961F;&#x5217;&#x91CC;&#x7B49;&#x5F85;&#x7684;&#x8FDB;&#x7A0B;&#x6570;&#x52A0;&#x4E0A;&#x5F53;&#x524D;&#x6B63;&#x5728;&#x6267;&#x884C;&#x7684;&#x8FDB;&#x7A0B;&#x6570;&#x3002;&lt;/p&gt;
+
+&lt;p&gt;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;uptime&#x547D;&#x4EE4;&#x67E5;&#x770B;&#x3002;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;uptime
+
+21:45  up 22:37, 3 users, load averages: 1.81 1.79 1.58
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&#x54EA;&#x4E9B;&#x8FDB;&#x7A0B;&#x88AB;&#x7EDF;&#x8BA1;&#x5728;&#x5185;&lt;/p&gt;
+
+&lt;p&gt;&#x4E00;&#x4E2A;&#x7A7A;&#x95F2;&#x7684;&#x8BA1;&#x7B97;&#x673A;load&#x503C;&#x4E3A;0&#xFF0C;&#x6BCF;&#x4E00;&#x4E2A;&#x4F7F;&#x7528;&#x6216;&#x8005;&#x7B49;&#x5F85;CPU&#x7684;&#x8FDB;&#x7A0B;&#x4F7F;Load&#x503C;&#x589E;1&#x3002;&#x5927;&#x591A;&#x6570;UNIX&#x7CFB;&#x7EDF;&#x4EC5;&#x4EC5;&#x8BA1;&#x7B97;&#x5904;&#x4E8E;&#x6B63;&#x5728;&#x8FD0;&#x884C;&#x6216;&#x8005;&#x7B49;&#x5F85;&#x8FD0;&#x884C;(running or runnable)&#x72B6;&#x6001;&#x7684;&#x8FDB;&#x7A0B;&#x3002;&#x4F46;&#x662F;Linux&#x540C;&#x6837;&#x5305;&#x62EC;&#x5904;&#x4E8E;&#x4E0D;&#x53EF;&#x4E2D;&#x65AD;(uniterruptible)&#x72B6;&#x6001;&#x7684;&#x8FDB;&#x7A0B;(&#x901A;&#x5E38;&#x662F;&#x7B49;&#x5F85;I/O)&#xFF0C;&#x5982;&#x679C;&#x7CFB;&#x7EDF;&#x4E0A;&#x6709;&#x8BB8;&#x591A;&#x8FDB;&#x7A0B;&#x56E0;&#x4E3A;I/O&#x7E41;&#x5FD9;&#x88AB;&#x963B;&#x585E;&#x4F1A;&#x5BFC;&#x81F4;&#x4E0D;&#x540C;&#x7684;&#x7ED3;&#x679C;&#x3002;&#x8FD9;&#x6837;&#x7684;&#x60C5;&#x51B5;&#x4E0B;Load Average&#x4F1A;&#x5F88;&#x9AD8;&#xFF0C;&#x4F46;&#x4E0D;&#x80FD;&#x53CD;&#x5E94;CPU&#x5B9E;&#x9645;&#x4F7F;&#x7528;&#x589E;&#x52A0;(&#x53EF;&#x80FD;CPU&#x4F7F;&#x7528;&#x7387;&#x4F1A;&#x5F88;&#x4F4E;&#xFF0C;&#x4F46;&#x662F;&#x4F9D;&#x7136;&#x53CD;&#x5E94;&#x51FA;&#x7528;&#x6237;&#x9700;&#x8981;&#x7B49;&#x5F85;&#x591A;&#x957F;&#x65F6;&#x95F4;)&#x3002;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&#x662F;&#x7EDF;&#x8BA1;&#x8FDB;&#x7A0B;&#x8FD8;&#x662F;&#x7EBF;&#x7A0B;&lt;/p&gt;
+
+&lt;p&gt;&#x5728;&#x73B0;&#x4EE3;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E2D;&#xFF0C;&#x5BF9;&#x7EBF;&#x7A0B;&#x7684;&#x4E0D;&#x540C;&#x5B9E;&#x73B0;&#x5BFC;&#x81F4;Load Average&#x8BA1;&#x7B97;&#x7684;&#x4E0D;&#x540C;&#x3002;&#x8FD9;&#x5B9E;&#x9645;&#x662F;&#x8DDF;&#x4E0D;&#x540C;&#x7EBF;&#x7A0B;&#x6A21;&#x578B;&#x76F8;&#x5173;&#x7684;&#x3002;&#x4E3A;&#x4E86;&#x8BA1;&#x7B97;Load&#x4E00;&#x4E9B;&#x7CFB;&#x7EDF;&#x89C6;&#x7EBF;&#x7A0B;&#x4E3A;&#x8FDB;&#x7A0B;&#xFF1A;&#x90A3;&#x4E48;&#x6BCF;&#x4E2A;&#x7B49;&#x5F85;&#x7684;&#x7EBF;&#x7A0B;&#x90FD;&#x4F1A;&#x4F7F;Load&#x503C;&#x589E;1&#x3002;&#x4F46;&#x662F;&#x5176;&#x4ED6;&#x7CFB;&#x7EDF;&#x53EF;&#x80FD;&#x4E0D;&#x540C;&#xFF0C;&#x5C24;&#x5176;&#x662F;&#x5BF9;&#x4E8E;&#x5B9E;&#x73B0;M:N&#x8FD9;&#x79CD;&#x7EBF;&#x7A0B;&#x6A21;&#x578B;&#x7684;&#x7CFB;&#x7EDF;&#x901A;&#x5E38;&#x4F7F;&#x7528;&#x4E0D;&#x540C;&#x7684;&#x7B56;&#x7565;&#xFF0C;&#x5BF9;&#x4E8E;Load&#x8BA1;&#x7B97;&#x6709;&#x7684;&#x662F;&#x6309;&#x7167;&#x6BCF;&#x4E2A;&#x8FDB;&#x7A0B;&#x6070;&#x597D;&#x4E00;&#x6B21;(&#x65E0;&#x8BBA;&#x7EBF;&#x7A0B;&#x6570;&#x91CF;)&#xFF0C;&#x6709;&#x7684;&#x662F;&#x4EC5;&#x4EC5;&#x8BA1;&#x7B97;&#x7528;&#x6237;&#x7EBF;&#x7A0B;&#x8C03;&#x5EA6;&#x5668;&#x66B4;&#x9732;&#x7ED9;&#x5185;&#x6838;&#x7684;&#x7EBF;&#x7A0B;&#x6570;(&#x8FD9;&#x53EF;&#x80FD;&#x53D6;&#x51B3;&#x4E8E;&#x5904;&#x7406;&#x5668;&#x7684;&#x5E76;&#x53D1;&#x91CF;)&#x3002;Linux&#x7CFB;&#x7EDF;&#x5E94;&#x8BE5;&#x662F;&#x6BCF;&#x4E2A;&#x7EBF;&#x7A0B;&#x5355;&#x72EC;Load&#x589E;1&#x3002;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&#x4E00;&#x4E2A;&#x7C7B;&#x6BD4;&lt;/p&gt;
+
+&lt;p&gt;&#x660E;&#x767D;&#x4E0A;&#x8FF0;&#x4E24;&#x70B9;&#x5C31;&#x77E5;&#x9053;&#x4E86;Load&#x8BA1;&#x7B97;&#x7684;&#x5B9E;&#x4F53;&#x662F;&#x4EC0;&#x4E48;&#xFF0C;&#x5173;&#x952E;&#x662F;&#x9488;&#x5BF9;&#x4E0D;&#x540C;&#x7684;&#x7CFB;&#x7EDF;&#x6709;&#x4E0D;&#x540C;&#x7684;&#x5B9E;&#x73B0;&#x3002;&#x5BF9;&#x4E8E;Load&#x7684;&#x7406;&#x89E3;&#xFF0C;&#x5728;&lt;a href="http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages"&gt;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&lt;/a&gt;&#x4E2D;&#x6709;&#x4E2A;&#x901A;&#x4FD7;&#x7684;&#x89E3;&#x91CA;&#x3002;&lt;/p&gt;
+
+&lt;p&gt;&#x4E00;&#x53EA;&#x5355;&#x6838;&#x7684;&#x5904;&#x7406;&#x5668;&#x53EF;&#x4EE5;&#x6BD4;&#x55BB;&#x6210;&#x4E00;&#x6761;&#x5355;&#x8F66;&#x9053;&#x3002;&#x8BBE;&#x60F3;&#x4F60;&#x662F;&#x8FD9;&#x6761;&#x9053;&#x8DEF;&#x7684;&#x4EA4;&#x8B66;&#xFF0C;&#x4F60;&#x6765;&#x89C4;&#x5212;&#x8F66;&#x8F86;&#x600E;&#x4E48;&#x901A;&#x8FC7;&#x3002;&#x5982;&#x679C;&#x524D;&#x9762;&#x6CA1;&#x6709;&#x8F66;&#x8F86;&#x5728;&#x7B49;&#x5F85;&#xFF0C;&#x90A3;&#x4E48;&#x4F60;&#x53EF;&#x4EE5;&#x544A;&#x8BC9;&#x540E;&#x9762;&#x7684;&#x53F8;&#x673A;&#x901A;&#x8FC7;&#x3002; &#x5982;&#x679C;&#x8F66;&#x8F86;&#x4F17;&#x591A;&#xFF0C;&#x90A3;&#x4E48;&#x9700;&#x8981;&#x544A;&#x8BC9;&#x4ED6;&#x4EEC;&#x7A0D;&#x7B49;&#x4E00;&#x4F1A;&#x3002;&lt;/p&gt;
+
+&lt;p&gt;&#x4E8E;&#x662F;&#xFF0C;&#x5BF9;&#x4E8E;&#x8F66;&#x6D41;&#x60C5;&#x51B5;&#x6709;&#x7279;&#x5B9A;&#x7684;&#x63CF;&#x8FF0;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;&lt;/p&gt;
+
+&lt;p&gt;0.00 &#x8868;&#x793A;&#x76EE;&#x524D;&#x9053;&#x8DEF;&#x4E0A;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x7684;&#x8F66;&#x6D41;&#x3002; &#x5B9E;&#x9645;&#x4E0A;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0E; 0.00 &#x5230; 1.00 &#x4E4B;&#x95F4;&#x662F;&#x76F8;&#x540C;&#x7684;&#xFF0C;&#x5F88;&#x901A;&#x7545;&#xFF0C;&#x8FC7;&#x5F80;&#x7684;&#x8F66;&#x8F86;&#x53EF;&#x4EE5;&#x4E1D;&#x6BEB;&#x4E0D;&#x7528;&#x7B49;&#x5F85;&#x7684;&#x901A;&#x8FC7;&#x3002;&lt;/p&gt;
+
+&lt;p&gt;1.00 &#x8868;&#x793A;&#x521A;&#x597D;&#x662F;&#x5728;&#x8FD9;&#x6761;&#x9053;&#x8DEF;&#x7684;&#x627F;&#x53D7;&#x8303;&#x56F4;&#x5185;&#x3002; &#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x4E0D;&#x7B97;&#x7CDF;&#x7CD5;&#xFF0C;&#x53EA;&#x662F;&#x8F66;&#x6D41;&#x4F1A;&#x6709;&#x4E9B;&#x5835;&#xFF0C;&#x4E0D;&#x8FC7;&#x8FD9;&#x79CD;&#x60C5;&#x51B5;&#x53EF;&#x80FD;&#x4F1A;&#x9020;&#x6210;&#x4EA4;&#x901A;&#x8D8A;&#x6765;&#x8D8A;&#x6162;&#x3002;&lt;/p&gt;
+
+&lt;p&gt;&#x8D85;&#x8FC7; 1.00&#xFF0C;&#x90A3;&#x4E48;&#x8BF4;&#x660E;&#x8FD9;&#x6761;&#x9053;&#x8DEF;&#x5DF2;&#x7ECF;&#x8D85;&#x51FA;&#x8D1F;&#x8377;&#xFF0C;&#x4EA4;&#x901A;&#x4E25;&#x91CD;&#x7684;&#x62E5;&#x5835;&#x3002; &#x90A3;&#x4E48;&#x60C5;&#x51B5;&#x6709;&#x591A;&#x7CDF;&#x7CD5;&#xFF1F; &#x4F8B;&#x5982; 2.00 &#x7684;&#x60C5;&#x51B5;&#x8BF4;&#x660E;&#x8F66;&#x6D41;&#x5DF2;&#x7ECF;&#x8D85;&#x51FA;&#x4E86;&#x6865;&#x6240;&#x80FD;&#x627F;&#x53D7;&#x7684;&#x4E00;&#x500D;&#xFF0C;&#x90A3;&#x4E48;&#x5C06;&#x6709;&#x591A;&#x4F59;&#x8FC7;&#x6865;&#x4E00;&#x500D;&#x7684;&#x8F66;&#x8F86;&#x6B63;&#x5728;&#x7126;&#x6025;&#x7684;&#x7B49;&#x5F85;&#x3002;3.00 &#x7684;&#x8BDD;&#x60C5;&#x51B5;&#x5C31;&#x66F4;&#x4E0D;&#x5999;&#x4E86;&#xFF0C;&#x8BF4;&#x660E;&#x8FD9;&#x6761;&#x9053;&#x8DEF;&#x57FA;&#x672C;&#x4E0A;&#x5DF2;&#x7ECF;&#x5FEB;&#x627F;&#x53D7;&#x4E0D;&#x4E86;&#xFF0C;&#x8FD8;&#x6709;&#x8D85;&#x51FA;&#x9053;&#x8DEF;&#x8D1F;&#x8F7D;&#x4E24;&#x500D;&#x591A;&#x7684;&#x8F66;&#x8F86;&#x6B63;&#x5728;&#x7B49;&#x5F85;&#x901A;&#x8FC7;&#x3002;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&#x4E24;&#x4E2A;&#x6BD4;&#x8F83;&lt;/p&gt;
+
+&lt;p&gt;Load Average&#x662F;&#x7CFB;&#x7EDF;&#x8D1F;&#x8377;&#x7684;&#x91CD;&#x8981;&#x5EA6;&#x91CF;&#x6307;&#x6807;&#xFF0C;&#x53E6;&#x4E00;&#x4E2A;&#x540C;&#x6837;&#x7ECF;&#x5E38;&#x88AB;&#x4F7F;&#x7528;&#x7684;&#x5219;&#x662F;CPU&#x4F7F;&#x7528;&#x7387;&#x3002;&#x8FD9;&#x91CC;&#x7B80;&#x5355;&#x7684;&#x8FDB;&#x884C;&#x6BD4;&#x8F83;&#x3002;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Load Average&#x5EA6;&#x91CF;&#x7684;&#x662F;CPU&#x4F7F;&#x7528;&#x7684;&#x8D8B;&#x52BF;&#xFF0C;&#x800C;&#x4E0D;&#x50CF;CPU&#x4F7F;&#x7528;&#x7387;&#x90A3;&#x6837;&#x662F;&#x77AC;&#x65F6;&#x5FEB;&#x7167;&lt;/li&gt;
+&lt;li&gt;Load Average&#x5305;&#x542B;&#x4E86;&#x6240;&#x6709;&#x5BF9;CPU&#x7684;&#x9700;&#x6C42;&#xFF0C;&#x800C;&#x4E0D;&#x4EC5;&#x4EC5;&#x662F;&#x5EA6;&#x91CF;&#x65F6;&#x95F4;&#x70B9;&#x7684;&#x6D3B;&#x8DC3;&#x7A0B;&#x5EA6;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&#x5BF9;&#x4E8E;&#x5747;&#x8861;&#x8D1F;&#x8F7D;&#x6765;&#x8BF4;&#xFF0C;&#x57FA;&#x4E8E;CPU&#x961F;&#x5217;&#x957F;&#x5EA6;&#x7684;CPU Load&#x4FE1;&#x606F;&#x4F1A;&#x6BD4;CPU&#x4F7F;&#x7528;&#x7387;&#x66F4;&#x597D;&#x3002;&#x539F;&#x56E0;&#x5927;&#x6982;&#x662F;&#x5BF9;&#x4E8E;Load&#x5F88;&#x9AD8;&#x7684;&#x4E3B;&#x673A;&#xFF0C;CPU&#x4F7F;&#x7528;&#x7387;&#x53EF;&#x80FD;&#x63A5;&#x8FD1;100%&#xFF0C;&#x8FD9;&#x65F6;&#x7684;&#x5229;&#x7528;&#x7387;&#x4E0D;&#x80FD;&#x53CD;&#x5E94;&#x8D1F;&#x8F7D;&#x7684;&#x7EA7;&#x522B;&#x3002;&#x76F8;&#x53CD;&#xFF0C;CPU&#x961F;&#x5217;&#x957F;&#x5EA6;&#x80FD;&#x76F4;&#x63A5;&#x53CD;&#x5E94;&#x8FD9;&#x4E2A;CPU&#x7684;&#x8D1F;&#x8F7D;&#x603B;&#x91CF;&#x3002;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x4F8B;&#x5B50;&#x5C31;&#x662F;&#xFF1A;&#x5BF9;&#x4E8E;&#x4E24;&#x4E2A;&#x4E0D;&#x540C;&#x7684;&#x7CFB;&#x7EDF;&#xFF0C;&#x4E00;&#x4E2A;&#x6709;3&#x4E2A;&#x8FDB;&#x7A0B;&#x5728;&#x7B49;&#x5F85;&#x961F;&#x5217;&#x4E00;&#x4E2A;&#x6709;6&#x4E2A;&#x8FDB;&#x7A0B;&#x5728;&#x961F;&#x5217;&#xFF0C;&#x5B83;&#x4EEC;&#x7684;CPU&#x5229;&#x7528;&#x7387;&#x90FD;&#x53EF;&#x80FD;&#x63A5;&#x8FD1;100%&#x3002;&lt;/p&gt;
+
+&lt;p&gt;&#x5BF9;&#x4E8E;CPU&#x5229;&#x7528;&#x7387;&#x548C;CPU Load Average&#x7684;&#x7ED3;&#x679C;&#x6765;&#x5224;&#x65AD;&#x6027;&#x80FD;&#x95EE;&#x9898;&#x3002;&#x9996;&#x5148;&#x4F4E;CPU&#x5229;&#x7528;&#x7387;&#x4E0D;&#x8868;&#x660E;CPU&#x4E0D;&#x662F;&#x74F6;&#x9888;&#xFF0C;&#x7ADE;&#x4E89;CPU&#x7684;&#x961F;&#x5217;&#x957F;&#x671F;&#x4FDD;&#x6301;&#x8F83;&#x957F;&#x4E5F;&#x662F;CPU&#x8D85;&#x8D1F;&#x8377;&#x7684;&#x4E00;&#x79CD;&#x8868;&#x73B0;&#x3002;&#x5BF9;&#x4E8E;&#x5E94;&#x7528;&#x6765;&#x8BF4;&#x53EF;&#x80FD;&#x4F1A;&#x53BB;&#x82B1;&#x65F6;&#x95F4;&#x5728;I/O,Socket&#x7B49;&#x65B9;&#x9762;&#xFF0C;&#x90A3;&#x4E48;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x662F;&#x5426;&#x540E;&#x8FD9;&#x4E9B;&#x786C;&#x4EF6;&#x7684;&#x901F;&#x5EA6;&#x5F71;&#x54CD;&#x4E86;&#x6574;&#x4F53;&#x7684;&#x6548;&#x7387;&#x3002;&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id="toc_1"&gt;how&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&#x600E;&#x6837;&#x8BA1;&#x7B97;Load Average&lt;/p&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id="toc_2"&gt;when&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&#x4EC0;&#x4E48;&#x65F6;&#x5019;&#x6CE8;&#x610F;Load Average&lt;/p&gt;
+
+&lt;p&gt;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#x8D1F;&#x8F7D;&#x662F;&#x7406;&#x60F3;&#x8D1F;&#x8F7D;, 1.00&#x5C31;&#x5F88;&#x7406;&#x60F3;&#x5417;&#x3002;&#x6709;&#x7ECF;&#x9A8C;&#x7684;&#x7BA1;&#x7406;&#x5458;&#x628A;&#x7406;&#x60F3;&#x8D1F;&#x8F7D;&#x8BBE;&#x5728;0.7&#x3002;&#x4E8E;&#x662F;&#x6709;&#x4E86;&#x5355;&#x6838;&#x5904;&#x7406;&#x5668;&#x4E09;&#x4E2A;&#x51C6;&#x5219;&#x3002;&#x5BF9;&#x4E8E;&#x591A;&#x6838;(&#x591A;&#x5904;&#x7406;&#x5668;&#x3001;&#x591A;&#x6838;&#x6570;)&#x9700;&#x8981;&#x7528;Load&#x6765;&#x9664;&#x4EE5;&#x603B;&#x6838;&#x6570;&#x3002;&#x7136;&#x540E;&#x6309;&#x7167;&#x5355;&#x6838;&#x7684;&#x6807;&#x51C6;&#x6765;&#x770B;&#x3002;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&#x5355;&#x6838;&lt;/li&gt;
+&lt;li&gt;&#x591A;&#x6838;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id="toc_3"&gt;where&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&#x54EA;&#x4E9B;&#x5730;&#x65B9;&#x6709;Load Average&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;w&lt;/li&gt;
+&lt;li&gt;uptime&lt;/li&gt;
+&lt;li&gt;top&lt;/li&gt;
+&lt;li&gt;htop&lt;/li&gt;
+&lt;li&gt;iftop&lt;/li&gt;
+&lt;li&gt;vmstat&lt;/li&gt;
+&lt;li&gt;iostat&lt;/li&gt;
+&lt;li&gt;mpstat&lt;/li&gt;
+&lt;li&gt;netstat&lt;/li&gt;
+&lt;li&gt;dstat&lt;/li&gt;
+&lt;li&gt;xload&lt;/li&gt;
+&lt;li&gt;tload&lt;/li&gt;
+&lt;li&gt;/proc/loadavg&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id="toc_4"&gt;monitor&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Load Average in Zabbix&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr&gt;
+
+&lt;h3 id="toc_5"&gt;refenerce&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://en.wikipedia.org/wiki/Load_(computing)"&gt;http://en.wikipedia.org/wiki/Load_(computing)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages"&gt;http://blog.scoutapp.com/articles/2009/07/31/understanding-load-averages&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.linuxjournal.com/article/9001"&gt;http://www.linuxjournal.com/article/9001&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.teamquest.com/pdfs/whitepaper/ldavg1.pdf"&gt;http://www.teamquest.com/pdfs/whitepaper/ldavg1.pdf&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     <item>
       <title>Getting Started With Vagrant/Coreos/Docker</title>
       <link>http://junqili.com/devops/getting-started-with-vagrant-coreos-docker</link>
@@ -701,113 +812,6 @@ $ for user in $(cat /etc/passwd | cut -f1 -d:); do crontab -l &#x2013;u $user; d
 &lt;/ul&gt;
 
 &lt;p&gt;&#x4F60;&#x751A;&#x81F3;&#x53EF;&#x80FD;&#x53D1;&#x73B0;&#x95EE;&#x9898;&#x786E;&#x5207;&#x7684;&#x6700;&#x6839;&#x672C;&#x7684;&#x539F;&#x56E0;&#x3002;&#x5982;&#x679C;&#x6CA1;&#x6709;,&#x5728;&#x4F60;&#x4E86;&#x89E3;&#x4E86;&#x4E0A;&#x9762;&#x63D0;&#x5230;&#x7684;&#x8FD9;&#x4E9B;&#x4FE1;&#x606F;&#x4E4B;&#x540E;, &#x4E5F;&#x5E94;&#x8BE5;&#x5177;&#x6709;&#x4F5C;&#x4E3A;&#x7EE7;&#x7EED;&#x6DF1;&#x6316;&#x7684;&#x6761;&#x4EF6;&#x3002;&lt;/p&gt;
-</description>
-    </item>
-    <item>
-      <title>Puppet Data Flow</title>
-      <link>http://junqili.com/puppet/puppet-data-flow</link>
-      <pubDate>2013-09-17</pubDate>
-      <description>&lt;h2 id="toc_0"&gt;Puppet&#x6570;&#x636E;&#x6D41;&#x7A0B;&lt;/h2&gt;
-
-&lt;p&gt;&#x524D;&#x9762;&#x7684;&#x90E8;&#x5206;&#x5BF9;Puppet&#x8FDB;&#x884C;&#x4E86;&#x6982;&#x8FF0;&#xFF0C;&#x5E76;&#x5BF9;Puppet&#x5185;&#x90E8;&#x5B9E;&#x73B0;&#x539F;&#x7406;&#x548C;&#x8BA4;&#x8BC1;&#x8FC7;&#x7A0B;&#x8FDB;&#x884C;&#x4E86;&#x4ECB;&#x7ECD;&#x3002;&#x672C;&#x90E8;&#x5206;&#x5C06;&#x4E3B;&#x8981;&#x56F4;&#x7ED5;puppet&#x6570;&#x636E;&#x6D41;&#x7A0B;&#x8FDB;&#x884C;&#x4ECB;&#x7ECD;&#xFF0C;&#x8BE6;&#x7EC6;&#x63CF;&#x8FF0;puppet&#x662F;&#x5982;&#x4F55;&#x7BA1;&#x7406;&#x5355;&#x4E2A;&#x8282;&#x70B9;&#x7684;&#x6570;&#x636E;&#x6D41;&#x7A0B;&#x3002;&#x8FD9;&#x90E8;&#x5206;&#x5728;&#x4E4B;&#x524D;&#x7684;&#x6982;&#x8FF0;&#x548C;&#x5185;&#x90E8;&#x539F;&#x7406;&#x90FD;&#x6709;&#x6240;&#x6D89;&#x53CA;&#xFF0C;&#x5355;&#x72EC;&#x9009;&#x51FA;&#x6765;&#x4F5C;&#x4E3A;&#x4E00;&#x90E8;&#x5206;&#x4ECB;&#x7ECD;&#x5E0C;&#x671B;&#x5BF9;&#x6570;&#x636E;&#x6D41;&#x7A0B;&#x548C;&#x6D41;&#x7A0B;&#x6D89;&#x53CA;&#x7684;&#x7EC4;&#x4EF6;&#x8FDB;&#x884C;&#x66F4;&#x6DF1;&#x7684;&#x7406;&#x89E3;&#x3002;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&#x9996;&#x5148;&#x56DE;&#x987E;Puppet&#x662F;&#x5982;&#x4F55;&#x5DE5;&#x4F5C;&#xFF1A;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/assets/media/puppet/internals.png" alt="puppet&#x6570;&#x636E;&#x6D41;"&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&#x5B9A;&#x4E49;&#xFF1A;&#x91C7;&#x7528;Puppet&#x7684;&#x63CF;&#x8FF0;&#x6027;&#x8BED;&#x8A00;&#xFF0C;&#x4EE5;&#x53EF;&#x91CD;&#x7528;&#x7684;&#x6A21;&#x5757;&#x5F62;&#x5F0F;&#x6765;&#x5B9A;&#x4E49;&#x8D44;&#x6E90;&#x53CA;&#x8D44;&#x6E90;&#x95F4;&#x5173;&#x7CFB;&#x7684;&#x56FE;&#x3002;&#x8FD9;&#x4E9B;&#x6A21;&#x5757;&#x5B9A;&#x4E49;&#x57FA;&#x7840;&#x8BBE;&#x65BD;&#x7684;&#x9884;&#x671F;&#x72B6;&#x6001;&#x3002;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&#x6A21;&#x62DF; : &#x6709;&#x4E86;&#x8FD9;&#x4E9B;&#x8D44;&#x6E90;&#x53CA;&#x5176;&#x5173;&#x7CFB;&#x56FE;&#xFF0C;Puppet&#x80FD;&#x591F;&#x6A21;&#x62DF;&#x90E8;&#x7F72;&#x73AF;&#x5883;&#xFF0C;&#x8BA9;&#x4F60;&#x5728;&#x4E0D;&#x5F71;&#x54CD;&#x57FA;&#x7840;&#x8BBE;&#x65BD;&#x7684;&#x524D;&#x63D0;&#x4E0B;&#x6D4B;&#x8BD5;&#x4F60;&#x7684;&#x6539;&#x53D8;&#x3002;&#x4F7F;&#x7528;noop&#x53C2;&#x6570;&#x6216;&#x8005;&#x591A;&#x73AF;&#x5883;&#x7B49;&#x5B9E;&#x73B0;&#x3002;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&#x6267;&#x884C; : puppet&#x6BD4;&#x8F83;&#x4F60;&#x7684;&#x7CFB;&#x7EDF;&#x548C;&#x5B9A;&#x4E49;&#x7684;&#x9884;&#x671F;&#x72B6;&#x6001;&#xFF0C;&#x7136;&#x540E;&#x81EA;&#x52A8;&#x5730;&#x4F7F;&#x4F60;&#x7684;&#x7CFB;&#x7EDF;&#x7B26;&#x5408;&#x5B9A;&#x4E49;&#x7684;&#x9884;&#x671F;&#x72B6;&#x6001;&#x3002;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x662F;&#x76F8;&#x5BF9;&#x900F;&#x660E;&#x7684;&#x8FC7;&#x7A0B;&#x3002;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&#x62A5;&#x544A; : Puppet Dashboard&#x5C55;&#x793A;&#x6536;&#x96C6;&#x5230;&#x7684;&#x7EC4;&#x4EF6;&#x5173;&#x7CFB;&#x548C;&#x6240;&#x6709;&#x7684;&#x6539;&#x53D8;&#xFF0C;&#x5E76;&#x63D0;&#x4F9B;&#x5B89;&#x5168;&#x548C;&#x6388;&#x6743;&#x63AA;&#x65BD;&#x67E5;&#x770B;&#x3002;&#x6B64;&#x5916;Puppet&#x4E5F;&#x63D0;&#x4F9B;&#x6709;&#x5F00;&#x653E;API&#x4EE5;&#x7ED3;&#x5408;&#x7B2C;&#x4E09;&#x65B9;&#x76D1;&#x63A7;&#x5DE5;&#x5177;&#x4F7F;&#x7528;&#x3002;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&#x7531;&#x6B64;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x770B;&#x51FA; Puppet&#x5B9A;&#x4E49;&#x5E76;&#x7EF4;&#x62A4;&#x4E00;&#x4E2A;&#x8282;&#x70B9;&#x7684;&#x9884;&#x671F;&#x89D2;&#x8272;&#xFF0C;&#x540C;&#x65F6;Puppet&#x80FD;&#x591F;&#x7BA1;&#x7406;&#x914D;&#x7F6E;&#x6539;&#x53D8;&#x3002;&#x7406;&#x89E3;&#x524D;&#x8005;&#x5F88;&#x91CD;&#x8981;&#xFF0C;&#x826F;&#x597D;&#x7684;Puppet &#x6A21;&#x5757;&#x4EE3;&#x8868;Agent &#x89D2;&#x8272;&#x7684;&#x5206;&#x7C7B;&#xFF0C;&#x89D2;&#x8272;&#x4FE1;&#x606F;&#x548C;facter&#x4FE1;&#x606F;&#x7B49;&#x7EC4;&#x6210;&#x4E86;&#x6B64;&#x8282;&#x70B9;&#x66F4;&#x4E3A;&#x4E30;&#x5BCC;&#x7684;&#x5C5E;&#x6027;&#x4FE1;&#x606F;&#x3002;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&#x770B;&#x5B8C;&#x8FD9;&#x4E2A;&#x8FC7;&#x7A0B;&#x53EF;&#x80FD;&#x6700;&#x5927;&#x7684;&#x7591;&#x60D1;&#x5C31;&#x662F;&#x54EA;&#x4E9B;&#x662F;&#x5728;&#x5BA2;&#x6237;&#x7AEF;&#x6267;&#x884C;&#xFF0C;&#x54EA;&#x4E9B;&#x53C8;&#x5728;&#x670D;&#x52A1;&#x7AEF;&#x6267;&#x884C;&#xFF0C;&#x5BA2;&#x6237;&#x7AEF;&#x548C;&#x670D;&#x52A1;&#x7AEF;&#x662F;&#x5982;&#x4F55;&#x4EA4;&#x4E92;&#x7684;&#x3002;&lt;/p&gt;
-
-&lt;p&gt;&#x4E0B;&#x9762;&#x4EE5;&#x4EE5;&#x6570;&#x636E;&#x6D41;&#x7A0B;&#x56FE;&#x4E3A;&#x4F8B;&#x8BE6;&#x7EC6;&#x63CF;&#x8FF0;Puppet&#x5982;&#x4F55;&#x7BA1;&#x7406;&#x5355;&#x4E2A;&#x8282;&#x70B9;&#x6570;&#x636E;&#x6D41;&#x7A0B;&#x3002;&#x8FD9;&#x5E45;&#x56FE;&#x5728;&#x4E4B;&#x524D;&#x5DF2;&#x7ECF;&#x63CF;&#x8FF0;&#x8FC7;&#x3002;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/assets/media/puppet/dataflow.png" alt="puppet&#x6570;&#x636E;&#x6D41;"&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Agent &#x8FDB;&#x7A0B;&#x6536;&#x96C6;&#x5173;&#x4E8E;&#x8FD0;&#x884C;&#x6B64;&#x8FDB;&#x7A0B;&#x7684;&#x4E3B;&#x673A;&#x4FE1;&#x606F;(facts&#xFF0C;&#x4E5F;&#x5305;&#x62EC;&#x81EA;&#x5B9A;&#x4E49;&#x7684;facts)&#xFF0C;&#x7136;&#x540E;&#x5C06;&#x8FD9;&#x4E9B;&#x4FE1;&#x606F;&#x4F20;&#x9012;&#x7ED9;Master&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Master &#x4F7F;&#x7528;&#x8FD9;&#x4E9B;&#x7CFB;&#x7EDF;&#x4FE1;&#x606F;&#x548C;&#x672C;&#x5730;Puppet&#x6A21;&#x5757;&#x6E05;&#x5355;&#x6765;&#x7F16;&#x8BD1;&#x9488;&#x5BF9;&#x7279;&#x5B9A;&#x4E3B;&#x673A;&#x7684;&#x914D;&#x7F6E;(Catalog),&#x5E76;&#x5C06;&#x7ED3;&#x679C;&#x8FD4;&#x56DE;&#x7ED9;Agent&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Agent &#x4F1A;&#x6BD4;&#x8F83;&#x914D;&#x7F6E;&#x4E0E;&#x672C;&#x673A;&#x72B6;&#x6001;&#xFF0C;&#x5E76;&#x5E94;&#x7528;&#x6B64;&#x914D;&#x7F6E;&#xFF0C;&#x5BF9;&#x4E8E;&#x72B6;&#x6001;&#x4E0D;&#x540C;&#x90E8;&#x5206;&#x505A;&#x51FA;&#x6539;&#x53D8;&#xFF0C;&#x5E76;&#x5C06;&#x7ED3;&#x679C;(report)&#x62A5;&#x544A;&#x7ED9;&#x670D;&#x52A1;&#x5668;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Puppet&#x7684;&#x5F00;&#x653E;API&#x540C;&#x6837;&#x53EF;&#x4EE5;&#x5C06;&#x8FD9;&#x4E9B;&#x6570;&#x636E;(report)&#x53D1;&#x9001;&#x7ED9;&#x7B2C;&#x4E09;&#x65B9;&#x5DE5;&#x5177;&#x6765;&#x8FDB;&#x884C;&#x5206;&#x6790;&#xFF0C;&#x4F8B;&#x5982;&#x540C;Nagios&#x8FD9;&#x6837;&#x7684;&#x76D1;&#x63A7;&#x5DE5;&#x5177;&#x7ED3;&#x5408;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&#x518D;&#x770B;&#x6BCF;&#x4E2A;&#x6D41;&#x7A0B;&#x6D89;&#x53CA;&#x5230;&#x7684;&#x7EC4;&#x4EF6;&#xFF1A;&lt;/p&gt;
-
-&lt;h4 id="toc_1"&gt;facts&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;&#x81EA;&#x52A8;&#x7EF4;&#x62A4;&#x8D44;&#x4EA7;&#x6E05;&#x5355; &#x8FD9;&#x4E9B;&#x6E05;&#x5355;&#x5305;&#x62EC;&#x4F46;&#x4E0D;&#x9650;&#x4E8E;&#xFF1A;domain,ip,cpu,mem&#x7B49;&#x4FE1;&#x606F;&#x3002;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src="/assets/media/puppet/facts.png" alt="puppet&#x6570;&#x636E;&#x6D41;"&gt;&lt;/p&gt;
-
-&lt;p&gt;&#x5F53;&#x7136;Puppet&#x8FD8;&#x53EF;&#x4EE5;&#x662F;&#x81EA;&#x5B9A;&#x4E49;Facts&#xFF1A;&lt;/p&gt;
-
-&lt;p&gt;$modulename/lib/facter/certname.rb
-&lt;img src="/assets/media/puppet/fact-custom.png" alt="puppet&#x6570;&#x636E;&#x6D41;"&gt;&lt;/p&gt;
-
-&lt;p&gt;Facts&#x5F88;&#x65B9;&#x4FBF;&#x5B9A;&#x4E49;&#x8FD9;&#x4E9B;&#x9759;&#x6001;&#x5C5E;&#x6027;&#xFF0C;&#x5BF9;&#x4E8E;&#x52A8;&#x6001;&#x5C5E;&#x6027;&#xFF0C;Puppet&#x751F;&#x6001;&#x7CFB;&#x7EDF;&#x540C;&#x6837;&#x63D0;&#x4F9B;&#x4E86;&#x76F8;&#x5E94;&#x5DE5;&#x5177;---Hiera&#x662F;&#x5176;&#x4E2D;&#x7684;&#x65B0;&#x661F;&#x3002;&lt;/p&gt;
-
-&lt;h4 id="toc_2"&gt;catalog&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x4E3A;&#x8D44;&#x6E90;&#x7684;&#x5217;&#x8868;&#x89E3;&#x6790;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&#x91C7;&#x7528;&#x547D;&#x4EE4;puppet catalog&#x53EF;&#x4EE5;&#x67E5;&#x770B;&#xFF0C;puppet catalog find --render-as yaml offsum001.web.djt&#x800C;&#x4E14;&#x652F;&#x6301;&#x591A;&#x79CD;&#x5C55;&#x73B0;&#x65B9;&#x5F0F;&#x6BD4;&#x5982;yaml&#xFF0C;json&#x7B49;&#x3002;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/assets/media/puppet/catalog.png" alt="puppet&#x6570;&#x636E;&#x6D41;"&gt;&lt;/p&gt;
-
-&lt;h4 id="toc_3"&gt;reporting&lt;/h4&gt;
-
-&lt;pre&gt;&lt;code&gt;&#x6BCF;&#x4E00;&#x4E2A;&#x8D44;&#x6E90;&#x76F8;&#x5173;&#x8FDE;&#x7684;&#x6BCF;&#x4E00;&#x6B21;&#x6539;&#x53D8;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src="/assets/media/puppet/reporting.png" alt="puppet&#x6570;&#x636E;&#x6D41;"&gt;&lt;/p&gt;
-
-&lt;p&gt;&#x76EE;&#x524D;&#x652F;&#x6301;&#x56DB;&#x79CD;&#x9884;&#x5B9A;&#x4E49;&#x7684;&#x62A5;&#x544A;&#x5904;&#x7406;&#x5668;&#x548C;&#x81EA;&#x5B9A;&#x4E49;&#x62A5;&#x544A;&#x5904;&#x7406;&#x5668;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;* HTTP/HTTPS
-* Log
-* Store
-* TagMail
-* Custom Processors
-    * irc
-    * twitter
-    * jabber
-    * growl 
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&#x8FD8;&#x6709;&#x4E00;&#x79CD;&#x503C;&#x5F97;&#x5173;&#x6CE8;&#x7684;&#x62A5;&#x544A;&#x5904;&#x7406;&#x5668;&#x5C31;&#x662F;PuppetDB&#xFF0C;&#x76EE;&#x524D;&#x6B63;&#x5728;&#x5FEB;&#x901F;&#x53D1;&#x5C55;&#x3002;&#x7B80;&#x5355;&#x6765;&#x8BF4;&#xFF0C;PuppetDB&#x662F;&#x4E00;&#x4E2A;puppet&#x6570;&#x636E;&#x4ED3;&#x5E93;&#xFF0C;&#x5B83;&#x80FD;&#x591F;&#x68C0;&#x7D22;&#x5E73;&#x53F0;&#x751F;&#x6210;&#x7684;&#x6240;&#x6709;&#x6570;&#x636E;&#x5E76;&#x7BA1;&#x7406;&#x8FD9;&#x4E9B;&#x6570;&#x636E;&#x7684;&#x5B58;&#x50A8;&#x3002;&#x5B83;&#x80FD;&#x591F;&#x5B58;&#x50A8;&#x8282;&#x70B9;&#x76EE;&#x5F55;&#xFF0C;facts&#x548C;reports&#x7B49;&#x3002;&#x540E;&#x9762;&#x4F1A;&#x7EE7;&#x7EED;&#x4ECB;&#x7ECD;&#x3002;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;p&gt;&#x4E0B;&#x9762;&#x6362;&#x4E00;&#x79CD;&#x89D2;&#x5EA6;&#x6765;&#x770B;&#x6570;&#x636E;&#x6D41;&#x7A0B;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src="/assets/media/puppet/data-flow-technical.png" alt="puppet&#x6570;&#x636E;&#x6D41;"&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&#x8282;&#x70B9;&#x4FE1;&#x606F;&#x5B58;&#x50A8;&#x5728;&#x5916;&#x90E8;&#x8282;&#x70B9;&#x5206;&#x7C7B;&#x5668;&#x6216;LDAP&#x7B49;&#xFF0C;&#x4ECE;Dashboard&#x4E2D;&#x53EF;&#x4EE5;&#x83B7;&#x53D6;&#x8282;&#x70B9;&#x4FE1;&#x606F;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Master&#x5728;&#x6267;&#x884C;manifeasts&#x524D;&#x4F1A;&#x540C;&#x6B65;&#x63D2;&#x4EF6;&#xFF08;&#x8FD9;&#x91CC;&#x7684;&#x63D2;&#x4EF6;&#x5305;&#x62EC;facts ,types, provides &#x5982;&#x679C;&#x4F60;&#x5199;&#x8FC7;&#x8FD9;&#x4E9B;&#x81EA;&#x5B9A;&#x4E49;&#x63D2;&#x4EF6;&#x90A3;&#x4E48;&#x6267;&#x884C;&#x524D;&#x4F1A;&#x663E;&#x5F0F;&#x51FA;&#x6765; &#xFF09;&#x4EE5;&#x53CA; Fact Code&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src="/assets/media/puppet/plugins.png" alt="puppet&#x6570;&#x636E;&#x6D41;"&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&#x5BA2;&#x6237;&#x7AEF;&#x4F1A;&#x5728;&#x672C;&#x5730;&#x8BA1;&#x7B97;&#x8FD9;&#x4E9B;Facts &#x503C; &#xFF0C;&#x7136;&#x540E;&#x5C06;&#x8FD9;&#x4E9B;&#x4FE1;&#x606F;&#x53D1;&#x9001;&#x7ED9;Master&#x5E76;&#x8981;&#x6C42;Catalog&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;Master&#x6839;&#x636E;facts&#x548C;Manifests&#x751F;&#x6210;&#x7B26;&#x5408;&#x7279;&#x5B9A;&#x8282;&#x70B9;&#x7684;&#x914D;&#x7F6E;&#xFF0C;&#x8FD9;&#x4E2A;&#x914D;&#x7F6E;&#x662F;&#x4E00;&#x79CD;&#x4E2D;&#x95F4;&#x7F16;&#x8BD1;&#x7ED3;&#x679C;&#x6210;&#x4E3A;Catalog&#xFF0C;&#x7136;&#x540E;Master&#x5C06;CataLog&#x53D1;&#x9001;&#x7ED9;&#x5BA2;&#x6237;&#x7AEF;&lt;/p&gt;&lt;/li&gt;
-&lt;li&gt;&lt;p&gt;&#x5BA2;&#x6237;&#x7AEF;&#x6839;&#x636E;CataLog&#x5B9A;&#x4E49;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x5BF9;&#x6BD4;&#x81EA;&#x8EAB;&#x72B6;&#x6001;&#xFF0C;&#x5BF9;&#x4E8E;&#x4E0D;&#x540C;&#x7684;&#x90E8;&#x5206;&#x4F5C;&#x51FA;&#x6539;&#x53D8;&#x3002;&#x5728;&#x5E94;&#x7528;&#x914D;&#x7F6E;&#x671F;&#x95F4;&#xFF0C;&#x53EF;&#x80FD;&#x4F1A;&#x9700;&#x8981;&#x8BF7;&#x6C42;&#x6587;&#x4EF6;&#x7B49;&#x64CD;&#x4F5C;&#xFF0C;&#x8FD9;&#x4E9B;&#x8FD8;&#x9700;&#x8981;&#x540C;Master&#x8FDB;&#x884C;&#x4EA4;&#x4E92;&#xFF0C;&#x7B49;&#x5230;&#x914D;&#x7F6E;&#x5E94;&#x7528;&#x5B8C;&#x6BD5;&#xFF0C;&#x5C06;&#x6267;&#x884C;&#x7ED3;&#x679C;&#x4EE5;&#x62A5;&#x544A;&#x5F62;&#x5F0F;&#x53D1;&#x9001;&#x7ED9;Master&#x3002;&lt;/p&gt;&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
   </channel>
