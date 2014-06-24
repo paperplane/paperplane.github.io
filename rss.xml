@@ -4,7 +4,7 @@
     <title>&#x7D19;&#x98DB;&#x6A5F;</title>
     <description>&#x7D19;&#x98DB;&#x6A5F;</description>
     <link>http://junqili.com</link>
-    <pubDate>2014-06-15</pubDate>
+    <pubDate>2014-06-25</pubDate>
     <item>
       <title>About Me</title>
       <link>http://junqili.com/about</link>
@@ -328,7 +328,56 @@
     <item>
       <title>Git</title>
       <link>http://junqili.com/git</link>
-      <description/>
+      <description>&lt;div&gt;
+    &lt;ul class="nav nav-tabs nav-tabs-google"&gt;
+        &lt;li class="active"&gt;&lt;a href="#intro" data-toggle="tab"&gt;&#x7B80;&#x4ECB;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#Workflow" data-toggle="tab"&gt;GIT&#x5DE5;&#x4F5C;&#x6D41;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#Commands" data-toggle="tab"&gt;GIT&#x7684;&#x547D;&#x4EE4;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#Philosophy" data-toggle="tab"&gt;GIT&#x7684;&#x54F2;&#x5B66;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#Operation" data-toggle="tab"&gt;GIT&#x4E0E;&#x8FD0;&#x7EF4;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#Writing" data-toggle="tab"&gt;GIT&#x4E0E;&#x5199;&#x4F5C;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;div class="tab-content row"&gt;
+        &lt;div class="tab-pane active" style="padding-left:24px;" id="intro"&gt;
+            &lt;p&gt;GIT&#x662F;&#x73B0;&#x4ECA;&#x6700;&#x6D41;&#x884C;&#x7684;&#x7248;&#x672C;&#x63A7;&#x5236;&#x5DE5;&#x5177;&#xFF0C;&#x4ECE;&#x5F00;&#x59CB;&#x63A5;&#x89E6;&#x8FD9;&#x4E2A;&#x5DE5;&#x5177;&#x5C31;&#x88AB;&#x6DF1;&#x6DF1;&#x5438;&#x5F15;&#xFF0C;&#x4EE5;&#x81F3;&#x4E8E;&#x9762;&#x5BF9;SVN&#x4FBF;&#x518D;&#x65E0;&#x5174;&#x8DA3;&#x3002;&#x4E00;&#x65B9;&#x9762;&#x662F;GIT&#x4F5C;&#x4E3A;&#x7248;&#x672C;&#x63A7;&#x5236;&#x7CFB;&#x7EDF;&#x6240;&#x63D0;&#x4F9B;&#x7684;&#x4F18;&#x4E8E;SVN&#x8FD9;&#x7C7B;&#x5DE5;&#x5177;&#x7684;&#x7279;&#x70B9;&#x3002;&#x53E6;&#x4E00;&#x53D1;&#x9762;&#xFF0C;&#x5176;&#x5B9E;&#x5F53;&#x4F60;&#x4F7F;&#x7528;&#x5B83;&#x5C31;&#x4F1A;&#x53D1;&#x73B0;&#x8FD9;&#x4E0D;&#x4EC5;&#x4EC5;&#x662F;&#x4E2A;&#x7248;&#x672C;&#x63A7;&#x5236;&#x7CFB;&#x7EDF;&#x3002;&#x90A3;&#x4E48;GIT&#x662F;&#x4EC0;&#x4E48;&#xFF0C;&#x5148;&#x4ECE;&#x8FD9;&#x4E2A;&#x540D;&#x5B57;&#x5F00;&#x59CB;&#x3002;&lt;/p&gt;
+            &lt;h4&gt;GIT&#x662F;&#x4EC0;&#x4E48;&#x610F;&#x601D;&lt;/h4&gt;
+                &lt;p&gt;&lt;strong&gt;GIT&#x5728;&#x5B57;&#x5178;&#x4E2D;&#x7684;&#x89E3;&#x91CA;&lt;/strong&gt;&lt;/p&gt;
+                    &lt;p&gt;GIT&#xFF1A;&#x5728;&#x82F1;&#x56FD;&#x4FDA;&#x8BED;&#x4E2D;&#x6307;&#x4E00;&#x4E2A;&#x611A;&#x7B28;&#x6216;&#x8005;&#x4E0D;&#x5F00;&#x5FC3;&#x7684;&#x4EBA;&#x3002;&lt;/p&gt;
+                    &lt;code&gt;Dictionary.com: British Slang. a foolish or contemptible person.&lt;/code&gt;
+                &lt;p&gt;&lt;strong&gt;Linus&#x89E3;&#x91CA;&#x540D;&#x5B57;&#x7531;&#x6765;&lt;/strong&gt;&lt;/p&gt;
+                    &lt;code&gt;I am an egotistical bastard, and I name all my projects after myself. first linux, now git.&lt;/code&gt;
+            &lt;h4&gt;GIT&#x662F;&#x4EC0;&#x4E48;&lt;/h4&gt;
+            &lt;ul&gt;
+                &lt;li&gt;GIT&#x662F;&#x4E00;&#x6B3E;&#x6E90;&#x4EE3;&#x7801;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&lt;/li&gt;
+                &lt;li&gt;GIT&#x662F;&#x4E00;&#x6B3E;&#x5206;&#x5E03;&#x5F0F;&#x7248;&#x672C;&#x63A7;&#x5236;&#x7CFB;&#x7EDF;&lt;/li&gt;
+                &lt;li&gt;......&lt;/li&gt;
+            &lt;/ul&gt;
+            &lt;p&gt;&#x5173;&#x4E8E;GIT&#xFF0C;&#x6709;&#x5F88;&#x591A;&#x6BD4;&#x8F83;&#x597D;&#x7684;&#x8D44;&#x6599;&#x6574;&#x7406;&#xFF0C;&#x5F88;&#x591A;&#x6BD4;&#x8F83;&#x7ECF;&#x5178;&#x7684;&#x535A;&#x5BA2;&#x6587;&#x7AE0;&#x3002;&#x8FD9;&#x91CC;&#x6211;&#x4F1A;&#x52AA;&#x529B;&#x5728;&#x505A;&#x597D;&#x642C;&#x8FD0;&#x5DE5;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#x505A;&#x597D;&#x7C89;&#x5237;&#x5320;&#xFF0C;&#x5237;&#x51FA;&#x81EA;&#x5DF1;&#x7684;&#x7406;&#x89E3;&#x548C;&#x8BA4;&#x8BC6;&#x3002;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="tab-pane" style="padding-left:24px;"  id="Workflow"&gt;
+            &lt;p&gt;GIT&#x88AB;&#x5E7F;&#x6CDB;&#x7528;&#x4E8E;&#x534F;&#x4F5C;&#x5F00;&#x53D1;&#xFF0C;&#x5408;&#x9002;&#x7684;&#x5F00;&#x53D1;&#x6D41;&#x7A0B;&#x5C31;&#x4F1A;&#x663E;&#x5F97;&#x5F02;&#x5E38;&#x91CD;&#x8981;&#x3002; &#x8FD9;&#x662F;GIT&#x5206;&#x652F;&#x6A21;&#x578B;&#x7684;&#x91CD;&#x8981;&#x7528;&#x6B66;&#x4E4B;&#x5730;&#x3002;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="tab-pane" style="padding-left:24px;"  id="Commands"&gt;
+            &lt;p&gt;GIT&#x547D;&#x4EE4;&#x4F17;&#x591A;&#xFF0C;&#x800C;&#x4E14;&#x9009;&#x9879;&#x590D;&#x6742;&#xFF0C;&#x6709;&#x4E9B;&#x547D;&#x4EE4;&#x4E5F;&#x5F88;&#x5BB9;&#x6613;&#x5F15;&#x8D77;&#x6DF7;&#x6DC6;&#x3002;GIT&#x547D;&#x4EE4;&#x7684;&#x4F7F;&#x7528;&#x4E5F;&#x662F;&#x5145;&#x6EE1;&#x4E86;&#x6280;&#x5DE7;&#x3002;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="tab-pane" style="padding-left:24px;"  id="Philosophy"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&#x5206;&#x5E03;&#x5F0F;&lt;/li&gt;
+                &lt;li&gt;&#x5C0F;&#x4ED3;&#x5E93;&lt;/li&gt;
+                &lt;li&gt;&#x57FA;&#x4E8E;&#x5DE5;&#x5177;&#x96C6;&#x5F00;&#x53D1;&lt;/li&gt;
+                &lt;li&gt;&#x517C;&#x5BB9;&#x7CFB;&#x7EDF;&#x548C;&#x534F;&#x8BAE;&lt;/li&gt;
+                &lt;li&gt;......&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+        &lt;div class="tab-pane" style="padding-left:24px;"  id="Operation"&gt;
+            &lt;p&gt;&#x5728;&#x6784;&#x5EFA;&#x6301;&#x7EED;&#x4EA4;&#x4ED8;&#x6D41;&#x7A0B;&#x4E2D;&#xFF0C;&#x4F5C;&#x4E3A;&#x6E90;&#x4EE3;&#x7801;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#x662F;&#x540E;&#x7EED;&#x81EA;&#x52A8;&#x5316;&#x7684;&#x8D77;&#x70B9;&#xFF0C;&#x8FD9;&#x91CC;&#x9762;GIT HOOK&#x8D77;&#x5173;&#x952E;&#x4F5C;&#x7528;&#x3002;&lt;/p&gt;
+        &lt;/div&gt;
+        &lt;div class="tab-pane" style="padding-left:24px;"  id="Writing"&gt;
+            &lt;p&gt;&#x6B63;&#x662F;&#x56E0;&#x4E3A;GIT&#x8FD9;&#x6837;&#x7684;&#x5DE5;&#x5177;&#x8BDE;&#x751F;&#xFF0C;&#x624D;&#x50AC;&#x751F;&#x4E86;GitHub, Ruhoh&#x8FD9;&#x6837;&#x7684;&#x5199;&#x4F5C;&#x5E73;&#x53F0;&#x7684;&#x7E41;&#x8363;&#x3002;&#x7ED3;&#x5408;Git+Markdown&#x5199;&#x4F5C;&#x5DF2;&#x7ECF;&#x4E0D;&#x518D;&#x65B0;&#x9C9C;&#x3002;&#x53D8;&#x5316;&#x7684;&#x662F;&#x4E0D;&#x540C;&#x7684;&#x7EC4;&#x5408;&#x65B9;&#x5F0F;&#x3002;&lt;/p&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</description>
     </item>
     <item>
       <title>Notes</title>
@@ -931,23 +980,6 @@
 &lt;p&gt;&amp;#23545;&amp;#20110;CPU&amp;#21033;&amp;#29992;&amp;#29575;&amp;#21644;CPU Load Average&amp;#30340;&amp;#32467;&amp;#26524;&amp;#26469;&amp;#21028;&amp;#26029;&amp;#24615;&amp;#33021;&amp;#38382;&amp;#39064;&amp;#12290;&amp;#39318;&amp;#20808;&amp;#20302;CPU&amp;#21033;&amp;#29992;&amp;#29575;&amp;#19981;&amp;#34920;&amp;#26126;CPU&amp;#19981;&amp;#26159;&amp;#29942;&amp;#39048;&amp;#65292;&amp;#31454;&amp;#20105;CPU&amp;#30340;&amp;#38431;&amp;#21015;&amp;#38271;&amp;#26399;&amp;#20445;&amp;#25345;&amp;#36739;&amp;#38271;&amp;#20063;&amp;#26159;CPU&amp;#36229;&amp;#36127;&amp;#33655;&amp;#30340;&amp;#19968;&amp;#31181;&amp;#34920;&amp;#29616;&amp;#12290;&amp;#23545;&amp;#20110;&amp;#24212;&amp;#29992;&amp;#26469;&amp;#35828;&amp;#21487;&amp;#33021;&amp;#20250;&amp;#21435;&amp;#33457;&amp;#26102;&amp;#38388;&amp;#22312;I/O,Socket&amp;#31561;&amp;#26041;&amp;#38754;&amp;#65292;&amp;#37027;&amp;#20040;&amp;#21487;&amp;#20197;&amp;#32771;&amp;#34385;&amp;#26159;&amp;#21542;&amp;#21518;&amp;#36825;&amp;#20123;&amp;#30828;&amp;#20214;&amp;#30340;&amp;#36895;&amp;#24230;&amp;#24433;&amp;#21709;&amp;#20102;&amp;#25972;&amp;#20307;&amp;#30340;&amp;#25928;&amp;#29575;&amp;#12290;&lt;/p&gt;
 
 &lt;hr&gt;
-&lt;h3 id="toc_1"&gt;how&lt;/h3&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&amp;#24590;&amp;#26679;&amp;#35745;&amp;#31639;Load Average&lt;/p&gt;
-
-&lt;hr&gt;
-&lt;h3 id="toc_2"&gt;when&lt;/h3&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&amp;#20160;&amp;#20040;&amp;#26102;&amp;#20505;&amp;#27880;&amp;#24847;Load Average&lt;/p&gt;
-
-&lt;p&gt;&amp;#20160;&amp;#20040;&amp;#26679;&amp;#30340;&amp;#36127;&amp;#36733;&amp;#26159;&amp;#29702;&amp;#24819;&amp;#36127;&amp;#36733;, 1.00&amp;#23601;&amp;#24456;&amp;#29702;&amp;#24819;&amp;#21527;&amp;#12290;&amp;#26377;&amp;#32463;&amp;#39564;&amp;#30340;&amp;#31649;&amp;#29702;&amp;#21592;&amp;#25226;&amp;#29702;&amp;#24819;&amp;#36127;&amp;#36733;&amp;#35774;&amp;#22312;0.7&amp;#12290;&amp;#20110;&amp;#26159;&amp;#26377;&amp;#20102;&amp;#21333;&amp;#26680;&amp;#22788;&amp;#29702;&amp;#22120;&amp;#19977;&amp;#20010;&amp;#20934;&amp;#21017;&amp;#12290;&amp;#23545;&amp;#20110;&amp;#22810;&amp;#26680;(&amp;#22810;&amp;#22788;&amp;#29702;&amp;#22120;&amp;#12289;&amp;#22810;&amp;#26680;&amp;#25968;)&amp;#38656;&amp;#35201;&amp;#29992;Load&amp;#26469;&amp;#38500;&amp;#20197;&amp;#24635;&amp;#26680;&amp;#25968;&amp;#12290;&amp;#28982;&amp;#21518;&amp;#25353;&amp;#29031;&amp;#21333;&amp;#26680;&amp;#30340;&amp;#26631;&amp;#20934;&amp;#26469;&amp;#30475;&amp;#12290;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&amp;#21333;&amp;#26680;&lt;/li&gt;
-&lt;li&gt;&amp;#22810;&amp;#26680;&lt;/li&gt;
-&lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;

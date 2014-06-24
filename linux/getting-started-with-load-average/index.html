@@ -46,10 +46,10 @@
                 <li><a href="/linux">linux</a></li>
               
               
-                <li><a href="/python">Python</a></li>
-              
-              
                 <li><a href="/git">Git</a></li>
+              
+              
+                <li><a href="/python">Python</a></li>
               
               
                 <li><a href="/tags">Tags</a></li>
@@ -142,27 +142,35 @@
 
 <p>对于CPU利用率和CPU Load Average的结果来判断性能问题。首先低CPU利用率不表明CPU不是瓶颈，竞争CPU的队列长期保持较长也是CPU超负荷的一种表现。对于应用来说可能会去花时间在I/O,Socket等方面，那么可以考虑是否后这些硬件的速度影响了整体的效率。</p>
 
-<hr>
+<hr></li>
+</ul>
 
-<h3 id="toc_1">how</h3></li>
-<li><p>怎样计算Load Average</p>
+<h3 id="toc_1">when</h3>
 
-<hr>
-
-<h3 id="toc_2">when</h3></li>
+<ul>
 <li><p>什么时候注意Load Average</p>
 
 <p>什么样的负载是理想负载, 1.00就很理想吗。有经验的管理员把理想负载设在0.7。于是有了单核处理器三个准则。对于多核(多处理器、多核数)需要用Load来除以总核数。然后按照单核的标准来看。</p>
 
 <ul>
-<li>单核</li>
-<li>多核</li>
+<li><p>单核</p>
+
+<ul>
+<li>当系统负荷持续大于0.7，你必须开始调查了，问题出在哪里，防止情况恶化。</li>
+<li>当系统负荷持续大于1.0，你必须动手寻找解决办法，把这个值降下来。</li>
+<li>当系统负荷达到5.0，就表明你的系统有很严重的问题，长时间没有响应，或者接近死机了。你不应该让系统达到这个值。</li>
+</ul></li>
+<li><p>多核</p>
+
+<ul>
+<li>多核CPU与多CPU效果类似，所以考虑系统负荷的时候，必须考虑这台电脑有几个CPU、每个CPU有几个核心。然后，把系统负荷除以总的核心数，只要每个核心的负荷不超过1.0，就表明电脑正常运行。</li>
+</ul></li>
 </ul></li>
 </ul>
 
 <hr>
 
-<h3 id="toc_3">where</h3>
+<h3 id="toc_2">where</h3>
 
 <ul>
 <li><p>哪些地方有Load Average</p>
@@ -186,15 +194,7 @@
 
 <hr>
 
-<h3 id="toc_4">monitor</h3>
-
-<ul>
-<li>Load Average in Zabbix</li>
-</ul>
-
-<hr>
-
-<h3 id="toc_5">refenerce</h3>
+<h3 id="toc_3">refenerce</h3>
 
 <ul>
 <li><a href="http://en.wikipedia.org/wiki/Load_(computing)">http://en.wikipedia.org/wiki/Load_(computing)</a></li>
